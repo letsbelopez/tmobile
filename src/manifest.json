@@ -1,13 +1,13 @@
 {
-  "name": "PolitEcho",
+  "name": "Despin",
   "version": "1.0.4",
   "manifest_version": 2,
   "description": "Visualize the political leaning of your Facebook friends.",
   "browser_action": {
-    "default_popup": "index.html"
+    "default_popup": "popup.html"
   },
   "icons":{
-  	  "128":"icon128t.png"
+  	  "128": "icon128t.png"
   },
   "background": {
     "scripts": [
@@ -15,5 +15,6 @@
     ],
     "persistent": true
   },
-  "permissions": ["tabs", "history", "storage"]
+  "permissions": ["tabs", "history", "storage"],
+  "content_security_policy": "default-src 'self'; script-src 'self' http://localhost:3000 https://localhost:3000 'unsafe-eval'; connect-src http://localhost:3000 https://localhost:3000; style-src * 'unsafe-inline' 'self' blob:; img-src 'self' data:;"
 }
