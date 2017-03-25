@@ -1,0 +1,19 @@
+{
+  "name": "PolitEcho",
+  "version": "1.0.4",
+  "manifest_version": 2,
+  "description": "Visualize the political leaning of your Facebook friends.",
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "icons":{
+  	  "128":"icon128t.png"
+  },
+  "background": {
+    "scripts": [
+      "scoring.js"
+    ],
+    "persistent": true
+  },
+  "permissions": ["tabs", "history", "storage"]
+}
