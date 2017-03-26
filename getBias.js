@@ -3111,7 +3111,7 @@ let taggedLeftOrRight = Object.keys(biasedSources).reduce((acc, el) => {
 console.log(JSON.stringify(taggedLeftOrRight));
 console.log(Object.keys(taggedLeftOrRight).length);
 
-const leftRightOrNeither = {
+const biasLookup = {
   "100percentfedup.com": [
     "right",
     ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
@@ -4756,5 +4756,5 @@ const leftRightOrNeither = {
 
 function lookUpBias(domain) {
   const formattedDomain = domain.replace(/^(?:([A-Za-z]+):)?(\/{0,3})(?:www\.)|(?::(\d+))?(?:\/([^?#]*))?(?:\?([^#]*))?(?:#(.*))?$|\s/g, '');
-  return taggedLeftOrRight[formattedDomain];
+  return biasLookup[formattedDomain];
 }
