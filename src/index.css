@@ -1,5 +1,11 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  padding: 1em;
+}
+
+#main {
+  width: 1000px;
+  margin: 0 auto;
+}
+p {
+  margin: 1em 0;
 }

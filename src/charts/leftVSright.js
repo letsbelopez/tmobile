@@ -2,13 +2,12 @@ $(function () {
     var chart;
 
     $(document).ready(function () {
-
-        chart = new Highcharts.Chart({
+        var chart = new Highcharts.Chart({
 
             chart: {
                 polar: true,
                 type: 'line',
-                backgroundColor:'#E0F2F1',
+                backgroundColor: '#E0F2F1',
                 renderTo: 'leftVSright',
                 plotBackgroundColor: null,
                 plotBorderWidth: null,
@@ -56,4 +55,6 @@ $(function () {
         });
     });
 });
+
+
 
