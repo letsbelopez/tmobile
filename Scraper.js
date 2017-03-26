@@ -63,9 +63,7 @@ function buildListings(listings, promises, res) {
   .then(bodies => {
     bodies.map((el, i) => {
       let $ = cheerio.load(el);
-      // console.log(keys[i]);
       let url = $('.field-name-field-website .field-items .field-item').text();
-      // console.log(url);
       listings[keys[i]].url = url;
 
       let bias = []
