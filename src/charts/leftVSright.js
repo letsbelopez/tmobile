@@ -1,8 +1,4 @@
 $(function () {
-
-    Highcharts.setOptions({
-        colors: ['#ff0000', '#33cc33']
-    });
     var chart;
 
     $(document).ready(function () {
@@ -10,14 +6,14 @@ $(function () {
         chart = new Highcharts.Chart({
 
             chart: {
-                renderTo: 'trustedvsfake',
+                renderTo: 'leftVSright',
                 plotBackgroundColor: null,
                 plotBorderWidth: null,
                 plotShadow: false
             },
 
             title: {
-                text: 'Trusted Vs. Fake news sources'
+                text: 'Left Vs. Right'
             },
 
             tooltip: {
@@ -28,6 +24,7 @@ $(function () {
 
             plotOptions: {
                 pie: {
+                    colors: ['#EF5350', '#42A5F5'],
                     allowPointSelect: true,
                     cursor: 'pointer',
                     dataLabels: {
@@ -42,15 +39,15 @@ $(function () {
             },
             series: [{
                 type: 'pie',
-                name: 'Browser share',
+                name: '',
                 data: [
+                    ['Right', 50],
                     {
-                        name: 'Trusted',
+                        name: 'Left',
                         y: 50,
                         sliced: false,
                         selected: true
-                    },
-                    ['Fake', 50],
+                    }
                 ]
             }]
         });
