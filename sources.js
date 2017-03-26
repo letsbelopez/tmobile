@@ -1,2264 +1,2716 @@
 {
-  '21st Century Wire ': {
-    subUrl: '/fake-news-source/21st-century-wire',
-    url: '21stcenturywire.com',
-    bias: ['conspiratorial', 'political', 'psuedoscience', 'right bias', 'war']
-  },
-  '365 USA News ': {
-    subUrl: '/fake-news-source/365-usa-news',
-    url: '365usanews .com',
-    bias: ['conspiratorial', 'political', 'right bias']
-  },
-  '70News ': {
-    subUrl: '/fake-news-source/70news',
-    url: '70news.wordpress.com',
-    bias: ['conspiratorial', 'political', 'psuedoscience', 'right bias', 'war']
-  },
-  'ABCNews.com.co ': {
-    subUrl: '/fake-news-source/abcnewscomco',
-    url: 'www.abcnews.com.co',
-    bias: ['conspiratorial', 'political', 'psuedoscience', 'right bias', 'war']
-  },
-  'Abel Danger ': {
-    subUrl: '/fake-news-source/abel-danger',
-    url: 'http://www.abeldanger.net',
-    bias: ['conspiratorial', 'political', 'psuedoscience', 'right bias', 'war']
-  },
-  'Above Top Secret ': {
-    subUrl: '/fake-news-source/above-top-secret',
-    url: 'www.abovetopsecret.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Activist Post ': {
-    subUrl: '/fake-news-source/activist-post',
-    url: 'www.activistpost.com',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'political',
-      'psuedoscience',
-      'right bias',
-      'war'
-    ]
-  },
-  'Addicting Info ': {
-    subUrl: '/fake-news-source/addicting-info',
-    url: 'addictinginfo.org',
-    bias: ['left bias', 'political']
-  },
-  'Advocate ': {
-    subUrl: '/fake-news-source/advocate',
-    url: 'www.advocate.com',
-    bias: ['left bias', 'political', 'special interest']
-  },
-  'AlterNet ': {
-    subUrl: '/fake-news-source/alternet',
-    url: 'www.alternet.org',
-    bias: ['left bias', 'political']
-  },
-  'Amandla! ': {
-    subUrl: '/fake-news-source/amandla',
-    url: 'aidc.org.za/amandla-media/',
-    bias: ['left bias', 'political', 'special interest']
-  },
-  'America Blog ': {
-    subUrl: '/fake-news-source/america-blog',
-    url: 'americablog.com',
-    bias: ['left bias', 'political']
-  },
-  'America\'s Freedom Fighters ': {
-    subUrl: '/fake-news-source/americas-freedom-fighters',
-    url: 'www.americasfreedomfighters.com',
-    bias: ['conspiratorial', 'political', 'right bias']
-  },
-  'American Free Press ': {
-    subUrl: '/fake-news-source/american-free-press',
-    url: 'americanfreepress.net',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'political',
-      'right bias',
-      'war'
-    ]
-  },
-  'American Herald Tribune ': {
-    subUrl: '/fake-news-source/american-herald-tribune',
-    url: 'ahtribune.com',
-    bias: ['left bias', 'political']
-  },
-  'American Lookout ': {
-    subUrl: '/fake-news-source/american-lookout',
-    url: 'americanlookout .com',
-    bias: ['conspiratorial', 'political']
-  },
-  'American News ': {
-    subUrl: '/fake-news-source/american-news',
-    url: 'AmericanNews.com',
-    bias: ['conspiratorial', 'inciteful', 'psuedoscience', 'right bias']
-  },
-  'American Overlook ': {
-    subUrl: '/fake-news-source/american-overlook',
-    url: 'americanoverlook.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'American Patriot Daily ': {
-    subUrl: '/fake-news-source/american-patriot-daily',
-    url: 'www.americanpatriotdaily.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'American Renaissance ': {
-    subUrl: '/fake-news-source/american-renaissance',
-    url: 'www.amren.com',
-    bias: ['conspiratorial', 'political', 'psuedoscience', 'right bias', 'war']
-  },
-  'American Reviewer ': {
-    subUrl: '/fake-news-source/american-reviewer',
-    url: 'americanreviewer.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'American Today ': {
-    subUrl: '/fake-news-source/american-today',
-    url: 'truthpoliticsnews.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Angry Patriot ': {
-    subUrl: '/fake-news-source/angry-patriot',
-    url: 'www.angrypatriotmovement.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Another Day in The Empire ': {
-    subUrl: '/fake-news-source/another-day-empire',
-    url: 'anotherdayintheempire.com',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'political',
-      'right bias',
-      'war'
-    ]
-  },
-  'Anti Media ': {
-    subUrl: '/fake-news-source/anti-media',
-    url: 'theantimedia.org',
-    bias: ['conspiratorial', 'editorial', 'political']
-  },
-  'Anti-War ': {
-    subUrl: '/fake-news-source/anti-war',
-    url: 'www.antiwar.com',
-    bias: ['conspiratorial', 'editorial', 'inciteful', 'political', 'right bias']
-  },
-  'Assassination Science ': {
-    subUrl: '/fake-news-source/assassination-science',
-    url: 'assassinationscience.com',
-    bias: ['conspiratorial', 'political', 'psuedoscience', 'right bias', 'war']
-  },
-  'Awareness Act ': {
-    subUrl: '/fake-news-source/awareness-act',
-    url: 'awarenessact.com',
-    bias: ['conspiratorial', 'editorial', 'inciteful', 'political', 'right bias']
-  },
-  'Awaze Tribune ': {
-    subUrl: '/fake-news-source/awaze-tribune',
-    url: 'awazetribune.com',
-    bias: ['political']
-  },
-  'AWD News ': {
-    subUrl: '/fake-news-source/awd-news',
-    url: 'awdnews.com',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'political',
-      'right bias',
-      'war'
-    ]
-  },
-  'Bare Naked Islam ': {
-    subUrl: '/fake-news-source/bare-naked-islam',
-    url: 'www.barenakedislam.com',
-    bias: ['conspiratorial', 'inciteful', 'political', 'right bias', 'war']
-  },
-  'Bay Area Reporter ': {
-    subUrl: '/fake-news-source/bay-area-reporter',
-    url: 'www.ebar.com',
-    bias: ['left bias', 'political', 'special interest']
-  },
-  'BB4SP ': {
-    subUrl: '/fake-news-source/bb4sp',
-    url: 'bb4sp.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Before It\'s News ': {
-    subUrl: '/fake-news-source/before-its-news',
-    url: 'beforeitsnews.com',
-    bias: ['conspiratorial', 'editorial', 'political', 'psuedoscience', 'right bias']
-  },
-  'Bent*Spud ': {
-    subUrl: '/fake-news-source/bentspud',
-    url: 'www.bentspud.com',
-    bias: ['satire']
-  },
-  'Big Hairy News ': {
-    subUrl: '/fake-news-source/big-hairy-news',
-    url: 'www.bighairynews.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Big Nugget News ': {
-    subUrl: '/fake-news-source/big-nugget-news',
-    url: 'bignuggetnews.com',
-    bias: ['conspiratorial', 'inciteful', 'political', 'right bias', 'war']
-  },
-  'Bipartisan Report ': {
-    subUrl: '/fake-news-source/bipartisan-report',
-    url: 'bipartisanreport.com',
-    bias: ['conspiratorial', 'left bias', 'political', 'psuedoscience']
-  },
-  'BizPac Review ': {
-    subUrl: '/fake-news-source/bizpac-review',
-    url: 'www.bizpacreview.com',
-    bias: ['conspiratorial', 'political', 'psuedoscience', 'right bias', 'war']
-  },
-  'Black Genocide ': {
-    subUrl: '/fake-news-source/black-genocide',
-    url: 'www.blackgenocide.org/home.html',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'political',
-      'right bias',
-      'war'
-    ]
-  },
-  'Blacklisted News ': {
-    subUrl: '/fake-news-source/blacklisted-news',
-    url: 'blacklistednews.com',
-    bias: ['conspiratorial', 'inciteful', 'political', 'right bias', 'war']
-  },
-  'Blasting News ': {
-    subUrl: '/fake-news-source/blasting-news',
-    url: 'us.blastingnews.com',
-    bias: ['conspiratorial', 'political', 'psuedoscience', 'right bias', 'war']
-  },
-  'Borowitz Report ': {
-    subUrl: '/fake-news-source/borowitz-report',
-    url: 'borowitzreport.com',
-    bias: ['satire']
-  },
-  'Breitbart News ': {
-    subUrl: '/fake-news-source/breitbart-news',
-    url: 'www.breitbart.com',
-    bias: ['political', 'right bias']
-  },
-  'Call the Cops ': {
-    subUrl: '/fake-news-source/call-cops',
-    url: 'www.callthecops.net',
-    bias: ['conspiratorial', 'political', 'psuedoscience', 'right bias', 'war']
-  },
-  'Borowitz Report ': {
-    subUrl: '/fake-news-source/borowitz-report',
-    url: 'borowitzreport.com',
-    bias: ['satire']
-  },
-  'Breitbart News ': {
-    subUrl: '/fake-news-source/breitbart-news',
-    url: 'www.breitbart.com',
-    bias: ['political', 'right bias']
-  },
-  'Call the Cops ': {
-    subUrl: '/fake-news-source/call-cops',
-    url: 'www.callthecops.net',
-    bias: ['conspiratorial', 'political', 'psuedoscience', 'right bias', 'war']
-  },
-  'Canada Free Press ': {
-    subUrl: '/fake-news-source/canada-free-press',
-    url: 'canadafreepress.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Canadian Dimension ': {
-    subUrl: '/fake-news-source/canadian-dimension',
-    url: 'canadiandimension.com',
-    bias: ['left bias', 'political', 'special interest']
-  },
-  'Cap News ': {
-    subUrl: '/fake-news-source/cap-news',
-    url: 'cap-news.com',
-    bias: ['conspiratorial', 'political', 'psuedoscience', 'right bias', 'war']
-  },
-  'Center For American Progress ': {
-    subUrl: '/fake-news-source/center-american-progress',
-    url: 'www.americanprogress.org',
-    bias: ['left bias', 'political']
-  },
-  'Center For Security Policy ': {
-    subUrl: '/fake-news-source/center-security-policy',
-    url: 'www.centerforsecuritypolicy.org',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'political',
-      'right bias',
-      'war'
-    ]
-  },
-  'Channel 7 News ': {
-    subUrl: '/fake-news-source/channel-7-news',
-    url: 'channel-7-news.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Christ Wire ': {
-    subUrl: '/fake-news-source/christ-wire',
-    url: 'ChristWire.org',
-    bias: []
-  },
-  'Christian Times Newspaper ': {
-    subUrl: '/fake-news-source/christian-times-newspaper',
-    url: 'christiantimesnewspaper.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Civic Tribune ': {
-    subUrl: '/fake-news-source/civic-tribune',
-    url: 'CivicTribune.com',
-    bias: ['political', 'right bias']
-  },
-  'Clash Daily ': {
-    subUrl: '/fake-news-source/clash-daily',
-    url: 'clashdaily.com',
-    bias: ['conspiratorial', 'political', 'right bias']
-  },
-  'Click Hole ': {
-    subUrl: '/fake-news-source/click-hole',
-    url: 'clickhole.com',
-    bias: ['right bias']
-  },
-  'Canada Free Press ': {
-    subUrl: '/fake-news-source/canada-free-press',
-    url: 'canadafreepress.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Canadian Dimension ': {
-    subUrl: '/fake-news-source/canadian-dimension',
-    url: 'canadiandimension.com',
-    bias: ['left bias', 'political', 'special interest']
-  },
-  'Cap News ': {
-    subUrl: '/fake-news-source/cap-news',
-    url: 'cap-news.com',
-    bias: ['conspiratorial', 'political', 'psuedoscience', 'right bias', 'war']
-  },
-  'Center For American Progress ': {
-    subUrl: '/fake-news-source/center-american-progress',
-    url: 'www.americanprogress.org',
-    bias: ['left bias', 'political']
-  },
-  'Center For Security Policy ': {
-    subUrl: '/fake-news-source/center-security-policy',
-    url: 'www.centerforsecuritypolicy.org',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'political',
-      'right bias',
-      'war'
-    ]
-  },
-  'Channel 7 News ': {
-    subUrl: '/fake-news-source/channel-7-news',
-    url: 'channel-7-news.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Christ Wire ': {
-    subUrl: '/fake-news-source/christ-wire',
-    url: 'ChristWire.org',
-    bias: []
-  },
-  'Christian Times Newspaper ': {
-    subUrl: '/fake-news-source/christian-times-newspaper',
-    url: 'christiantimesnewspaper.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Civic Tribune ': {
-    subUrl: '/fake-news-source/civic-tribune',
-    url: 'CivicTribune.com',
-    bias: ['political', 'right bias']
-  },
-  'Clash Daily ': {
-    subUrl: '/fake-news-source/clash-daily',
-    url: 'clashdaily.com',
-    bias: ['conspiratorial', 'political', 'right bias']
-  },
-  'Click Hole ': {
-    subUrl: '/fake-news-source/click-hole',
-    url: 'clickhole.com',
-    bias: ['right bias']
-  },
-  'Christian Times Newspaper ': {
-    subUrl: '/fake-news-source/christian-times-newspaper',
-    url: 'christiantimesnewspaper.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Civic Tribune ': {
-    subUrl: '/fake-news-source/civic-tribune',
-    url: 'CivicTribune.com',
-    bias: ['political', 'right bias']
-  },
-  'Clash Daily ': {
-    subUrl: '/fake-news-source/clash-daily',
-    url: 'clashdaily.com',
-    bias: ['conspiratorial', 'political', 'right bias']
-  },
-  'Click Hole ': {
-    subUrl: '/fake-news-source/click-hole',
-    url: 'clickhole.com',
-    bias: ['right bias']
-  },
-  'Coast to Coast AM ': {
-    subUrl: '/fake-news-source/coast-coast-am',
-    url: 'www.coasttocoastam.com',
-    bias: ['conspiratorial', 'psuedoscience', 'right bias']
-  },
-  'Collective Evolution ': {
-    subUrl: '/fake-news-source/collective-evolution',
-    url: 'www.collective-evolution.com',
-    bias: ['conspiratorial', 'editorial', 'psuedoscience', 'right bias']
-  },
-  'Collectively Conscious ': {
-    subUrl: '/fake-news-source/collectively-conscious',
-    url: 'collectivelyconscious.net',
-    bias: ['conspiratorial', 'editorial', 'psuedoscience']
-  },
-  'Common Dreams ': {
-    subUrl: '/fake-news-source/common-dreams',
-    url: 'www.commondreams.org',
-    bias: ['left bias', 'political']
-  },
-  'Conscious Life News ': {
-    subUrl: '/fake-news-source/conscious-life-news',
-    url: 'consciouslifenews.com',
-    bias: ['conspiratorial', 'editorial', 'left bias', 'psuedoscience']
-  },
-  'Conservative Byte ': {
-    subUrl: '/fake-news-source/conservative-byte',
-    url: 'conservativebyte.com',
-    bias: ['conspiratorial', 'political', 'right bias']
-  },
-  'Conservative Daily Post ': {
-    subUrl: '/fake-news-source/conservative-daily-post',
-    url: 'conservativedailypost.com',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'psuedoscience',
-      'right bias',
-      'war'
-    ]
-  },
-  'Conservative Firing Line ': {
-    subUrl: '/fake-news-source/conservative-firing-line',
-    url: 'conservativefiringline.com',
-    bias: ['conspiratorial', 'political', 'right bias']
-  },
-  'Conservative Frontline ': {
-    subUrl: '/fake-news-source/conservative-frontline',
-    url: 'conservativefrontline.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Conservative Infidel ': {
-    subUrl: '/fake-news-source/conservative-infidel',
-    url: 'www.conservativeinfidel.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Christian Times Newspaper ': {
-    subUrl: '/fake-news-source/christian-times-newspaper',
-    url: 'christiantimesnewspaper.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Civic Tribune ': {
-    subUrl: '/fake-news-source/civic-tribune',
-    url: 'CivicTribune.com',
-    bias: ['political', 'right bias']
-  },
-  'Clash Daily ': {
-    subUrl: '/fake-news-source/clash-daily',
-    url: 'clashdaily.com',
-    bias: ['conspiratorial', 'political', 'right bias']
-  },
-  'Click Hole ': {
-    subUrl: '/fake-news-source/click-hole',
-    url: 'clickhole.com',
-    bias: ['right bias']
-  },
-  'Coast to Coast AM ': {
-    subUrl: '/fake-news-source/coast-coast-am',
-    url: 'www.coasttocoastam.com',
-    bias: ['conspiratorial', 'psuedoscience', 'right bias']
-  },
-  'Collective Evolution ': {
-    subUrl: '/fake-news-source/collective-evolution',
-    url: 'www.collective-evolution.com',
-    bias: ['conspiratorial', 'editorial', 'psuedoscience', 'right bias']
-  },
-  'Collectively Conscious ': {
-    subUrl: '/fake-news-source/collectively-conscious',
-    url: 'collectivelyconscious.net',
-    bias: ['conspiratorial', 'editorial', 'psuedoscience']
-  },
-  'Common Dreams ': {
-    subUrl: '/fake-news-source/common-dreams',
-    url: 'www.commondreams.org',
-    bias: ['left bias', 'political']
-  },
-  'Conscious Life News ': {
-    subUrl: '/fake-news-source/conscious-life-news',
-    url: 'consciouslifenews.com',
-    bias: ['conspiratorial', 'editorial', 'left bias', 'psuedoscience']
-  },
-  'Conservative Byte ': {
-    subUrl: '/fake-news-source/conservative-byte',
-    url: 'conservativebyte.com',
-    bias: ['conspiratorial', 'political', 'right bias']
-  },
-  'Conservative Daily Post ': {
-    subUrl: '/fake-news-source/conservative-daily-post',
-    url: 'conservativedailypost.com',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'psuedoscience',
-      'right bias',
-      'war'
-    ]
-  },
-  'Conservative Firing Line ': {
-    subUrl: '/fake-news-source/conservative-firing-line',
-    url: 'conservativefiringline.com',
-    bias: ['conspiratorial', 'political', 'right bias']
-  },
-  'Conservative Frontline ': {
-    subUrl: '/fake-news-source/conservative-frontline',
-    url: 'conservativefrontline.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Conservative Infidel ': {
-    subUrl: '/fake-news-source/conservative-infidel',
-    url: 'www.conservativeinfidel.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Conservative Papers ': {
-    subUrl: '/fake-news-source/conservative-papers',
-    url: 'conservativepapers.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Conservative Refocus ': {
-    subUrl: '/fake-news-source/conservative-refocus',
-    url: 'conservativerefocus.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Conservative State ': {
-    subUrl: '/fake-news-source/conservative-state',
-    url: 'conservativestate.com',
-    bias: ['conspiratorial', 'political', 'right bias']
-  },
-  'Conservative Tribune ': {
-    subUrl: '/fake-news-source/conservative-tribune',
-    url: 'conservativetribune.com',
-    bias: ['conspiratorial', 'editorial', 'political', 'right bias']
-  },
-  'Conspiracy Planet ': {
-    subUrl: '/fake-news-source/conspiracy-planet',
-    url: 'www.conspiracyplanet.com',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'psuedoscience',
-      'right bias',
-      'war'
-    ]
-  },
-  'Constitution Rising ': {
-    subUrl: '/fake-news-source/constitution-rising',
-    url: 'rickwells.us',
-    bias: ['conspiratorial', 'political']
-  },
-  'Countdown to Zero Time ': {
-    subUrl: '/fake-news-source/countdown-zero-time',
-    url: 'countdowntozerotime.com',
-    bias: ['conspiratorial', 'editorial', 'inciteful', 'psuedoscience', 'right bias']
-  },
-  'Counter Current News ': {
-    subUrl: '/fake-news-source/counter-current-news',
-    url: 'countercurrentnews.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Counter PsyOps ': {
-    subUrl: '/fake-news-source/counter-psyops',
-    url: 'counterpsyops.com',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'political',
-      'right bias',
-      'war'
-    ]
-  },
-  'CounterPunch ': {
-    subUrl: '/fake-news-source/counterpunch',
-    url: 'www.counterpunch.org',
-    bias: ['inciteful', 'left bias', 'political']
-  },
-  'Cowger nation ': {
-    subUrl: '/fake-news-source/cowger-nation',
-    url: 'cowgernation.com',
-    bias: ['conspiratorial', 'political', 'right bias']
-  },
-  'Cracked ': {
-    subUrl: '/fake-news-source/cracked',
-    url: 'cracked.com',
-    bias: ['satire']
-  },
-  'Cream BMP ': {
-    subUrl: '/fake-news-source/cream-bmp',
-    url: 'creambmp.com',
-    bias: ['editorial', 'political', 'right bias', 'special interest']
-  },
-  'Cronica Deportiva Politic ': {
-    subUrl: '/fake-news-source/cronica-deportiva-politic',
-    url: 'cronicadeportiva.com/index.php/category/politic/',
-    bias: ['conspiratorial', 'political']
-  },
-  'Daily Buzz Live ': {
-    subUrl: '/fake-news-source/daily-buzz-live',
-    url: 'dailybuzzlive.com',
-    bias: []
-  },
-  'Daily Currant ': {
-    subUrl: '/fake-news-source/daily-currant',
-    url: 'DailyCurrant.com',
-    bias: []
-  },
-  'Daily Headlines ': {
-    subUrl: '/fake-news-source/daily-headlines',
-    url: 'dailyheadlines.net',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'psuedoscience',
-      'right bias',
-      'war'
-    ]
-  },
-  'Daily Kos ': {
-    subUrl: '/fake-news-source/daily-kos',
-    url: 'www.dailykos.com',
-    bias: ['editorial', 'left bias', 'political']
-  },
-  'Daily News Bin ': {
-    subUrl: '/fake-news-source/daily-news-bin',
-    url: 'www.dailynewsbin.com',
-    bias: ['editorial', 'left bias', 'political']
-  },
-  'Daily Occupation ': {
-    subUrl: '/fake-news-source/daily-occupation',
-    url: 'dailyoccupation.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Dallas Voice ': {
-    subUrl: '/fake-news-source/dallas-voice',
-    url: 'www.dallasvoice.com',
-    bias: ['editorial', 'left bias', 'political', 'special interest']
-  },
-  'Dark Politricks ': {
-    subUrl: '/fake-news-source/dark-politricks',
-    url: 'www.darkpolitricks.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Darkmoon ': {
-    subUrl: '/fake-news-source/darkmoon',
-    url: 'www.darkmoon.me',
-    bias: ['conspiratorial', 'editorial', 'inciteful', 'political', 'right bias']
-  },
-  'David Duke.com ': {
-    subUrl: '/fake-news-source/david-dukecom',
-    url: 'davidduke.com',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'political',
-      'right bias',
-      'special interest'
-    ]
-  },
-  'DC Clothesline ': {
-    subUrl: '/fake-news-source/dc-clothesline',
-    url: 'DCClothesline.com',
-    bias: ['conspiratorial', 'editorial', 'inciteful', 'political', 'right bias']
-  },
-  'DC Gazette ': {
-    subUrl: '/fake-news-source/dc-gazette',
-    url: 'DCGazette.com',
-    bias: ['conspiratorial', 'editorial', 'political', 'right bias']
-  },
-  'DC Whispers ': {
-    subUrl: '/fake-news-source/dc-whispers',
-    url: 'dcwhispers.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Debunking Skeptics ': {
-    subUrl: '/fake-news-source/debunking-skeptics',
-    url: 'www.debunkingskeptics.com',
-    bias: ['conspiratorial', 'editorial', 'political', 'psuedoscience', 'right bias']
-  },
-  'Democracy Now ': {
-    subUrl: '/fake-news-source/democracy-now',
-    url: 'www.democracynow.org',
-    bias: ['editorial', 'left bias', 'political', 'special interest']
-  },
-  'Democratic Underground ': {
-    subUrl: '/fake-news-source/democratic-underground',
-    url: 'www.democraticunderground.com',
-    bias: ['editorial', 'left bias', 'political', 'special interest']
-  },
-  'Dennis Michael Lynch ': {
-    subUrl: '/fake-news-source/dennis-michael-lynch',
-    url: 'dennismichaellynch.com',
-    bias: ['conspiratorial', 'editorial', 'inciteful', 'political', 'right bias']
-  },
-  'Departed ': {
-    subUrl: '/fake-news-source/departed',
-    url: 'departed.co',
-    bias: ['conspiratorial', 'political']
-  },
-  'Derf Magazine ': {
-    subUrl: '/fake-news-source/derf-magazine',
-    url: 'derfmagazine.com',
-    bias: ['satire']
-  },
-  'Disclose.tv ': {
-    subUrl: '/fake-news-source/disclosetv',
-    url: 'www.disclose.tv',
-    bias: ['conspiratorial', 'editorial', 'political', 'psuedoscience', 'right bias']
-  },
-  'Disclosure Media ': {
-    subUrl: '/fake-news-source/disclosure-media',
-    url: 'disclosuremedia.net',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'political',
-      'right bias',
-      'war'
-    ]
-  },
-  'Dissent Magazine ': {
-    subUrl: '/fake-news-source/dissent-magazine',
-    url: 'www.dissentmagazine.org',
-    bias: ['editorial', 'left bias', 'political', 'special interest']
-  },
-  'Downtrend ': {
-    subUrl: '/fake-news-source/downtrend',
-    url: 'downtrend.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Drudge Report ': {
-    subUrl: '/fake-news-source/drudge-report',
-    url: 'drudgereport.com',
-    bias: []
-  },
-  'Duffle Blog ': {
-    subUrl: '/fake-news-source/duffle-blog',
-    url: 'duffelblog.com',
-    bias: ['editorial', 'political', 'right bias', 'special interest']
-  },
-  'Duh Progressive ': {
-    subUrl: '/fake-news-source/duh-progressive',
-    url: 'duhprogressive.com',
-    bias: []
-  },
-  'Eagle Rising ': {
-    subUrl: '/fake-news-source/eagle-rising',
-    url: 'eaglerising.com',
-    bias: ['conspiratorial', 'editorial', 'political', 'right bias']
-  },
-  'Earth We Are One ': {
-    subUrl: '/fake-news-source/earth-we-are-one',
-    url: 'ewao.com',
-    bias: ['conspiratorial', 'psuedoscience']
-  },
-  'Embols ': {
-    subUrl: '/fake-news-source/embols',
-    url: 'embols.com',
-    bias: ['conspiratorial', 'political', 'psuedoscience', 'right bias']
-  },
-  'Empire News ': {
-    subUrl: '/fake-news-source/empire-news',
-    url: 'EmpireNews.com',
-    bias: ['editorial', 'political', 'right bias']
-  },
-  'End Of The American Dream ': {
-    subUrl: '/fake-news-source/end-american-dream',
-    url: 'endoftheamericandream.com',
-    bias: ['conspiratorial', 'editorial', 'inciteful', 'political', 'right bias']
-  },
-  'Ending The Fed ': {
-    subUrl: '/fake-news-source/ending-fed',
-    url: 'endingthefed.com',
-    bias: ['conspiratorial', 'political', 'psuedoscience', 'right bias']
-  },
-  'EndTime Ministries ': {
-    subUrl: '/fake-news-source/endtime-ministries',
-    url: 'endtime.com',
-    bias: ['conspiratorial', 'editorial', 'inciteful', 'political', 'right bias']
-  },
-  'Enduring Vision ': {
-    subUrl: '/fake-news-source/enduring-vision',
-    url: 'enduringvision.com',
-    bias: ['psuedoscience', 'right bias', 'satire']
-  },
-  'Executive Intelligence Review ': {
-    subUrl: '/fake-news-source/executive-intelligence-review',
-    url: 'larouchepub.com',
-    bias: ['conspiratorial', 'political', 'right bias']
-  },
-  'F W Engdahl ': {
-    subUrl: '/fake-news-source/f-w-engdahl',
-    url: 'oilgeopolitics.net',
-    bias: ['conspiratorial', 'editorial', 'inciteful', 'political', 'right bias']
-  },
-  'Faking News ': {
-    subUrl: '/fake-news-source/faking-news',
-    url: 'fakingnews.com',
-    bias: ['satire']
-  },
-  'Family Security Matters ': {
-    subUrl: '/fake-news-source/family-security-matters',
-    url: 'familysecuritymatters.org',
-    bias: ['conspiratorial', 'political', 'right bias']
-  },
-  'Federalist Press ': {
-    subUrl: '/fake-news-source/federalist-press',
-    url: 'federalistpress.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Fellowship of the Minds ': {
-    subUrl: '/fake-news-source/fellowship-minds',
-    url: 'fellowshipoftheminds.com',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'political',
-      'right bias',
-      'war'
-    ]
-  },
-  'FM observer ': {
-    subUrl: '/fake-news-source/fm-observer',
-    url: 'fmobserver.com',
-    bias: ['satire']
-  },
-  'Forward Progressives ': {
-    subUrl: '/fake-news-source/forward-progressives',
-    url: 'www.forwardprogressives.com',
-    bias: ['conspiratorial', 'editorial', 'left bias', 'political']
-  },
-  'Embols ': {
-    subUrl: '/fake-news-source/embols',
-    url: 'embols.com',
-    bias: ['conspiratorial', 'political', 'psuedoscience', 'right bias']
-  },
-  'Empire News ': {
-    subUrl: '/fake-news-source/empire-news',
-    url: 'EmpireNews.com',
-    bias: ['editorial', 'political', 'right bias']
-  },
-  'End Of The American Dream ': {
-    subUrl: '/fake-news-source/end-american-dream',
-    url: 'endoftheamericandream.com',
-    bias: ['conspiratorial', 'editorial', 'inciteful', 'political', 'right bias']
-  },
-  'Ending The Fed ': {
-    subUrl: '/fake-news-source/ending-fed',
-    url: 'endingthefed.com',
-    bias: ['conspiratorial', 'political', 'psuedoscience', 'right bias']
-  },
-  'EndTime Ministries ': {
-    subUrl: '/fake-news-source/endtime-ministries',
-    url: 'endtime.com',
-    bias: ['conspiratorial', 'editorial', 'inciteful', 'political', 'right bias']
-  },
-  'Enduring Vision ': {
-    subUrl: '/fake-news-source/enduring-vision',
-    url: 'enduringvision.com',
-    bias: ['psuedoscience', 'right bias', 'satire']
-  },
-  'Executive Intelligence Review ': {
-    subUrl: '/fake-news-source/executive-intelligence-review',
-    url: 'larouchepub.com',
-    bias: ['conspiratorial', 'political', 'right bias']
-  },
-  'F W Engdahl ': {
-    subUrl: '/fake-news-source/f-w-engdahl',
-    url: 'oilgeopolitics.net',
-    bias: ['conspiratorial', 'editorial', 'inciteful', 'political', 'right bias']
-  },
-  'Faking News ': {
-    subUrl: '/fake-news-source/faking-news',
-    url: 'fakingnews.com',
-    bias: ['satire']
-  },
-  'Family Security Matters ': {
-    subUrl: '/fake-news-source/family-security-matters',
-    url: 'familysecuritymatters.org',
-    bias: ['conspiratorial', 'political', 'right bias']
-  },
-  'Federalist Press ': {
-    subUrl: '/fake-news-source/federalist-press',
-    url: 'federalistpress.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Fellowship of the Minds ': {
-    subUrl: '/fake-news-source/fellowship-minds',
-    url: 'fellowshipoftheminds.com',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'political',
-      'right bias',
-      'war'
-    ]
-  },
-  'FM observer ': {
-    subUrl: '/fake-news-source/fm-observer',
-    url: 'fmobserver.com',
-    bias: ['satire']
-  },
-  'Forward Progressives ': {
-    subUrl: '/fake-news-source/forward-progressives',
-    url: 'www.forwardprogressives.com',
-    bias: ['conspiratorial', 'editorial', 'left bias', 'political']
-  },
-  'Freak Out Nation ': {
-    subUrl: '/fake-news-source/freak-out-nation',
-    url: 'freakoutnation.com',
-    bias: ['conspiratorial', 'editorial', 'inciteful', 'left bias', 'political']
-  },
-  'Free Wood Post ': {
-    subUrl: '/fake-news-source/free-wood-post',
-    url: 'freewoodpost.com',
-    bias: ['satire']
-  },
-  'Freedom Daily ': {
-    subUrl: '/fake-news-source/freedom-daily',
-    url: 'freedomdaily.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Freedom Outpost ': {
-    subUrl: '/fake-news-source/freedom-outpost',
-    url: 'freedomoutpost.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Friday Mash ': {
-    subUrl: '/fake-news-source/friday-mash',
-    url: 'www.fridaymash.com',
-    bias: ['satire']
-  },
-  'From the Trenches World Report ': {
-    subUrl: '/fake-news-source/trenches-world-report',
-    url: 'www.fromthetrenchesworldreport.com',
-    bias: ['conspiratorial', 'inciteful', 'political', 'psuedoscience', 'right bias']
-  },
-  'Gangster Government ': {
-    subUrl: '/fake-news-source/gangster-government',
-    url: 'gangstergovernment.com',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'political',
-      'psuedoscience',
-      'right bias',
-      'war'
-    ]
-  },
-  'Geller Report ': {
-    subUrl: '/fake-news-source/geller-report',
-    url: 'pamelageller.com',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'political',
-      'right bias',
-      'war'
-    ]
-  },
-  'Geo Engineering Watch ': {
-    subUrl: '/fake-news-source/geo-engineering-watch',
-    url: 'www.geoengineeringwatch.org',
-    bias: ['conspiratorial', 'editorial', 'political', 'psuedoscience', 'right bias']
-  },
-  'Global Research ': {
-    subUrl: '/fake-news-source/global-research',
-    url: 'www.globalresearch.ca',
-    bias: ['conspiratorial', 'editorial', 'psuedoscience', 'right bias']
-  },
-  'Glossynews.com ': {
-    subUrl: '/fake-news-source/glossynewscom',
-    url: 'glossynews.com',
-    bias: ['satire']
-  },
-  'Gomer Blog ': {
-    subUrl: '/fake-news-source/gomer-blog',
-    url: 'gomerblog.com',
-    bias: ['editorial', 'left bias', 'right bias', 'satire']
-  },
-  'Gone Left ': {
-    subUrl: '/fake-news-source/gone-left',
-    url: 'goneleft.com',
-    bias: ['conspiratorial', 'editorial', 'left bias', 'political']
-  },
-  'GOP the Daily Dose ': {
-    subUrl: '/fake-news-source/gop-daily-dose',
-    url: 'gopthedailydose.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Gulag Bound ': {
-    subUrl: '/fake-news-source/gulag-bound',
-    url: 'gulagbound.com',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'political',
-      'psuedoscience',
-      'right bias',
-      'war'
-    ]
-  },
-  'Hang The Bankers ': {
-    subUrl: '/fake-news-source/hang-bankers',
-    url: 'www.hangthebankers.com',
-    bias: ['conspiratorial', 'editorial', 'right bias']
-  },
-  'Health Impact News ': {
-    subUrl: '/fake-news-source/health-impact-news',
-    url: 'healthimpactnews.com',
-    bias: ['conspiratorial', 'political', 'psuedoscience', 'right bias']
-  },
-  'Henry Makow ': {
-    subUrl: '/fake-news-source/henry-makow',
-    url: 'henrymakow.com',
-    bias: ['conspiratorial', 'editorial', 'inciteful', 'political', 'right bias']
-  },
-  'Herman Cain ': {
-    subUrl: '/fake-news-source/herman-cain',
-    url: 'www.caintv.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'Humans are Free ': {
-    subUrl: '/fake-news-source/humans-are-free',
-    url: 'humansarefree.com',
-    bias: ['conspiratorial', 'editorial', 'political', 'right bias']
-  },
-  'Humor Times ': {
-    subUrl: '/fake-news-source/humor-times',
-    url: 'humortimes.com',
-    bias: ['satire']
-  },
-  'Huzlers ': {
-    subUrl: '/fake-news-source/huzlers',
-    url: 'huzlers.com',
-    bias: ['right bias', 'satire']
-  },
-  'I Have the Truth ': {
-    subUrl: '/fake-news-source/i-have-truth',
-    url: 'ihavethetruth.com',
-    bias: ['conspiratorial', 'inciteful', 'political', 'right bias']
-  },
-  'If You Only News ': {
-    subUrl: '/fake-news-source/if-you-only-news',
-    url: 'www.ifyouonlynews.com',
-    bias: ['conspiratorial', 'editorial', 'left bias', 'political']
-  },
-  'Illuminati News ': {
-    subUrl: '/fake-news-source/illuminati-news',
-    url: 'www.illuminati-news.com',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'psuedoscience',
-      'right bias',
-      'war'
-    ]
-  },
-  'In Trend Today ': {
-    subUrl: '/fake-news-source/trend-today',
-    url: 'intrendtoday.com',
-    bias: ['conspiratorial', 'political', 'right bias']
-  },
-  'Infinite Unknown ': {
-    subUrl: '/fake-news-source/infinite-unknown',
-    url: 'www.infiniteunknown.net',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'political',
-      'psuedoscience',
-      'right bias',
-      'war'
-    ]
-  },
-  'Information Clearing House ': {
-    subUrl: '/fake-news-source/information-clearing-house',
-    url: 'informationclearinghouse.info',
-    bias: ['conspiratorial', 'left bias', 'political']
-  },
-  'Infowars ': {
-    subUrl: '/fake-news-source/infowars',
-    url: 'www.infowars.com',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'political',
-      'psuedoscience',
-      'right bias',
-      'war'
-    ]
-  },
-  'IntelliHub ': {
-    subUrl: '/fake-news-source/intellihub',
-    url: 'www.intellihub.com',
-    bias: [
-      'conspiratorial',
-      'editorial',
-      'inciteful',
-      'political',
-      'psuedoscience',
-      'right bias'
-    ]
-  },
-  'Intrepid Report ': {
-    subUrl: '/fake-news-source/intrepid-report',
-    url: 'intrepidreport.com',
-    bias: ['editorial', 'political', 'right bias']
-  },
-  'Investment Watch Blog ': {
-    subUrl: '/fake-news-source/investment-watch-blog',
-    url: 'investmentwatchblog.com',
-    bias: ['editorial', 'political', 'right bias']
-  },
-  'Ironic Times ': {
-    subUrl: '/fake-news-source/ironic-times',
-    url: 'ironictimes.com',
-    bias: ['satire']
-  },
-  'Islamica News ': {
-    subUrl: '/fake-news-source/islamica-news',
-    url: 'islamicanews.com',
-    bias: ['satire']
-  },
-  'Israel Islam and End Times ': {
-    subUrl: '/fake-news-source/israel-islam-and-end-times',
-    url: 'www.israelislamandendtimes.com',
-    bias: ['conspiratorial', 'inciteful', 'political', 'right bias']
-  },
-  'iTag Live ': {
-    subUrl: '/fake-news-source/itag-live',
-    url: 'itaglive.com',
-    bias: ['editorial', 'political', 'right bias']
-  },
-  'Jack Pine Radicals ': {
-    subUrl: '/fake-news-source/jack-pine-radicals',
-    url: 'jackpineradicals.com',
-    bias: ['left bias', 'political']
-  },
-  'Jacobin ': {
-    subUrl: '/fake-news-source/jacobin',
-    url: 'www.jacobinmag.com',
-    bias: ['left bias', 'political']
-  },
-  'Jan Morgan Media ': {
-    subUrl: '/fake-news-source/jan-morgan-media',
-    url: 'janmorganmedia.com',
-    bias: ['conspiratorial', 'political', 'right bias']
-  },
-  'Jews News ': {
-    subUrl: '/fake-news-source/jews-news',
-    url: 'www.jewsnews.co.il',
-    bias: ['conspiratorial', 'political']
-  },
-  'Jezebel ': {
-    subUrl: '/fake-news-source/jezebel',
-    url: 'jezebel.com',
-    bias: ['editorial', 'left bias', 'political', 'special interest']
-  },
-  'Johnny Robish ': {
-    subUrl: '/fake-news-source/johnny-robish',
-    url: 'www.johnnyrobish.com',
-    bias: ['satire']
-  },
-  'Lew Rockwell ': {
-    subUrl: '/fake-news-source/lew-rockwell',
-    url: 'lewrockwell.com',
-    bias: ['conspiratorial', 'editorial', 'inciteful', 'political', 'right bias']
-  },
-  'Liberal America ': {
-    subUrl: '/fake-news-source/liberal-america',
-    url: 'www.liberalamerica.org',
-    bias: ['editorial', 'left bias', 'political', 'special interest']
-  },
-  'Liberal Darkness ': {
-    subUrl: '/fake-news-source/liberal-darkness',
-    url: 'liberaldarkness.com',
-    bias: ['conspiratorial', 'political', 'right bias']
-  },
-  'Liberals Unite ': {
-    subUrl: '/fake-news-source/liberals-unite',
-    url: 'samuel-warde.com',
-    bias: ['editorial', 'left bias', 'political', 'special interest']
-  },
-  'Liberty Blitzkrieg ': {
-    subUrl: '/fake-news-source/liberty-blitzkrieg',
-    url: 'libertyblitzkrieg.com',
-    bias: ['conspiratorial', 'editorial', 'inciteful', 'political', 'right bias']
-  },
-  'Liberty Movement Radio ': {
-    subUrl: '/fake-news-source/liberty-movement-radio',
-    url: 'libertymovementradio.com',
-    bias: ['political', 'right bias']
-  },
-  'Liberty News ': {
-    subUrl: '/fake-news-source/liberty-news',
-    url: 'libertynews.com',
-    bias: ['conspiratorial', 'editorial', 'political', 'psuedoscience', 'right bias']
-  },
-  'Liberty Talk FM ': {
-    subUrl: '/fake-news-source/liberty-talk-fm',
-    url: '',
-    bias: ['editorial', 'political', 'right bias']
-  },
-  'Liberty Unyielding ': {
-    subUrl: '/fake-news-source/liberty-unyielding',
-    url: 'libertyunyielding.com',
-    bias: ['conspiratorial', 'political', 'psuedoscience', 'right bias', 'war']
-  },
-  'Liberty Videos ': {
-    subUrl: '/fake-news-source/liberty-videos',
-    url: 'libertyvideos.com',
-    bias: []
-  },
-  'Liberty Writers News ': {
-    subUrl: '/fake-news-source/liberty-writers-news',
-    url: 'www.libertywritersnews.com',
-    bias: ['conspiratorial', 'political']
-  },
-  'LifeZette ': {
-    subUrl: '/fake-news-source/lifezette',
-    url: 'www.lifezette.com',
-    bias: ['conspiratorial', 'editorial', 'inciteful', 'political', 'right bias']
-  },
-  'Liftable ': {
-    subUrl: '/fake-news-source/liftable',
-    url: 'www.liftable.com',
-    bias: ['editorial', 'psuedoscience', 'special interest']
-  },
-  'Mad World News ':
-   { subUrl: '/fake-news-source/mad-world-news',
-     url: 'madworldnews.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'Make America Great Today ':
-   { subUrl: '/fake-news-source/make-america-great-today',
-     url: 'makeamericagreattoday.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias' ] },
-  'Media Matters ':
-   { subUrl: '/fake-news-source/media-matters',
-     url: 'mediamatters.org',
-     bias: [ 'editorial', 'left bias', 'political', 'special interest' ] },
-  'Militia News ':
-   { subUrl: '/fake-news-source/militia-news',
-     url: 'www.militianews.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias' ] },
-  'Mirror ':
-   { subUrl: '/fake-news-source/mirror',
-     url: 'www.mirror.co.uk',
-     bias: [ 'editorial', 'left bias', 'political' ] },
-  'Moon of Alabama ':
-   { subUrl: '/fake-news-source/moon-alabama',
-     url: 'moonofalabama.org',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias' ] },
-  'Morning Ledger ':
-   { subUrl: '/fake-news-source/morning-ledger',
-     url: 'www.morningledger.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'political',
-        'psuedoscience',
-        'right bias' ] },
-  'Mother Jones ':
-   { subUrl: '/fake-news-source/mother-jones',
-     url: 'www.motherjones.com',
-     bias: [ 'editorial', 'left bias', 'political' ] },
-  'Move On ':
-   { subUrl: '/fake-news-source/move',
-     url: 'front.moveon.org',
-     bias: [ 'editorial', 'left bias', 'political' ] },
-  'MPI Daily Magazine ':
-   { subUrl: '/fake-news-source/mpi-daily-magazine',
-     url: 'mpidailymagazine.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias' ] },
-  'Mr. Conservative ':
-   { subUrl: '/fake-news-source/mr-conservative',
-     url: 'mrconservative.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'MyZone Today ':
-   { subUrl: '/fake-news-source/myzone-today',
-     url: 'myzonetoday.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'Nation of Change ':
-   { subUrl: '/fake-news-source/nation-change',
-     url: 'www.nationofchange.org',
-     bias: [ 'editorial', 'left bias', 'political' ] },
-  'Nation One News ':
-   { subUrl: '/fake-news-source/nation-one-news',
-     url: 'nationonenews.com',
-     bias: [ 'conspiratorial', 'inciteful', 'political', 'right bias' ] },
-     'National Report ':
-   { subUrl: '/fake-news-source/national-report',
-     url: 'nationalreport.net',
-     bias: [ 'editorial', 'political', 'right bias', 'satire' ] },
-  'New Century Times ':
-   { subUrl: '/fake-news-source/new-century-times',
-     url: 'newcenturytimes.com',
-     bias: [ 'left bias', 'political' ] },
-  'News 4 ':
-   { subUrl: '/fake-news-source/news-4',
-     url: 'news4ktla.com',
-     bias: [ 'editorial', 'psuedoscience', 'satire' ] },
-  'News Busters ':
-   { subUrl: '/fake-news-source/news-busters',
-     url: 'www.newsbusters.org',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'political',
-        'psuedoscience',
-        'right bias',
-        'special interest' ] },
-  'News Corpse ':
-   { subUrl: '/fake-news-source/news-corpse',
-     url: 'newscorpse.com',
-     bias: [ 'editorial', 'left bias', 'political' ] },
-  'News Mutiny ':
-   { subUrl: '/fake-news-source/news-mutiny',
-     url: 'newsmutiny.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias',
-        'satire' ] },
-  'News Target ':
-   { subUrl: '/fake-news-source/news-target',
-     url: 'newstarget.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias' ] },
-  'News Thump ':
-   { subUrl: '/fake-news-source/news-thump',
-     url: 'newsthump.com',
-     bias: [ 'editorial', 'political', 'right bias', 'satire' ] },
-  'News Wire 24 ':
-   { subUrl: '/fake-news-source/news-wire-24',
-     url: 'newswire-24.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias' ] },
-        'NewsBiscuit ':
-   { subUrl: '/fake-news-source/newsbiscuit',
-     url: 'newsbiscuit.com',
-     bias: [ 'satire' ] },
-  'NewsBreakers ':
-   { subUrl: '/fake-news-source/newsbreakers',
-     url: 'newsbreakers.org',
-     bias: [ 'satire' ] },
-  'Newslo ':
-   { subUrl: '/fake-news-source/newslo',
-     url: 'politicops.com',
-     bias: [ 'conspiratorial', 'editorial', 'political', 'right bias' ] },
-  'No Dis Info ':
-   { subUrl: '/fake-news-source/no-dis-info',
-     url: 'nodisinfo.com',
-     bias: [ 'conspiratorial', 'editorial', 'inciteful', 'political' ] },
-  'Not Allowed To ':
-   { subUrl: '/fake-news-source/not-allowed',
-     url: 'notallowedto.com',
-     bias: [ 'conspiratorial', 'inciteful', 'political', 'psuedoscience' ] },
-  'Now The End Begins ':
-   { subUrl: '/fake-news-source/now-end-begins',
-     url: 'www.nowtheendbegins.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'political',
-        'psuedoscience',
-        'right bias' ] },
-  'Now8News.com ':
-   { subUrl: '/fake-news-source/now8newscom',
-     url: 'now8news.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias' ] },
-  'Occupy Democrats ':
-   { subUrl: '/fake-news-source/occupy-democrats',
-     url: 'occupydemocrats.com',
-     bias: [ 'left bias', 'political' ] },
-  'Online Conservative Press ':
-   { subUrl: '/fake-news-source/online-conservative-press',
-     url: 'onlineconservativepress.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'political',
-        'psuedoscience',
-        'right bias' ] },
-  'Pak Alert Press ':
-   { subUrl: '/fake-news-source/pak-alert-press',
-     url: 'www.pakalertpress.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'psuedoscience',
-        'right bias',
-        'war' ] },
-  'Pat Dollard ':
-   { subUrl: '/fake-news-source/pat-dollard',
-     url: 'patdollard.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias' ] },
-  'Patriot Update ':
-   { subUrl: '/fake-news-source/patriot-update',
-     url: 'patriotupdate.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias' ] },
-  'Political Blind Spot ':
-   { subUrl: '/fake-news-source/political-blind-spot',
-     url: 'politicalblindspot.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias',
-        'satire' ] },
-  'Political Ears ':
-   { subUrl: '/fake-news-source/political-ears',
-     url: 'newsmutiny.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias' ] },
-        'Political Updater ':
-   { subUrl: '/fake-news-source/political-updater',
-     url: 'politicalupdater.com',
-     bias: [ 'left bias', 'political' ] },
-  'Political Vel Craft ':
-   { subUrl: '/fake-news-source/political-vel-craft',
-     url: 'politicalvelcraft.org',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias' ] },
-  'Politics USA ':
-   { subUrl: '/fake-news-source/politics-usa',
-     url: 'www.politicususa.com',
-     bias: [ 'left bias', 'political' ] },
-  'Pravda Report ':
-   { subUrl: '/fake-news-source/pravda-report',
-     url: 'www.pravdareport.com',
-     bias: [ 'conspiratorial', 'left bias', 'political' ] },
-  'Press TV ':
-   { subUrl: '/fake-news-source/press-tv',
-     url: 'presstv.ir',
-     bias: [ 'conspiratorial', 'political', 'right bias' ] },
-  'Prison Planet ':
-   { subUrl: '/fake-news-source/prison-planet',
-     url: 'www.prisonplanet.com',
-     bias: [ 'conspiratorial', 'editorial', 'psuedoscience', 'right bias' ] },
-  'Private Eye ':
-   { subUrl: '/fake-news-source/private-eye',
-     url: 'private-eye.co.uk',
-     bias: [ 'editorial', 'political', 'right bias', 'satire' ] },
-  'Prntly | America\'s Top News ':
-   { subUrl: '/fake-news-source/prntly-americas-top-news-site',
-     url: 'prntly.com',
-     bias: [ 'conspiratorial', 'editorial', 'political', 'right bias' ] },
-  'Proud Conservative ':
-   { subUrl: '/fake-news-source/proud-conservative',
-     url: 'www.proudcons.com',
-     bias: [ 'conspiratorial', 'editorial', 'political', 'right bias' ] },
-  'Q Political ':
-   { subUrl: '/fake-news-source/q-political',
-     url: 'qpolitical.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'political',
-        'psuedoscience',
-        'right bias' ] },
-  'Raw Story ':
-   { subUrl: '/fake-news-source/raw-story',
-     url: 'www.rawstory.com',
-     bias: [ 'left bias', 'political' ] },
-  'Read Conservatives ':
-   { subUrl: '/fake-news-source/read-conservatives',
-     url: 'readconservatives.news',
-     bias: [ 'conspiratorial', 'editorial', 'political', 'right bias' ] },
-  'Reagan Coalition ':
-   { subUrl: '/fake-news-source/reagan-coalition',
-     url: 'reagancoalition.com',
-     bias: [ 'conspiratorial', 'editorial', 'political', 'right bias' ] },
-  'Real News Right Now ':
-   { subUrl: '/fake-news-source/real-news-right-now',
-     url: 'realnewsrightnow.com',
-     bias: [ 'editorial' ] },
-     'Red Flag News ':
-   { subUrl: '/fake-news-source/red-flag-news',
-     url: 'www.redflagnews.com',
-     bias: [ 'conspiratorial', 'editorial', 'political', 'right bias' ] },
-  'Red State Watcher ':
-   { subUrl: '/fake-news-source/red-state-watcher',
-     url: 'redstatewatcher.com',
-     bias: [ 'conspiratorial', 'editorial', 'political', 'right bias' ] },
-  'Rense ':
-   { subUrl: '/fake-news-source/rense',
-     url: 'www.rense.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'psuedoscience',
-        'right bias',
-        'war' ] },
-  'Revos.2040 ':
-   { subUrl: '/fake-news-source/revos2040',
-     url: 'www.revolutions2040.com',
-     bias: [ 'conspiratorial', 'editorial', 'political', 'right bias' ] },
-  'Right Alerts ':
-   { subUrl: '/fake-news-source/right-alerts',
-     url: 'rightalerts.com',
-     bias: [ 'conspiratorial', 'political', 'right bias' ] },
-  'Right Wing News ':
-   { subUrl: '/fake-news-source/right-wing-news',
-     url: 'rightwingnews.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'Rile News ':
-   { subUrl: '/fake-news-source/rile-news',
-     url: 'rilenews.com',
-     bias: [] },
-  'Rock City Times ':
-   { subUrl: '/fake-news-source/rock-city-times',
-     url: 'rockcitytimes.com',
-     bias: [ 'political', 'right bias', 'satire' ] },
-  'RT - Russia Today ':
-   { subUrl: '/fake-news-source/rt-russia-today',
-     url: 'www.rt.com',
-     bias: [ 'conspiratorial', 'left bias', 'political' ] },
-  'Rumor Mill News ':
-   { subUrl: '/fake-news-source/rumor-mill-news',
-     url: 'rumormillnews.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias' ] },
-  'Ruptly ':
-   { subUrl: '/fake-news-source/ruptly',
-     url: 'ruptly.tv',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias' ] },
-  'Russia Direct ':
-   { subUrl: '/fake-news-source/russia-direct',
-     url: 'russia-direct.org',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias' ] },
-  'SatireWire ':
-   { subUrl: '/fake-news-source/satirewire',
-     url: 'satirewire.com',
-     bias: [ 'satire' ] },
-  'ScrappleFace ':
-   { subUrl: '/fake-news-source/scrappleface',
-     url: 'scrappleface.com',
-     bias: [ 'satire' ] },
-     'Sheep Killers ':
-   { subUrl: '/fake-news-source/sheep-killers',
-     url: 'www.sheepkillers.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'psuedoscience',
-        'special interest' ] },
-  'Shoebat ':
-   { subUrl: '/fake-news-source/shoebat',
-     url: 'shoebat.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'psuedoscience',
-        'special interest' ] },
-  'SHTF Plan ':
-   { subUrl: '/fake-news-source/shtf-plan',
-     url: 'www.shtfplan.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'Signs of The Times ':
-   { subUrl: '/fake-news-source/signs-times',
-     url: 'sott.net',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'psuedoscience',
-        'right bias' ] },
-  'Skeptiko ':
-   { subUrl: '/fake-news-source/skeptiko',
-     url: 'skeptiko.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'psuedoscience',
-        'special interest' ] },
-  'Sputnik News ':
-   { subUrl: '/fake-news-source/sputnik-news',
-     url: 'sputniknews.com',
-     bias: [ 'conspiratorial', 'inciteful', 'political', 'right bias' ] },
-  'St Neots Citizen ':
-   { subUrl: '/fake-news-source/st-neots-citizen',
-     url: 'stneotscitizen.com',
-     bias: [ 'satire' ] },
-  'Storm Clouds Gathering ':
-   { subUrl: '/fake-news-source/storm-clouds-gathering',
-     url: 'stormcloudsgathering.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'political',
-        'psuedoscience',
-        'special interest' ] },
-  'Stuppid ':
-   { subUrl: '/fake-news-source/stuppid',
-     url: 'stuppid.com',
-     bias: [ 'satire' ] },
-  'Subject: Politics ':
-   { subUrl: '/fake-news-source/subject-politics',
-     url: 'www.subjectpolitics.com',
-     bias: [ 'conspiratorial', 'political', 'right bias' ] },
-  'Supreme Patriot ':
-   { subUrl: '/fake-news-source/supreme-patriot',
-     url: 'supremepatriot.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'Surreal Scoop ':
-   { subUrl: '/fake-news-source/surreal-scoop',
-     url: 'www.surrealscoop.com',
-     bias: [ 'satire' ] },
-  'The American Independent ':
-   { subUrl: '/fake-news-source/american-independent',
-     url: 'theamericanindependent.wordpress.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'The Beaverton ':
-   { subUrl: '/fake-news-source/beaverton',
-     url: 'www.thebeaverton.com',
-     bias: [ 'satire' ] },
-     'The Common Sense Show ':
-   { subUrl: '/fake-news-source/common-sense-show',
-     url: 'www.thecommonsenseshow.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'psuedoscience',
-        'right bias' ] },
-  'The Controversial Files ':
-   { subUrl: '/fake-news-source/controversial-files',
-     url: 'www.thecontroversialfiles.net',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'political',
-        'psuedoscience',
-        'right bias' ] },
-  'The Corbett Report ':
-   { subUrl: '/fake-news-source/corbett-report',
-     url: 'corbettreport.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'The Daily Beast ':
-   { subUrl: '/fake-news-source/daily-beast',
-     url: 'www.thedailybeast.com',
-     bias: [ 'left bias', 'political' ] },
-  'The Daily Caller ':
-   { subUrl: '/fake-news-source/daily-caller',
-     url: 'dailycaller.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'The Daily Discord ':
-   { subUrl: '/fake-news-source/daily-discord',
-     url: 'dailydiscord.com',
-     bias: [ 'satire' ] },
-  'The Daily Mash ':
-   { subUrl: '/fake-news-source/daily-mash',
-     url: 'www.thedailymash.co.uk',
-     bias: [ 'satire' ] },
-  'The Daily Sheeple ':
-   { subUrl: '/fake-news-source/daily-sheeple',
-     url: 'www.thedailysheeple.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'psuedoscience',
-        'right bias' ] },
-  'The Daily Squib ':
-   { subUrl: '/fake-news-source/daily-squib',
-     url: 'www.dailysquib.co.uk',
-     bias: [ 'satire' ] },
-  'The Daily Stormer ':
-   { subUrl: '/fake-news-source/daily-stormer',
-     url: 'www.dailystormer.com',
-     bias: [ 'conspiratorial', 'inciteful', 'political', 'right bias' ] },
-  'The Daily WTF ':
-   { subUrl: '/fake-news-source/daily-wtf',
-     url: 'thedailywtf.com',
-     bias: [ 'satire' ] },
-  'The Dandy Goat ':
-   { subUrl: '/fake-news-source/dandy-goat',
-     url: 'dandygoat.com',
-     bias: [ 'satire' ] },
-  'The Duran ':
-   { subUrl: '/fake-news-source/duran',
-     url: 'theduran.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'The European Union Times ':
-   { subUrl: '/fake-news-source/european-union-times',
-     url: 'www.eutimes.net',
-     bias: [ 'conspiratorial', 'political' ] },
-     'The Federalist Papers ':
-   { subUrl: '/fake-news-source/federalist-papers',
-     url: 'thefederalistpapers.org',
-     bias: [ 'conspiratorial', 'political' ] },
-  'The Forbidden Knowledge ':
-   { subUrl: '/fake-news-source/forbidden-knowledge',
-     url: 'www.theforbiddenknowledge.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'political',
-        'psuedoscience',
-        'special interest' ] },
-  'The Fourth Revolutionary War ':
-   { subUrl: '/fake-news-source/fourth-revolutionary-war',
-     url: '4threvolutionarywar.wordpress.com',
-     bias:
-      [ 'conspiratorial',
-        'political',
-        'psuedoscience',
-        'right bias',
-        'war' ] },
-  'The Free Patriot ':
-   { subUrl: '/fake-news-source/free-patriot',
-     url: 'thefreepatriot.org',
-     bias: [ 'conspiratorial', 'political' ] },
-  'The Free Thought Project ':
-   { subUrl: '/fake-news-source/free-thought-project',
-     url: 'thefreethoughtproject.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'left bias',
-        'political' ] },
-  'The Gateway Pundit ':
-   { subUrl: '/fake-news-source/gateway-pundit',
-     url: 'www.thegatewaypundit.com',
-     bias:
-      [ 'conspiratorial',
-        'political',
-        'psuedoscience',
-        'right bias',
-        'war' ] },
-  'The Greanville Post ':
-   { subUrl: '/fake-news-source/greanville-post',
-     url: 'greanvillepost.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'psuedoscience',
-        'right bias',
-        'war' ] },
-  'The Inept Owl ':
-   { subUrl: '/fake-news-source/inept-owl',
-     url: 'theineptowl.com',
-     bias: [ 'satire' ] },
-  'The Internet Chronicle ':
-   { subUrl: '/fake-news-source/internet-chronicle',
-     url: 'chronicle.su',
-     bias: [] },
-  'The Knights Party ':
-   { subUrl: '/fake-news-source/knights-party',
-     url: 'kkk.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias',
-        'war' ] },
-  'The Lapine ':
-   { subUrl: '/fake-news-source/lapine',
-     url: 'thelapine.ca',
-     bias: [ 'satire' ] },
-  'The Last Great Stand ':
-   { subUrl: '/fake-news-source/last-great-stand',
-     url: 'thelastgreatstand.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'political',
-        'psuedoscience',
-        'right bias' ] },
-  'The Liberty Beacon ':
-   { subUrl: '/fake-news-source/liberty-beacon',
-     url: 'www.thelibertybeacon.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'political',
-        'psuedoscience',
-        'special interest' ] },
-  'The Madison Misnomer ':
-   { subUrl: '/fake-news-source/madison-misnomer',
-     url: 'themadisonmisnomer.com',
-     bias: [ 'satire' ] },
-     'The Muslim Issue ':
-   { subUrl: '/fake-news-source/muslim-issue',
-     url: 'themuslimissue.wordpress.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'The New Inquiry ':
-   { subUrl: '/fake-news-source/new-inquiry',
-     url: 'thenewinquiry.com',
-     bias: [ 'conspiratorial', 'political', 'psuedoscience' ] },
-  'The News Nerd ':
-   { subUrl: '/fake-news-source/news-nerd',
-     url: 'thenewsnerd.com',
-     bias: [ 'editorial', 'right bias', 'satire' ] },
-  'The Onion ':
-   { subUrl: '/fake-news-source/onion',
-     url: 'www.theonion.com',
-     bias: [ 'editorial', 'satire' ] },
-  'The Point ':
-   { subUrl: '/fake-news-source/point',
-     url: 'www.westernjournalism.com/thepoint/',
-     bias: [ 'conspiratorial', 'political' ] },
-  'The Poke ':
-   { subUrl: '/fake-news-source/poke',
-     url: 'thepoke.co.uk',
-     bias: [ 'satire' ] },
-  'The Political Cult ':
-   { subUrl: '/fake-news-source/political-cult',
-     url: 'politicalcult.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'The Political Insider ':
-   { subUrl: '/fake-news-source/political-insider',
-     url: 'www.thepoliticalinsider.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'The Racket Report ':
-   { subUrl: '/fake-news-source/racket-report',
-     url: 'theracketreport.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'The Real Strategy ':
-   { subUrl: '/fake-news-source/real-strategy',
-     url: 'therealstrategy.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'The Rightists ':
-   { subUrl: '/fake-news-source/rightists',
-     url: 'therightists.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'The Run Down Live ':
-   { subUrl: '/fake-news-source/run-down-live',
-     url: 'therundownlive.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'political',
-        'psuedoscience',
-        'right bias' ] },
-  'The Sensationalist Times ':
-   { subUrl: '/fake-news-source/sensationalist-times',
-     url: 'www.sensationalisttimes.com',
-     bias: [ 'satire' ] },
-  'The Shovel ':
-   { subUrl: '/fake-news-source/shovel',
-     url: 'www.theshovel.com.au',
-     bias: [ 'political', 'psuedoscience', 'satire' ] },
-     'The Spoof ':
-   { subUrl: '/fake-news-source/spoof',
-     url: 'thespoof.com',
-     bias: [] },
-  'The Times of The World ':
-   { subUrl: '/fake-news-source/times-world',
-     url: 'thetimesoftheworld.com',
-     bias: [ 'satire' ] },
-  'The Truth Division ':
-   { subUrl: '/fake-news-source/truth-division',
-     url: 'thetruthdivision.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'The Truthseeker ':
-   { subUrl: '/fake-news-source/truthseeker',
-     url: 'www.thetruthseeker.co.uk',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'psuedoscience' ] },
-  'The UnReal Times ':
-   { subUrl: '/fake-news-source/unreal-times',
-     url: 'theunrealtimes.com',
-     bias: [ 'satire' ] },
-  'The US Patriot ':
-   { subUrl: '/fake-news-source/us-patriot',
-     url: 'theuspatriot.com',
-     bias: [] },
-  'The Valley Report ':
-   { subUrl: '/fake-news-source/valley-report',
-     url: 'thevalleyreport.com',
-     bias: [ 'satire' ] },
-  'The Vigilant Citizen ':
-   { subUrl: '/fake-news-source/vigilant-citizen',
-     url: 'vigilantcitizen.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias' ] },
-  'The Washington Free Beacon ':
-   { subUrl: '/fake-news-source/washington-free-beacon',
-     url: 'freebeacon.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias',
-        'war' ] },
-  'The Watch Towers ':
-   { subUrl: '/fake-news-source/watch-towers',
-     url: 'thewatchtowers.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'Three Percenter Nation ':
-   { subUrl: '/fake-news-source/three-percenter-nation',
-     url: 'threepercenternation.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'Top Right News ':
-   { subUrl: '/fake-news-source/top-right-news',
-     url: 'toprightnews.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias' ] },
-  'Topeka News ':
-   { subUrl: '/fake-news-source/topeka-news',
-     url: 'topekasnews.com',
-     bias: [ 'satire' ] },
-  'TopInfo Post ':
-   { subUrl: '/fake-news-source/topinfo-post',
-     url: 'TopInfoPost.com',
-     bias: [ 'conspiratorial', 'editorial', 'inciteful', 'political', 'war' ] },
-     'True Pundit ':
-   { subUrl: '/fake-news-source/true-pundit',
-     url: 'truepundit.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'political',
-        'psuedoscience',
-        'right bias' ] },
-  'Truth and Action ':
-   { subUrl: '/fake-news-source/truth-and-action',
-     url: 'www.truthandaction.org',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'political',
-        'psuedoscience',
-        'right bias' ] },
-  'Truth Broadcast Network ':
-   { subUrl: '/fake-news-source/truth-broadcast-network',
-     url: 'truthbroadcastnetwork.com',
-     bias: [ 'conspiratorial', 'editorial', 'political', 'right bias' ] },
-  'Truth Feed ':
-   { subUrl: '/fake-news-source/truth-feed',
-     url: 'truthfeed.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'Truth Frequency Radio ':
-   { subUrl: '/fake-news-source/truth-frequency-radio',
-     url: 'truthfrequencyradio.com',
-     bias: [] },
-  'Truth Kings ':
-   { subUrl: '/fake-news-source/truth-kings',
-     url: 'truthkings.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'Twitchy ':
-   { subUrl: '/fake-news-source/twitchy',
-     url: 'twitchy.com',
-     bias: [ 'conspiratorial', 'political', 'psuedoscience' ] },
-  'Uncle Sams Misguided Children ':
-   { subUrl: '/fake-news-source/uncle-sams-misguided-children',
-     url: 'unclesamsmisguidedchildren.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'political',
-        'psuedoscience',
-        'right bias' ] },
-  'Unconfirmed Sources ':
-   { subUrl: '/fake-news-source/unconfirmed-sources',
-     url: 'unconfirmedsources.com',
-     bias: [] },
-  'Underground World News ':
-   { subUrl: '/fake-news-source/underground-world-news',
-     url: 'undergroundworldnews.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias' ] },
-  'US Advisor ':
-   { subUrl: '/fake-news-source/us-advisor',
-     url: 'ushealthyadvisor.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'US Chronicle ':
-   { subUrl: '/fake-news-source/us-chronicle',
-     url: 'uschronicle.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'US Politics Live ':
-   { subUrl: '/fake-news-source/us-politics-live',
-     url: 'www.uspoliticslive.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'US Uncut ':
-   { subUrl: '/fake-news-source/us-uncut',
-     url: 'usuncut.com',
-     bias: [ 'conspiratorial', 'inciteful', 'left bias', 'political' ] },
-     'USA News Insider ':
-   { subUrl: '/fake-news-source/usa-news-insider',
-     url: 'www.usanewsinsider.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'USA Newsflash ':
-   { subUrl: '/fake-news-source/usa-newsflash',
-     url: 'usanewsflash.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'political',
-        'psuedoscience',
-        'right bias' ] },
-  'USA Supreme ':
-   { subUrl: '/fake-news-source/usa-supreme',
-     url: 'www.usasupreme.com',
-     bias: [ 'conspiratorial', 'political', 'psuedoscience' ] },
-  'Veterans Today ':
-   { subUrl: '/fake-news-source/veterans-today',
-     url: 'www.veteranstoday.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'psuedoscience',
-        'right bias',
-        'war' ] },
-  'Viral Liberty ':
-   { subUrl: '/fake-news-source/viral-liberty',
-     url: 'viralliberty.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'Walid Shoebat ':
-   { subUrl: '/fake-news-source/walid-shoebat',
-     url: 'shoebat.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'Washington Examiner ':
-   { subUrl: '/fake-news-source/washington-examiner',
-     url: 'www.washingtonexaminer.com',
-     bias: [ 'conspiratorial', 'political', 'right bias' ] },
-  'Waterford Whispers News ':
-   { subUrl: '/fake-news-source/waterford-whispers-news',
-     url: 'waterfordwhispersnews.com',
-     bias: [ 'satire' ] },
-  'We Are Change ':
-   { subUrl: '/fake-news-source/we-are-change',
-     url: 'wearechange.org',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'political',
-        'psuedoscience',
-        'right bias' ] },
-  'WebDaily ':
-   { subUrl: '/fake-news-source/webdaily',
-     url: 'www.webdaily.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'Weekly World News ':
-   { subUrl: '/fake-news-source/weekly-world-news',
-     url: 'weeklyworldnews.com',
-     bias: [] },
-  'What Does It Mean ':
-   { subUrl: '/fake-news-source/what-does-it-mean',
-     url: 'www.whatdoesitmean.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'political',
-        'psuedoscience',
-        'right bias' ] },
-  'What Really Happened ':
-   { subUrl: '/fake-news-source/what-really-happened',
-     url: 'whatreallyhappened.com',
-     bias: [ 'conspiratorial', 'political', 'psuedoscience' ] },
-  'White Power ':
-   { subUrl: '/fake-news-source/white-power',
-     url: 'whitepower.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias',
-        'war' ] },
-        'Winning Democrats ':
-   { subUrl: '/fake-news-source/winning-democrats',
-     url: 'winningdemocrats.com',
-     bias: [ 'conspiratorial', 'inciteful', 'left bias', 'political' ] },
-  'Wit Science ':
-   { subUrl: '/fake-news-source/wit-science',
-     url: 'witscience.org',
-     bias: [] },
-  'WND – WorldNetDaily ':
-   { subUrl: '/fake-news-source/wnd-%E2%80%93-worldnetdaily',
-     url: 'wnd.com',
-     bias:
-      [ 'conspiratorial',
-        'editorial',
-        'inciteful',
-        'political',
-        'right bias' ] },
-  'Wonkie ':
-   { subUrl: '/fake-news-source/wonkie',
-     url: 'wonkie.com',
-     bias: [ 'satire' ] },
-  'World News Daily Report ':
-   { subUrl: '/fake-news-source/world-news-daily-report',
-     url: 'worldnewsdailyreport.com',
-     bias: [] },
-  'World Truth ':
-   { subUrl: '/fake-news-source/world-truth',
-     url: 'worldtruth.tv',
-     bias: [ 'conspiratorial', 'editorial', 'political', 'psuedoscience' ] },
-  'Yes I’m Right ':
-   { subUrl: '/fake-news-source/yes-i%E2%80%99m-right',
-     url: 'www.yesimright.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'Your News Wire ':
-   { subUrl: '/fake-news-source/your-news-wire',
-     url: 'yournewswire.com',
-     bias: [ 'conspiratorial', 'political' ] },
-  'Zero Hedge ':
-   { subUrl: '/fake-news-source/zero-hedge',
-     url: 'www.zerohedge.com',
-     bias: [ 'conspiratorial', 'political', 'psuedoscience' ] },
-  'Zoot Feed ':
-   { subUrl: '/fake-news-source/zoot-feed',
-     url: 'www.zootfeed.com',
-     bias: [ 'conspiratorial', 'political' ] }
-   }
+  "100 Percent Fed Up ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience", "right bias", "war"
+    ],
+    "subUrl": "/fake-news-source/100-percent-fed",
+    "url": "100percentfedup.com"
+  },
+  "21st Century Wire ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience", "right bias", "war"
+    ],
+    "subUrl": "/fake-news-source/21st-century-wire",
+    "url": "21stcenturywire.com"
+  },
+  "365 USA News ": {
+    "bias": [
+      "conspiratorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/365-usa-news",
+    "url": "365usanews .com"
+  },
+  "70News ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience", "right bias", "war"
+    ],
+    "subUrl": "/fake-news-source/70news",
+    "url": "70news.wordpress.com"
+  },
+  "ABCNews.com.co ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience", "right bias", "war"
+    ],
+    "subUrl": "/fake-news-source/abcnewscomco",
+    "url": "www.abcnews.com.co"
+  },
+  "Abel Danger ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience", "right bias", "war"
+    ],
+    "subUrl": "/fake-news-source/abel-danger",
+    "url": "http://www.abeldanger.net"
+  },
+  "Above Top Secret ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/above-top-secret",
+    "url": "www.abovetopsecret.com"
+  },
+  "Activist Post ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "political",
+      "psuedoscience",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/activist-post",
+    "url": "www.activistpost.com"
+  },
+  "Addicting Info ": {
+    "bias": [
+      "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/addicting-info",
+    "url": "addictinginfo.org"
+  },
+  "Advocate ": {
+    "bias": [
+      "left bias", "political", "special interest"
+    ],
+    "subUrl": "/fake-news-source/advocate",
+    "url": "www.advocate.com"
+  },
+  "All News Pipeline ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience", "right bias", "war"
+    ],
+    "subUrl": "/fake-news-source/all-news-pipeline-0",
+    "url": "http://allnewspipeline.com"
+  },
+  "AlterNet ": {
+    "bias": [
+      "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/alternet",
+    "url": "www.alternet.org"
+  },
+  "Amandla! ": {
+    "bias": [
+      "left bias", "political", "special interest"
+    ],
+    "subUrl": "/fake-news-source/amandla",
+    "url": "aidc.org.za/amandla-media/"
+  },
+  "America Blog ": {
+    "bias": [
+      "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/america-blog",
+    "url": "americablog.com"
+  },
+  "America's Freedom Fighters ": {
+    "bias": [
+      "conspiratorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/americas-freedom-fighters",
+    "url": "www.americasfreedomfighters.com"
+  },
+  "American Free Press ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/american-free-press",
+    "url": "americanfreepress.net"
+  },
+  "American Herald Tribune ": {
+    "bias": [
+      "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/american-herald-tribune",
+    "url": "ahtribune.com"
+  },
+  "American Lookout ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/american-lookout",
+    "url": "americanlookout .com"
+  },
+  "American News ": {
+    "bias": [
+      "conspiratorial", "inciteful", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/american-news",
+    "url": "AmericanNews.com"
+  },
+  "American Overlook ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/american-overlook",
+    "url": "americanoverlook.com"
+  },
+  "American Patriot Daily ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/american-patriot-daily",
+    "url": "www.americanpatriotdaily.com"
+  },
+  "American Renaissance ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience", "right bias", "war"
+    ],
+    "subUrl": "/fake-news-source/american-renaissance",
+    "url": "www.amren.com"
+  },
+  "American Reviewer ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/american-reviewer",
+    "url": "americanreviewer.com"
+  },
+  "American Today ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/american-today",
+    "url": "truthpoliticsnews.com"
+  },
+  "Angry Patriot ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/angry-patriot",
+    "url": "www.angrypatriotmovement.com"
+  },
+  "Anonymous ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience", "right bias", "war"
+    ],
+    "subUrl": "/fake-news-source/anonymous",
+    "url": "www.anonews.co"
+  },
+  "Another Day in The Empire ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/another-day-empire",
+    "url": "anotherdayintheempire.com"
+  },
+  "Anti Media ": {
+    "bias": [
+      "conspiratorial", "editorial", "political"
+    ],
+    "subUrl": "/fake-news-source/anti-media",
+    "url": "theantimedia.org"
+  },
+  "Anti-War ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/anti-war",
+    "url": "www.antiwar.com"
+  },
+  "Assassination Science ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience", "right bias", "war"
+    ],
+    "subUrl": "/fake-news-source/assassination-science",
+    "url": "assassinationscience.com"
+  },
+  "AWD News ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/awd-news",
+    "url": "awdnews.com"
+  },
+  "Awareness Act ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/awareness-act",
+    "url": "awarenessact.com"
+  },
+  "Awaze Tribune ": {
+    "bias": ["political"],
+    "subUrl": "/fake-news-source/awaze-tribune",
+    "url": "awazetribune.com"
+  },
+  "BB4SP ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/bb4sp",
+    "url": "bb4sp.com"
+  },
+  "Bare Naked Islam ": {
+    "bias": [
+      "conspiratorial", "inciteful", "political", "right bias", "war"
+    ],
+    "subUrl": "/fake-news-source/bare-naked-islam",
+    "url": "www.barenakedislam.com"
+  },
+  "Bay Area Reporter ": {
+    "bias": [
+      "left bias", "political", "special interest"
+    ],
+    "subUrl": "/fake-news-source/bay-area-reporter",
+    "url": "www.ebar.com"
+  },
+  "Before It's News ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/before-its-news",
+    "url": "beforeitsnews.com"
+  },
+  "Bent*Spud ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/bentspud",
+    "url": "www.bentspud.com"
+  },
+  "Big Hairy News ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/big-hairy-news",
+    "url": "www.bighairynews.com"
+  },
+  "Big Nugget News ": {
+    "bias": [
+      "conspiratorial", "inciteful", "political", "right bias", "war"
+    ],
+    "subUrl": "/fake-news-source/big-nugget-news",
+    "url": "bignuggetnews.com"
+  },
+  "Bipartisan Report ": {
+    "bias": [
+      "conspiratorial", "left bias", "political", "psuedoscience"
+    ],
+    "subUrl": "/fake-news-source/bipartisan-report",
+    "url": "bipartisanreport.com"
+  },
+  "BizPac Review ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience", "right bias", "war"
+    ],
+    "subUrl": "/fake-news-source/bizpac-review",
+    "url": "www.bizpacreview.com"
+  },
+  "Black Genocide ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/black-genocide",
+    "url": "www.blackgenocide.org/home.html"
+  },
+  "Blacklisted News ": {
+    "bias": [
+      "conspiratorial", "inciteful", "political", "right bias", "war"
+    ],
+    "subUrl": "/fake-news-source/blacklisted-news",
+    "url": "blacklistednews.com"
+  },
+  "Blasting News ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience", "right bias", "war"
+    ],
+    "subUrl": "/fake-news-source/blasting-news",
+    "url": "us.blastingnews.com"
+  },
+  "Blue Nation Review ": {
+    "bias": [
+      "conspiratorial", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/blue-nation-review",
+    "url": "bluenationreview.com"
+  },
+  "Borowitz Report ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/borowitz-report",
+    "url": "borowitzreport.com"
+  },
+  "Breitbart News ": {
+    "bias": [
+      "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/breitbart-news",
+    "url": "www.breitbart.com"
+  },
+  "Call the Cops ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience", "right bias", "war"
+    ],
+    "subUrl": "/fake-news-source/call-cops",
+    "url": "www.callthecops.net"
+  },
+  "Canada Free Press ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/canada-free-press",
+    "url": "canadafreepress.com"
+  },
+  "Canadian Dimension ": {
+    "bias": [
+      "left bias", "political", "special interest"
+    ],
+    "subUrl": "/fake-news-source/canadian-dimension",
+    "url": "canadiandimension.com"
+  },
+  "Cap News ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience", "right bias", "war"
+    ],
+    "subUrl": "/fake-news-source/cap-news",
+    "url": "cap-news.com"
+  },
+  "Center For American Progress ": {
+    "bias": [
+      "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/center-american-progress",
+    "url": "www.americanprogress.org"
+  },
+  "Center For Security Policy ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/center-security-policy",
+    "url": "www.centerforsecuritypolicy.org"
+  },
+  "Channel 7 News ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/channel-7-news",
+    "url": "channel-7-news.com"
+  },
+  "Christ Wire ": {
+    "bias": [],
+    "subUrl": "/fake-news-source/christ-wire",
+    "url": "ChristWire.org"
+  },
+  "Christian Times Newspaper ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/christian-times-newspaper",
+    "url": "christiantimesnewspaper.com"
+  },
+  "Civic Tribune ": {
+    "bias": [
+      "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/civic-tribune",
+    "url": "CivicTribune.com"
+  },
+  "Clash Daily ": {
+    "bias": [
+      "conspiratorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/clash-daily",
+    "url": "clashdaily.com"
+  },
+  "Click Hole ": {
+    "bias": ["right bias"],
+    "subUrl": "/fake-news-source/click-hole",
+    "url": "clickhole.com"
+  },
+  "Coast to Coast AM ": {
+    "bias": [
+      "conspiratorial", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/coast-coast-am",
+    "url": "www.coasttocoastam.com"
+  },
+  "Collective Evolution ": {
+    "bias": [
+      "conspiratorial", "editorial", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/collective-evolution",
+    "url": "www.collective-evolution.com"
+  },
+  "Collectively Conscious ": {
+    "bias": [
+      "conspiratorial", "editorial", "psuedoscience"
+    ],
+    "subUrl": "/fake-news-source/collectively-conscious",
+    "url": "collectivelyconscious.net"
+  },
+  "Common Dreams ": {
+    "bias": [
+      "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/common-dreams",
+    "url": "www.commondreams.org"
+  },
+  "Conscious Life News ": {
+    "bias": [
+      "conspiratorial", "editorial", "left bias", "psuedoscience"
+    ],
+    "subUrl": "/fake-news-source/conscious-life-news",
+    "url": "consciouslifenews.com"
+  },
+  "Conservative Byte ": {
+    "bias": [
+      "conspiratorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/conservative-byte",
+    "url": "conservativebyte.com"
+  },
+  "Conservative Daily Post ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "psuedoscience",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/conservative-daily-post",
+    "url": "conservativedailypost.com"
+  },
+  "Conservative Firing Line ": {
+    "bias": [
+      "conspiratorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/conservative-firing-line",
+    "url": "conservativefiringline.com"
+  },
+  "Conservative Frontline ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/conservative-frontline",
+    "url": "conservativefrontline.com"
+  },
+  "Conservative Infidel ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/conservative-infidel",
+    "url": "www.conservativeinfidel.com"
+  },
+  "Conservative Outfitters ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/conservative-outfitters",
+    "url": "conservativeoutfitters.com"
+  },
+  "Conservative Papers ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/conservative-papers",
+    "url": "conservativepapers.com"
+  },
+  "Conservative Refocus ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/conservative-refocus",
+    "url": "conservativerefocus.com"
+  },
+  "Conservative State ": {
+    "bias": [
+      "conspiratorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/conservative-state",
+    "url": "conservativestate.com"
+  },
+  "Conservative Tribune ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/conservative-tribune",
+    "url": "conservativetribune.com"
+  },
+  "Conspiracy Planet ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "psuedoscience",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/conspiracy-planet",
+    "url": "www.conspiracyplanet.com"
+  },
+  "Constitution Rising ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/constitution-rising",
+    "url": "rickwells.us"
+  },
+  "Countdown to Zero Time ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/countdown-zero-time",
+    "url": "countdowntozerotime.com"
+  },
+  "Counter Current News ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/counter-current-news",
+    "url": "countercurrentnews.com"
+  },
+  "Counter PsyOps ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/counter-psyops",
+    "url": "counterpsyops.com"
+  },
+  "CounterPunch ": {
+    "bias": [
+      "inciteful", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/counterpunch",
+    "url": "www.counterpunch.org"
+  },
+  "Cowger nation ": {
+    "bias": [
+      "conspiratorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/cowger-nation",
+    "url": "cowgernation.com"
+  },
+  "Cracked ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/cracked",
+    "url": "cracked.com"
+  },
+  "Cream BMP ": {
+    "bias": [
+      "editorial", "political", "right bias", "special interest"
+    ],
+    "subUrl": "/fake-news-source/cream-bmp",
+    "url": "creambmp.com"
+  },
+  "Cronica Deportiva Politic ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/cronica-deportiva-politic",
+    "url": "cronicadeportiva.com/index.php/category/politic/"
+  },
+  "Crooks and Liars ": {
+    "bias": [
+      "conspiratorial", "inciteful", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/crooks-and-liars",
+    "url": "crooksandliars.com"
+  },
+  "Daily Buzz Live ": {
+    "bias": [],
+    "subUrl": "/fake-news-source/daily-buzz-live",
+    "url": "dailybuzzlive.com"
+  },
+  "Daily Currant ": {
+    "bias": [],
+    "subUrl": "/fake-news-source/daily-currant",
+    "url": "DailyCurrant.com"
+  },
+  "Daily Headlines ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "psuedoscience",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/daily-headlines",
+    "url": "dailyheadlines.net"
+  },
+  "Daily Kos ": {
+    "bias": [
+      "editorial", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/daily-kos",
+    "url": "www.dailykos.com"
+  },
+  "DC Clothesline ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/dc-clothesline",
+    "url": "DCClothesline.com"
+  },
+  "DC Gazette ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/dc-gazette",
+    "url": "DCGazette.com"
+  },
+  "DC Whispers ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/dc-whispers",
+    "url": "dcwhispers.com"
+  },
+  "Daily News Bin ": {
+    "bias": [
+      "editorial", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/daily-news-bin",
+    "url": "www.dailynewsbin.com"
+  },
+  "Daily Occupation ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/daily-occupation",
+    "url": "dailyoccupation.com"
+  },
+  "Dallas Voice ": {
+    "bias": [
+      "editorial", "left bias", "political", "special interest"
+    ],
+    "subUrl": "/fake-news-source/dallas-voice",
+    "url": "www.dallasvoice.com"
+  },
+  "Dark Politricks ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/dark-politricks",
+    "url": "www.darkpolitricks.com"
+  },
+  "Darkmoon ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/darkmoon",
+    "url": "www.darkmoon.me"
+  },
+  "David Duke.com ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "special interest"
+    ],
+    "subUrl": "/fake-news-source/david-dukecom",
+    "url": "davidduke.com"
+  },
+  "Debunking Skeptics ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/debunking-skeptics",
+    "url": "www.debunkingskeptics.com"
+  },
+  "Defend Democracy ": {
+    "bias": [
+      "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/defend-democracy",
+    "url": "defenddemocracy.press"
+  },
+  "Democracy Now ": {
+    "bias": [
+      "editorial", "left bias", "political", "special interest"
+    ],
+    "subUrl": "/fake-news-source/democracy-now",
+    "url": "www.democracynow.org"
+  },
+  "Democratic Underground ": {
+    "bias": [
+      "editorial", "left bias", "political", "special interest"
+    ],
+    "subUrl": "/fake-news-source/democratic-underground",
+    "url": "www.democraticunderground.com"
+  },
+  "Dennis Michael Lynch ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/dennis-michael-lynch",
+    "url": "dennismichaellynch.com"
+  },
+  "Departed ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/departed",
+    "url": "departed.co"
+  },
+  "Derf Magazine ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/derf-magazine",
+    "url": "derfmagazine.com"
+  },
+  "Disclose.tv ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/disclosetv",
+    "url": "www.disclose.tv"
+  },
+  "Disclosure Media ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/disclosure-media",
+    "url": "disclosuremedia.net"
+  },
+  "Dissent Magazine ": {
+    "bias": [
+      "editorial", "left bias", "political", "special interest"
+    ],
+    "subUrl": "/fake-news-source/dissent-magazine",
+    "url": "www.dissentmagazine.org"
+  },
+  "Downtrend ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/downtrend",
+    "url": "downtrend.com"
+  },
+  "Drudge Report ": {
+    "bias": [],
+    "subUrl": "/fake-news-source/drudge-report",
+    "url": "drudgereport.com"
+  },
+  "Duffle Blog ": {
+    "bias": [
+      "editorial", "political", "right bias", "special interest"
+    ],
+    "subUrl": "/fake-news-source/duffle-blog",
+    "url": "duffelblog.com"
+  },
+  "Duh Progressive ": {
+    "bias": [],
+    "subUrl": "/fake-news-source/duh-progressive",
+    "url": "duhprogressive.com"
+  },
+  "Eagle Rising ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/eagle-rising",
+    "url": "eaglerising.com"
+  },
+  "Earth We Are One ": {
+    "bias": [
+      "conspiratorial", "psuedoscience"
+    ],
+    "subUrl": "/fake-news-source/earth-we-are-one",
+    "url": "ewao.com"
+  },
+  "Economy in Crisis ": {
+    "bias": [
+      "conspiratorial", "editorial", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/economy-crisis",
+    "url": "economyincrisis.org"
+  },
+  "Embols ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/embols",
+    "url": "embols.com"
+  },
+  "Empire News ": {
+    "bias": [
+      "editorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/empire-news",
+    "url": "EmpireNews.com"
+  },
+  "End Of The American Dream ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/end-american-dream",
+    "url": "endoftheamericandream.com"
+  },
+  "Ending The Fed ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/ending-fed",
+    "url": "endingthefed.com"
+  },
+  "EndTime Ministries ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/endtime-ministries",
+    "url": "endtime.com"
+  },
+  "Enduring Vision ": {
+    "bias": [
+      "psuedoscience", "right bias", "satire"
+    ],
+    "subUrl": "/fake-news-source/enduring-vision",
+    "url": "enduringvision.com"
+  },
+  "Executive Intelligence Review ": {
+    "bias": [
+      "conspiratorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/executive-intelligence-review",
+    "url": "larouchepub.com"
+  },
+  "F W Engdahl ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/f-w-engdahl",
+    "url": "oilgeopolitics.net"
+  },
+  "FM observer ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/fm-observer",
+    "url": "fmobserver.com"
+  },
+  "FPRN Radio ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/fprn-radio",
+    "url": "3,471,472"
+  },
+  "Faking News ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/faking-news",
+    "url": "fakingnews.com"
+  },
+  "Family Security Matters ": {
+    "bias": [
+      "conspiratorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/family-security-matters",
+    "url": "familysecuritymatters.org"
+  },
+  "Federalist Press ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/federalist-press",
+    "url": "federalistpress.com"
+  },
+  "Fellowship of the Minds ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/fellowship-minds",
+    "url": "fellowshipoftheminds.com"
+  },
+  "Forward Progressives ": {
+    "bias": [
+      "conspiratorial", "editorial", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/forward-progressives",
+    "url": "www.forwardprogressives.com"
+  },
+  "Freak Out Nation ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/freak-out-nation",
+    "url": "freakoutnation.com"
+  },
+  "Free Wood Post ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/free-wood-post",
+    "url": "freewoodpost.com"
+  },
+  "Freedom Daily ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/freedom-daily",
+    "url": "freedomdaily.com"
+  },
+  "Freedom Outpost ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/freedom-outpost",
+    "url": "freedomoutpost.com"
+  },
+  "Friday Mash ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/friday-mash",
+    "url": "www.fridaymash.com"
+  },
+  "From the Trenches World Report ": {
+    "bias": [
+      "conspiratorial", "inciteful", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/trenches-world-report",
+    "url": "www.fromthetrenchesworldreport.com"
+  },
+  "GOP the Daily Dose ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/gop-daily-dose",
+    "url": "gopthedailydose.com"
+  },
+  "Gangster Government ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "psuedoscience",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/gangster-government",
+    "url": "gangstergovernment.com"
+  },
+  "Geller Report ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/geller-report",
+    "url": "pamelageller.com"
+  },
+  "Geo Engineering Watch ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/geo-engineering-watch",
+    "url": "www.geoengineeringwatch.org"
+  },
+  "Global Research ": {
+    "bias": [
+      "conspiratorial", "editorial", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/global-research",
+    "url": "www.globalresearch.ca"
+  },
+  "Glossynews.com ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/glossynewscom",
+    "url": "glossynews.com"
+  },
+  "Gomer Blog ": {
+    "bias": [
+      "editorial", "left bias", "right bias", "satire"
+    ],
+    "subUrl": "/fake-news-source/gomer-blog",
+    "url": "gomerblog.com"
+  },
+  "Gone Left ": {
+    "bias": [
+      "conspiratorial", "editorial", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/gone-left",
+    "url": "goneleft.com"
+  },
+  "Government Slaves ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/government-slaves",
+    "url": "govtslaves.info"
+  },
+  "Gulag Bound ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "psuedoscience",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/gulag-bound",
+    "url": "gulagbound.com"
+  },
+  "Hang The Bankers ": {
+    "bias": [
+      "conspiratorial", "editorial", "right bias"
+    ],
+    "subUrl": "/fake-news-source/hang-bankers",
+    "url": "www.hangthebankers.com"
+  },
+  "Health Impact News ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/health-impact-news",
+    "url": "healthimpactnews.com"
+  },
+  "Henry Makow ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/henry-makow",
+    "url": "henrymakow.com"
+  },
+  "Herman Cain ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/herman-cain",
+    "url": "www.caintv.com"
+  },
+  "Humans are Free ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/humans-are-free",
+    "url": "humansarefree.com"
+  },
+  "Humor Times ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/humor-times",
+    "url": "humortimes.com"
+  },
+  "Huzlers ": {
+    "bias": [
+      "right bias", "satire"
+    ],
+    "subUrl": "/fake-news-source/huzlers",
+    "url": "huzlers.com"
+  },
+  "I Have the Truth ": {
+    "bias": [
+      "conspiratorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/i-have-truth",
+    "url": "ihavethetruth.com"
+  },
+  "If You Only News ": {
+    "bias": [
+      "conspiratorial", "editorial", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/if-you-only-news",
+    "url": "www.ifyouonlynews.com"
+  },
+  "Illuminati News ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "psuedoscience",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/illuminati-news",
+    "url": "www.illuminati-news.com"
+  },
+  "In Trend Today ": {
+    "bias": [
+      "conspiratorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/trend-today",
+    "url": "intrendtoday.com"
+  },
+  "Infinite Unknown ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "psuedoscience",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/infinite-unknown",
+    "url": "www.infiniteunknown.net"
+  },
+  "Information Clearing House ": {
+    "bias": [
+      "conspiratorial", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/information-clearing-house",
+    "url": "informationclearinghouse.info"
+  },
+  "Infostormer ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/infostormer",
+    "url": "Infostormer.com"
+  },
+  "Infowars ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "psuedoscience",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/infowars",
+    "url": "www.infowars.com"
+  },
+  "IntelliHub ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "psuedoscience",
+      "right bias"
+    ],
+    "subUrl": "/fake-news-source/intellihub",
+    "url": "www.intellihub.com"
+  },
+  "Intrepid Report ": {
+    "bias": [
+      "editorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/intrepid-report",
+    "url": "intrepidreport.com"
+  },
+  "Investment Watch Blog ": {
+    "bias": [
+      "editorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/investment-watch-blog",
+    "url": "investmentwatchblog.com"
+  },
+  "Ironic Times ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/ironic-times",
+    "url": "ironictimes.com"
+  },
+  "Islamica News ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/islamica-news",
+    "url": "islamicanews.com"
+  },
+  "Israel Islam and End Times ": {
+    "bias": [
+      "conspiratorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/israel-islam-and-end-times",
+    "url": "www.israelislamandendtimes.com"
+  },
+  "Jack Pine Radicals ": {
+    "bias": [
+      "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/jack-pine-radicals",
+    "url": "jackpineradicals.com"
+  },
+  "Jacobin ": {
+    "bias": [
+      "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/jacobin",
+    "url": "www.jacobinmag.com"
+  },
+  "Jan Morgan Media ": {
+    "bias": [
+      "conspiratorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/jan-morgan-media",
+    "url": "janmorganmedia.com"
+  },
+  "Jews News ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/jews-news",
+    "url": "www.jewsnews.co.il"
+  },
+  "Jezebel ": {
+    "bias": [
+      "editorial", "left bias", "political", "special interest"
+    ],
+    "subUrl": "/fake-news-source/jezebel",
+    "url": "jezebel.com"
+  },
+  "Johnny Robish ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/johnny-robish",
+    "url": "www.johnnyrobish.com"
+  },
+  "Jones Report ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "psuedoscience",
+      "right bias"
+    ],
+    "subUrl": "/fake-news-source/jones-report",
+    "url": "jonesreport.com"
+  },
+  "King World News ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/king-world-news",
+    "url": "kingworldnews.com"
+  },
+  "Lew Rockwell ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/lew-rockwell",
+    "url": "lewrockwell.com"
+  },
+  "Liberal America ": {
+    "bias": [
+      "editorial", "left bias", "political", "special interest"
+    ],
+    "subUrl": "/fake-news-source/liberal-america",
+    "url": "www.liberalamerica.org"
+  },
+  "Liberal Darkness ": {
+    "bias": [
+      "conspiratorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/liberal-darkness",
+    "url": "liberaldarkness.com"
+  },
+  "iTag Live ": {
+    "bias": [
+      "editorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/itag-live",
+    "url": "itaglive.com"
+  },
+  "Liberals Unite ": {
+    "bias": [
+      "editorial", "left bias", "political", "special interest"
+    ],
+    "subUrl": "/fake-news-source/liberals-unite",
+    "url": "samuel-warde.com"
+  },
+  "Liberty Blitzkrieg ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/liberty-blitzkrieg",
+    "url": "libertyblitzkrieg.com"
+  },
+  "Liberty Movement Radio ": {
+    "bias": [
+      "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/liberty-movement-radio",
+    "url": "libertymovementradio.com"
+  },
+  "Liberty News ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/liberty-news",
+    "url": "libertynews.com"
+  },
+  "Liberty Talk FM ": {
+    "bias": [
+      "editorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/liberty-talk-fm",
+    "url": ""
+  },
+  "Liberty Unyielding ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience", "right bias", "war"
+    ],
+    "subUrl": "/fake-news-source/liberty-unyielding",
+    "url": "libertyunyielding.com"
+  },
+  "Liberty Videos ": {
+    "bias": [],
+    "subUrl": "/fake-news-source/liberty-videos",
+    "url": "libertyvideos.com"
+  },
+  "Liberty Writers News ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/liberty-writers-news",
+    "url": "www.libertywritersnews.com"
+  },
+  "LifeZette ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/lifezette",
+    "url": "www.lifezette.com"
+  },
+  "Liftable ": {
+    "bias": [
+      "editorial", "psuedoscience", "special interest"
+    ],
+    "subUrl": "/fake-news-source/liftable",
+    "url": "www.liftable.com"
+  },
+  "Lush for Life ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/lush-life",
+    "url": "lushforlife.com"
+  },
+  "MPI Daily Magazine ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/mpi-daily-magazine",
+    "url": "mpidailymagazine.com"
+  },
+  "Mad World News ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/mad-world-news",
+    "url": "madworldnews.com"
+  },
+  "Make America Great Today ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/make-america-great-today",
+    "url": "makeamericagreattoday.com"
+  },
+  "Media Matters ": {
+    "bias": [
+      "editorial", "left bias", "political", "special interest"
+    ],
+    "subUrl": "/fake-news-source/media-matters",
+    "url": "mediamatters.org"
+  },
+  "Militia News ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/militia-news",
+    "url": "www.militianews.com"
+  },
+  "Mirror ": {
+    "bias": [
+      "editorial", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/mirror",
+    "url": "www.mirror.co.uk"
+  },
+  "Moon of Alabama ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/moon-alabama",
+    "url": "moonofalabama.org"
+  },
+  "Morning Ledger ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/morning-ledger",
+    "url": "www.morningledger.com"
+  },
+  "Mother Jones ": {
+    "bias": [
+      "editorial", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/mother-jones",
+    "url": "www.motherjones.com"
+  },
+  "Move On ": {
+    "bias": [
+      "editorial", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/move",
+    "url": "front.moveon.org"
+  },
+  "Mr. Conservative ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/mr-conservative",
+    "url": "mrconservative.com"
+  },
+  "MyZone Today ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/myzone-today",
+    "url": "myzonetoday.com"
+  },
+  "Nation One News ": {
+    "bias": [
+      "conspiratorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/nation-one-news",
+    "url": "nationonenews.com"
+  },
+  "Nation of Change ": {
+    "bias": [
+      "editorial", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/nation-change",
+    "url": "www.nationofchange.org"
+  },
+  "National Insider Politics ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/national-insider-politics",
+    "url": "www.nationalinsiderpolitics.com"
+  },
+  "National Report ": {
+    "bias": [
+      "editorial", "political", "right bias", "satire"
+    ],
+    "subUrl": "/fake-news-source/national-report",
+    "url": "nationalreport.net"
+  },
+  "New Century Times ": {
+    "bias": [
+      "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/new-century-times",
+    "url": "newcenturytimes.com"
+  },
+  "News 4 ": {
+    "bias": [
+      "editorial", "psuedoscience", "satire"
+    ],
+    "subUrl": "/fake-news-source/news-4",
+    "url": "news4ktla.com"
+  },
+  "News Busters ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "political",
+      "psuedoscience",
+      "right bias",
+      "special interest"
+    ],
+    "subUrl": "/fake-news-source/news-busters",
+    "url": "www.newsbusters.org"
+  },
+  "News Corpse ": {
+    "bias": [
+      "editorial", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/news-corpse",
+    "url": "newscorpse.com"
+  },
+  "News Mutiny ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "satire"
+    ],
+    "subUrl": "/fake-news-source/news-mutiny",
+    "url": "newsmutiny.com"
+  },
+  "News Target ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/news-target",
+    "url": "newstarget.com"
+  },
+  "News Thump ": {
+    "bias": [
+      "editorial", "political", "right bias", "satire"
+    ],
+    "subUrl": "/fake-news-source/news-thump",
+    "url": "newsthump.com"
+  },
+  "News Wire 24 ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/news-wire-24",
+    "url": "newswire-24.com"
+  },
+  "News With Views ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/news-views",
+    "url": "newswithviews.com"
+  },
+  "NewsBiscuit ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/newsbiscuit",
+    "url": "newsbiscuit.com"
+  },
+  "NewsBreakers ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/newsbreakers",
+    "url": "newsbreakers.org"
+  },
+  "Newslo ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/newslo",
+    "url": "politicops.com"
+  },
+  "No Dis Info ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political"
+    ],
+    "subUrl": "/fake-news-source/no-dis-info",
+    "url": "nodisinfo.com"
+  },
+  "Not Allowed To ": {
+    "bias": [
+      "conspiratorial", "inciteful", "political", "psuedoscience"
+    ],
+    "subUrl": "/fake-news-source/not-allowed",
+    "url": "notallowedto.com"
+  },
+  "Now The End Begins ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/now-end-begins",
+    "url": "www.nowtheendbegins.com"
+  },
+  "Now8News.com ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/now8newscom",
+    "url": "now8news.com"
+  },
+  "Occupy Democrats ": {
+    "bias": [
+      "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/occupy-democrats",
+    "url": "occupydemocrats.com"
+  },
+  "Online Conservative Press ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/online-conservative-press",
+    "url": "onlineconservativepress.com"
+  },
+  "Pak Alert Press ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "psuedoscience",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/pak-alert-press",
+    "url": "www.pakalertpress.com"
+  },
+  "Pat Dollard ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/pat-dollard",
+    "url": "patdollard.com"
+  },
+  "Patriot Update ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/patriot-update",
+    "url": "patriotupdate.com"
+  },
+  "Political Blind Spot ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "satire"
+    ],
+    "subUrl": "/fake-news-source/political-blind-spot",
+    "url": "politicalblindspot.com"
+  },
+  "Political Ears ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/political-ears",
+    "url": "newsmutiny.com"
+  },
+  "Political Reviewer ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/political-reviewer",
+    "url": "politicalreviewer.com"
+  },
+  "Political Updater ": {
+    "bias": [
+      "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/political-updater",
+    "url": "politicalupdater.com"
+  },
+  "Political Vel Craft ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/political-vel-craft",
+    "url": "politicalvelcraft.org"
+  },
+  "Politics USA ": {
+    "bias": [
+      "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/politics-usa",
+    "url": "www.politicususa.com"
+  },
+  "Pravda Report ": {
+    "bias": [
+      "conspiratorial", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/pravda-report",
+    "url": "www.pravdareport.com"
+  },
+  "Press TV ": {
+    "bias": [
+      "conspiratorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/press-tv",
+    "url": "presstv.ir"
+  },
+  "Prison Planet ": {
+    "bias": [
+      "conspiratorial", "editorial", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/prison-planet",
+    "url": "www.prisonplanet.com"
+  },
+  "Private Eye ": {
+    "bias": [
+      "editorial", "political", "right bias", "satire"
+    ],
+    "subUrl": "/fake-news-source/private-eye",
+    "url": "private-eye.co.uk"
+  },
+  "Prntly | America's Top News ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/prntly-americas-top-news-site",
+    "url": "prntly.com"
+  },
+  "Proud Conservative ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/proud-conservative",
+    "url": "www.proudcons.com"
+  },
+  "Q Political ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/q-political",
+    "url": "qpolitical.com"
+  },
+  "Raw Story ": {
+    "bias": [
+      "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/raw-story",
+    "url": "www.rawstory.com"
+  },
+  "Read Conservatives ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/read-conservatives",
+    "url": "readconservatives.news"
+  },
+  "Reagan Coalition ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/reagan-coalition",
+    "url": "reagancoalition.com"
+  },
+  "Real News Right Now ": {
+    "bias": ["editorial"],
+    "subUrl": "/fake-news-source/real-news-right-now",
+    "url": "realnewsrightnow.com"
+  },
+  "Real Time Politics ": {
+    "bias": [
+      "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/real-time-politics",
+    "url": "realtimepolitics.com"
+  },
+  "Red Flag News ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/red-flag-news",
+    "url": "www.redflagnews.com"
+  },
+  "Red State Watcher ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/red-state-watcher",
+    "url": "redstatewatcher.com"
+  },
+  "Rense ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "psuedoscience",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/rense",
+    "url": "www.rense.com"
+  },
+  "Revos.2040 ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/revos2040",
+    "url": "www.revolutions2040.com"
+  },
+  "RT - Russia Today ": {
+    "bias": [
+      "conspiratorial", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/rt-russia-today",
+    "url": "www.rt.com"
+  },
+  "Right Alerts ": {
+    "bias": [
+      "conspiratorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/right-alerts",
+    "url": "rightalerts.com"
+  },
+  "Right Wing News ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/right-wing-news",
+    "url": "rightwingnews.com"
+  },
+  "Rile News ": {
+    "bias": [],
+    "subUrl": "/fake-news-source/rile-news",
+    "url": "rilenews.com"
+  },
+  "Rock City Times ": {
+    "bias": [
+      "political", "right bias", "satire"
+    ],
+    "subUrl": "/fake-news-source/rock-city-times",
+    "url": "rockcitytimes.com"
+  },
+  "Rumor Mill News ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/rumor-mill-news",
+    "url": "rumormillnews.com"
+  },
+  "Ruptly ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/ruptly",
+    "url": "ruptly.tv"
+  },
+  "Russia Direct ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/russia-direct",
+    "url": "russia-direct.org"
+  },
+  "SHTF Plan ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/shtf-plan",
+    "url": "www.shtfplan.com"
+  },
+  "SatireWire ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/satirewire",
+    "url": "satirewire.com"
+  },
+  "ScrappleFace ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/scrappleface",
+    "url": "scrappleface.com"
+  },
+  "Secrets of The Fed ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/secrets-fed",
+    "url": "www.secretsofthefed.com"
+  },
+  "Sheep Killers ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "psuedoscience",
+      "special interest"
+    ],
+    "subUrl": "/fake-news-source/sheep-killers",
+    "url": "www.sheepkillers.com"
+  },
+  "Shoebat ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "psuedoscience",
+      "special interest"
+    ],
+    "subUrl": "/fake-news-source/shoebat",
+    "url": "shoebat.com"
+  },
+  "Signs of The Times ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "psuedoscience",
+      "right bias"
+    ],
+    "subUrl": "/fake-news-source/signs-times",
+    "url": "sott.net"
+  },
+  "Skeptiko ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "psuedoscience",
+      "special interest"
+    ],
+    "subUrl": "/fake-news-source/skeptiko",
+    "url": "skeptiko.com"
+  },
+  "Sputnik News ": {
+    "bias": [
+      "conspiratorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/sputnik-news",
+    "url": "sputniknews.com"
+  },
+  "St Neots Citizen ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/st-neots-citizen",
+    "url": "stneotscitizen.com"
+  },
+  "Storm Clouds Gathering ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "special interest"
+    ],
+    "subUrl": "/fake-news-source/storm-clouds-gathering",
+    "url": "stormcloudsgathering.com"
+  },
+  "Stuppid ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/stuppid",
+    "url": "stuppid.com"
+  },
+  "Subject: Politics ": {
+    "bias": [
+      "conspiratorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/subject-politics",
+    "url": "www.subjectpolitics.com"
+  },
+  "Supreme Patriot ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/supreme-patriot",
+    "url": "supremepatriot.com"
+  },
+  "Surreal Scoop ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/surreal-scoop",
+    "url": "www.surrealscoop.com"
+  },
+  "The American Independent ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/american-independent",
+    "url": "theamericanindependent.wordpress.com"
+  },
+  "The Beaverton ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/beaverton",
+    "url": "www.thebeaverton.com"
+  },
+  "The Boston Tribune ": {
+    "bias": [
+      "conspiratorial", "editorial", "political"
+    ],
+    "subUrl": "/fake-news-source/boston-tribune",
+    "url": "thebostontribune.com"
+  },
+  "The Common Sense Show ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "psuedoscience",
+      "right bias"
+    ],
+    "subUrl": "/fake-news-source/common-sense-show",
+    "url": "www.thecommonsenseshow.com"
+  },
+  "The Controversial Files ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/controversial-files",
+    "url": "www.thecontroversialfiles.net"
+  },
+  "The Corbett Report ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/corbett-report",
+    "url": "corbettreport.com"
+  },
+  "The Daily Beast ": {
+    "bias": [
+      "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/daily-beast",
+    "url": "www.thedailybeast.com"
+  },
+  "The Daily Caller ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/daily-caller",
+    "url": "dailycaller.com"
+  },
+  "The Daily Discord ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/daily-discord",
+    "url": "dailydiscord.com"
+  },
+  "The Daily Mash ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/daily-mash",
+    "url": "www.thedailymash.co.uk"
+  },
+  "The Daily Sheeple ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "psuedoscience",
+      "right bias"
+    ],
+    "subUrl": "/fake-news-source/daily-sheeple",
+    "url": "www.thedailysheeple.com"
+  },
+  "The Daily Squib ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/daily-squib",
+    "url": "www.dailysquib.co.uk"
+  },
+  "The Daily Stormer ": {
+    "bias": [
+      "conspiratorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/daily-stormer",
+    "url": "www.dailystormer.com"
+  },
+  "The Daily WTF ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/daily-wtf",
+    "url": "thedailywtf.com"
+  },
+  "The Dandy Goat ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/dandy-goat",
+    "url": "dandygoat.com"
+  },
+  "The Duran ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/duran",
+    "url": "theduran.com"
+  },
+  "The European Union Times ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/european-union-times",
+    "url": "www.eutimes.net"
+  },
+  "The Event Chronicle ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "special interest"
+    ],
+    "subUrl": "/fake-news-source/event-chronicle",
+    "url": "www.theeventchronicle.com"
+  },
+  "The Federalist Papers ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/federalist-papers",
+    "url": "thefederalistpapers.org"
+  },
+  "The Forbidden Knowledge ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "special interest"
+    ],
+    "subUrl": "/fake-news-source/forbidden-knowledge",
+    "url": "www.theforbiddenknowledge.com"
+  },
+  "The Fourth Revolutionary War ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience", "right bias", "war"
+    ],
+    "subUrl": "/fake-news-source/fourth-revolutionary-war",
+    "url": "4threvolutionarywar.wordpress.com"
+  },
+  "The Free Patriot ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/free-patriot",
+    "url": "thefreepatriot.org"
+  },
+  "The Free Thought Project ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/free-thought-project",
+    "url": "thefreethoughtproject.com"
+  },
+  "The Gateway Pundit ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience", "right bias", "war"
+    ],
+    "subUrl": "/fake-news-source/gateway-pundit",
+    "url": "www.thegatewaypundit.com"
+  },
+  "The Greanville Post ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "psuedoscience",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/greanville-post",
+    "url": "greanvillepost.com"
+  },
+  "The Inept Owl ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/inept-owl",
+    "url": "theineptowl.com"
+  },
+  "The Internet Chronicle ": {
+    "bias": [],
+    "subUrl": "/fake-news-source/internet-chronicle",
+    "url": "chronicle.su"
+  },
+  "The Knights Party ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/knights-party",
+    "url": "kkk.com"
+  },
+  "The Lapine ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/lapine",
+    "url": "thelapine.ca"
+  },
+  "The Last Great Stand ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/last-great-stand",
+    "url": "thelastgreatstand.com"
+  },
+  "The Liberty Beacon ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "special interest"
+    ],
+    "subUrl": "/fake-news-source/liberty-beacon",
+    "url": "www.thelibertybeacon.com"
+  },
+  "The Madison Misnomer ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/madison-misnomer",
+    "url": "themadisonmisnomer.com"
+  },
+  "The Mind Unleashed ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "special interest"
+    ],
+    "subUrl": "/fake-news-source/mind-unleashed",
+    "url": "themindunleashed.org"
+  },
+  "The Muslim Issue ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/muslim-issue",
+    "url": "themuslimissue.wordpress.com"
+  },
+  "The New Inquiry ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience"
+    ],
+    "subUrl": "/fake-news-source/new-inquiry",
+    "url": "thenewinquiry.com"
+  },
+  "The News Nerd ": {
+    "bias": [
+      "editorial", "right bias", "satire"
+    ],
+    "subUrl": "/fake-news-source/news-nerd",
+    "url": "thenewsnerd.com"
+  },
+  "The Onion ": {
+    "bias": [
+      "editorial", "satire"
+    ],
+    "subUrl": "/fake-news-source/onion",
+    "url": "www.theonion.com"
+  },
+  "The Point ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/point",
+    "url": "www.westernjournalism.com/thepoint/"
+  },
+  "The Poke ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/poke",
+    "url": "thepoke.co.uk"
+  },
+  "The Political Cult ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/political-cult",
+    "url": "politicalcult.com"
+  },
+  "The Political Insider ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/political-insider",
+    "url": "www.thepoliticalinsider.com"
+  },
+  "The Racket Report ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/racket-report",
+    "url": "theracketreport.com"
+  },
+  "The Real Strategy ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/real-strategy",
+    "url": "therealstrategy.com"
+  },
+  "The Rightists ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/rightists",
+    "url": "therightists.com"
+  },
+  "The Run Down Live ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/run-down-live",
+    "url": "therundownlive.com"
+  },
+  "The Sensationalist Times ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/sensationalist-times",
+    "url": "www.sensationalisttimes.com"
+  },
+  "The Shovel ": {
+    "bias": [
+      "political", "psuedoscience", "satire"
+    ],
+    "subUrl": "/fake-news-source/shovel",
+    "url": "www.theshovel.com.au"
+  },
+  "The Skunk ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/skunk",
+    "url": "theskunk.org"
+  },
+  "The Spoof ": {
+    "bias": [],
+    "subUrl": "/fake-news-source/spoof",
+    "url": "thespoof.com"
+  },
+  "The Times of The World ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/times-world",
+    "url": "thetimesoftheworld.com"
+  },
+  "The Truth Division ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/truth-division",
+    "url": "thetruthdivision.com"
+  },
+  "The Truthseeker ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "psuedoscience"
+    ],
+    "subUrl": "/fake-news-source/truthseeker",
+    "url": "www.thetruthseeker.co.uk"
+  },
+  "The US Patriot ": {
+    "bias": [],
+    "subUrl": "/fake-news-source/us-patriot",
+    "url": "theuspatriot.com"
+  },
+  "The UnReal Times ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/unreal-times",
+    "url": "theunrealtimes.com"
+  },
+  "The Valley Report ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/valley-report",
+    "url": "thevalleyreport.com"
+  },
+  "The Vigilant Citizen ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/vigilant-citizen",
+    "url": "vigilantcitizen.com"
+  },
+  "The Washington Free Beacon ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/washington-free-beacon",
+    "url": "freebeacon.com"
+  },
+  "The Watch Towers ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/watch-towers",
+    "url": "thewatchtowers.com"
+  },
+  "Three Percenter Nation ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/three-percenter-nation",
+    "url": "threepercenternation.com"
+  },
+  "Top Right News ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/top-right-news",
+    "url": "toprightnews.com"
+  },
+  "TopInfo Post ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "war"
+    ],
+    "subUrl": "/fake-news-source/topinfo-post",
+    "url": "TopInfoPost.com"
+  },
+  "Topeka News ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/topeka-news",
+    "url": "topekasnews.com"
+  },
+  "True Activist ": {
+    "bias": [
+      "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/true-activist",
+    "url": "www.trueactivist.com"
+  },
+  "True Pundit ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/true-pundit",
+    "url": "truepundit.com"
+  },
+  "Truth Broadcast Network ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/truth-broadcast-network",
+    "url": "truthbroadcastnetwork.com"
+  },
+  "Truth Feed ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/truth-feed",
+    "url": "truthfeed.com"
+  },
+  "Truth and Action ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/truth-and-action",
+    "url": "www.truthandaction.org"
+  },
+  "Truth Frequency Radio ": {
+    "bias": [],
+    "subUrl": "/fake-news-source/truth-frequency-radio",
+    "url": "truthfrequencyradio.com"
+  },
+  "Truth Kings ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/truth-kings",
+    "url": "truthkings.com"
+  },
+  "Twitchy ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience"
+    ],
+    "subUrl": "/fake-news-source/twitchy",
+    "url": "twitchy.com"
+  },
+  "US Advisor ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/us-advisor",
+    "url": "ushealthyadvisor.com"
+  },
+  "US Chronicle ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/us-chronicle",
+    "url": "uschronicle.com"
+  },
+  "US Politics Live ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/us-politics-live",
+    "url": "www.uspoliticslive.com"
+  },
+  "US Uncut ": {
+    "bias": [
+      "conspiratorial", "inciteful", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/us-uncut",
+    "url": "usuncut.com"
+  },
+  "USA Hitman ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "psuedoscience",
+      "right bias"
+    ],
+    "subUrl": "/fake-news-source/usa-hitman",
+    "url": "usahitman.com"
+  },
+  "USA News Insider ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/usa-news-insider",
+    "url": "www.usanewsinsider.com"
+  },
+  "USA Newsflash ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/usa-newsflash",
+    "url": "usanewsflash.com"
+  },
+  "USA Supreme ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience"
+    ],
+    "subUrl": "/fake-news-source/usa-supreme",
+    "url": "www.usasupreme.com"
+  },
+  "Uncle Sams Misguided Children ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/uncle-sams-misguided-children",
+    "url": "unclesamsmisguidedchildren.com"
+  },
+  "Unconfirmed Sources ": {
+    "bias": [],
+    "subUrl": "/fake-news-source/unconfirmed-sources",
+    "url": "unconfirmedsources.com"
+  },
+  "Underground World News ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/underground-world-news",
+    "url": "undergroundworldnews.com"
+  },
+  "Veterans Today ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "psuedoscience",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/veterans-today",
+    "url": "www.veteranstoday.com"
+  },
+  "Viral Liberty ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/viral-liberty",
+    "url": "viralliberty.com"
+  },
+  "WND – WorldNetDaily ": {
+    "bias": [
+      "conspiratorial", "editorial", "inciteful", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/wnd-%E2%80%93-worldnetdaily",
+    "url": "wnd.com"
+  },
+  "Walid Shoebat ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/walid-shoebat",
+    "url": "shoebat.com"
+  },
+  "Washington Examiner ": {
+    "bias": [
+      "conspiratorial", "political", "right bias"
+    ],
+    "subUrl": "/fake-news-source/washington-examiner",
+    "url": "www.washingtonexaminer.com"
+  },
+  "Waterford Whispers News ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/waterford-whispers-news",
+    "url": "waterfordwhispersnews.com"
+  },
+  "We Are Change ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/we-are-change",
+    "url": "wearechange.org"
+  },
+  "WebDaily ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/webdaily",
+    "url": "www.webdaily.com"
+  },
+  "Weekly World News ": {
+    "bias": [],
+    "subUrl": "/fake-news-source/weekly-world-news",
+    "url": "weeklyworldnews.com"
+  },
+  "What Does It Mean ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience", "right bias"
+    ],
+    "subUrl": "/fake-news-source/what-does-it-mean",
+    "url": "www.whatdoesitmean.com"
+  },
+  "What Really Happened ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience"
+    ],
+    "subUrl": "/fake-news-source/what-really-happened",
+    "url": "whatreallyhappened.com"
+  },
+  "White Power ": {
+    "bias": [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ],
+    "subUrl": "/fake-news-source/white-power",
+    "url": "whitepower.com"
+  },
+  "Who.What.Why ": {
+    "bias": [],
+    "subUrl": "/fake-news-source/whowhatwhy",
+    "url": "whowhatwhy.org"
+  },
+  "Winning Democrats ": {
+    "bias": [
+      "conspiratorial", "inciteful", "left bias", "political"
+    ],
+    "subUrl": "/fake-news-source/winning-democrats",
+    "url": "winningdemocrats.com"
+  },
+  "Wit Science ": {
+    "bias": [],
+    "subUrl": "/fake-news-source/wit-science",
+    "url": "witscience.org"
+  },
+  "Wonkie ": {
+    "bias": ["satire"],
+    "subUrl": "/fake-news-source/wonkie",
+    "url": "wonkie.com"
+  },
+  "World News Daily Report ": {
+    "bias": [],
+    "subUrl": "/fake-news-source/world-news-daily-report",
+    "url": "worldnewsdailyreport.com"
+  },
+  "World Truth ": {
+    "bias": [
+      "conspiratorial", "editorial", "political", "psuedoscience"
+    ],
+    "subUrl": "/fake-news-source/world-truth",
+    "url": "worldtruth.tv"
+  },
+  "Yes I’m Right ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/yes-i%E2%80%99m-right",
+    "url": "www.yesimright.com"
+  },
+  "Your News Wire ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/your-news-wire",
+    "url": "yournewswire.com"
+  },
+  "Zero Hedge ": {
+    "bias": [
+      "conspiratorial", "political", "psuedoscience"
+    ],
+    "subUrl": "/fake-news-source/zero-hedge",
+    "url": "www.zerohedge.com"
+  },
+  "Zoot Feed ": {
+    "bias": [
+      "conspiratorial", "political"
+    ],
+    "subUrl": "/fake-news-source/zoot-feed",
+    "url": "www.zootfeed.com"
+  }
+}
