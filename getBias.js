@@ -3093,398 +3093,1667 @@ const biasedSources = {
 
 let taggedLeftOrRight = Object.keys(biasedSources).reduce((acc, el) => {
   const url = biasedSources[el].url;
-  let bias = ''
+  let bias = [];
 
   biasedSources[el].bias.indexOf('right bias') !== -1
-    ? bias = 'right'
-    : biasedSources[el].bias.indexOf('left bias')
-      ? bias = 'left'
-      : bias = 'neither';
+    ? bias[0] = 'right'
+    : biasedSources[el].bias.indexOf('left bias') !== -1
+      ? bias[0] = 'left'
+      : bias[0] = 'neither';
+
+  bias[1] = biasedSources[el].bias;
 
   acc[biasedSources[el].url] = bias;
+
   return acc;
 }, {});
 
 console.log(JSON.stringify(taggedLeftOrRight));
 
 const leftRightOrNeither = {
-  "100percentfedup.com": "right",
-  "21stcenturywire.com": "right",
-  "365usanews .com": "right",
-  "70news.wordpress.com": "right",
-  "abcnews.com.co": "right",
-  "abeldanger.net": "right",
-  "abovetopsecret.com": "left",
-  "activistpost.com": "right",
-  "addictinginfo.org": "neither",
-  "advocate.com": "neither",
-  "allnewspipeline.com": "right",
-  "alternet.org": "neither",
-  "aidc.org.za": "neither",
-  "americablog.com": "neither",
-  "americasfreedomfighters.com": "right",
-  "americanfreepress.net": "right",
-  "ahtribune.com": "neither",
-  "americanlookout .com": "left",
-  "AmericanNews.com": "right",
-  "americanoverlook.com": "left",
-  "americanpatriotdaily.com": "left",
-  "amren.com": "right",
-  "americanreviewer.com": "left",
-  "truthpoliticsnews.com": "left",
-  "angrypatriotmovement.com": "left",
-  "anonews.co": "right",
-  "anotherdayintheempire.com": "right",
-  "theantimedia.org": "left",
-  "antiwar.com": "right",
-  "assassinationscience.com": "right",
-  "awdnews.com": "right",
-  "awarenessact.com": "right",
-  "awazetribune.com": "left",
-  "bb4sp.com": "left",
-  "barenakedislam.com": "right",
-  "ebar.com": "neither",
-  "beforeitsnews.com": "right",
-  "bentspud.com": "left",
-  "bighairynews.com": "left",
-  "bignuggetnews.com": "right",
-  "bipartisanreport.com": "left",
-  "bizpacreview.com": "right",
-  "blackgenocide.org/home.html": "right",
-  "blacklistednews.com": "right",
-  "us.blastingnews.com": "right",
-  "bluenationreview.com": "left",
-  "borowitzreport.com": "left",
-  "breitbart.com": "right",
-  "callthecops.net": "right",
-  "canadafreepress.com": "left",
-  "canadiandimension.com": "neither",
-  "cap-news.com": "right",
-  "americanprogress.org": "neither",
-  "centerforsecuritypolicy.org": "right",
-  "channel-7-news.com": "left",
-  "ChristWire.org": "left",
-  "christiantimesnewspaper.com": "left",
-  "CivicTribune.com": "right",
-  "clashdaily.com": "right",
-  "clickhole.com": "right",
-  "coasttocoastam.com": "right",
-  "collective-evolution.com": "right",
-  "collectivelyconscious.net": "left",
-  "commondreams.org": "neither",
-  "consciouslifenews.com": "left",
-  "conservativebyte.com": "right",
-  "conservativedailypost.com": "right",
-  "conservativefiringline.com": "right",
-  "conservativefrontline.com": "left",
-  "conservativeinfidel.com": "left",
-  "conservativeoutfitters.com": "right",
-  "conservativepapers.com": "left",
-  "conservativerefocus.com": "left",
-  "conservativestate.com": "right",
-  "conservativetribune.com": "right",
-  "conspiracyplanet.com": "right",
-  "rickwells.us": "left",
-  "countdowntozerotime.com": "right",
-  "countercurrentnews.com": "left",
-  "counterpsyops.com": "right",
-  "counterpunch.org": "left",
-  "cowgernation.com": "right",
-  "cracked.com": "left",
-  "creambmp.com": "right",
-  "cronicadeportiva.com": "left",
-  "crooksandliars.com": "left",
-  "dailybuzzlive.com": "left",
-  "DailyCurrant.com": "left",
-  "dailyheadlines.net": "right",
-  "dailykos.com": "left",
-  "DCClothesline.com": "right",
-  "DCGazette.com": "right",
-  "dcwhispers.com": "left",
-  "dailynewsbin.com": "left",
-  "dailyoccupation.com": "left",
-  "dallasvoice.com": "left",
-  "darkpolitricks.com": "left",
-  "darkmoon.me": "right",
-  "davidduke.com": "right",
-  "debunkingskeptics.com": "right",
-  "defenddemocracy.press": "neither",
-  "democracynow.org": "left",
-  "democraticunderground.com": "left",
-  "dennismichaellynch.com": "right",
-  "departed.co": "left",
-  "derfmagazine.com": "left",
-  "disclose.tv": "right",
-  "disclosuremedia.net": "right",
-  "dissentmagazine.org": "left",
-  "downtrend.com": "left",
-  "drudgereport.com": "left",
-  "duffelblog.com": "right",
-  "duhprogressive.com": "left",
-  "eaglerising.com": "right",
-  "ewao.com": "left",
-  "economyincrisis.org": "left",
-  "embols.com": "right",
-  "EmpireNews.com": "right",
-  "endoftheamericandream.com": "right",
-  "endingthefed.com": "right",
-  "endtime.com": "right",
-  "enduringvision.com": "right",
-  "larouchepub.com": "right",
-  "oilgeopolitics.net": "right",
-  "fmobserver.com": "left",
-  "3,471,472": "right",
-  "fakingnews.com": "left",
-  "familysecuritymatters.org": "right",
-  "federalistpress.com": "left",
-  "fellowshipoftheminds.com": "right",
-  "forwardprogressives.com": "left",
-  "freakoutnation.com": "left",
-  "freewoodpost.com": "left",
-  "freedomdaily.com": "left",
-  "freedomoutpost.com": "left",
-  "fridaymash.com": "left",
-  "fromthetrenchesworldreport.com": "right",
-  "gopthedailydose.com": "left",
-  "gangstergovernment.com": "right",
-  "pamelageller.com": "right",
-  "geoengineeringwatch.org": "right",
-  "globalresearch.ca": "right",
-  "glossynews.com": "left",
-  "gomerblog.com": "right",
-  "goneleft.com": "left",
-  "govtslaves.info": "right",
-  "gulagbound.com": "right",
-  "hangthebankers.com": "right",
-  "healthimpactnews.com": "right",
-  "henrymakow.com": "right",
-  "caintv.com": "left",
-  "humansarefree.com": "right",
-  "humortimes.com": "left",
-  "huzlers.com": "right",
-  "ihavethetruth.com": "right",
-  "ifyouonlynews.com": "left",
-  "illuminati-news.com": "right",
-  "intrendtoday.com": "right",
-  "infiniteunknown.net": "right",
-  "informationclearinghouse.info": "left",
-  "Infostormer.com": "left",
-  "infowars.com": "right",
-  "intellihub.com": "right",
-  "intrepidreport.com": "right",
-  "investmentwatchblog.com": "right",
-  "ironictimes.com": "left",
-  "islamicanews.com": "left",
-  "israelislamandendtimes.com": "right",
-  "jackpineradicals.com": "neither",
-  "jacobinmag.com": "neither",
-  "janmorganmedia.com": "right",
-  "jewsnews.co.il": "left",
-  "jezebel.com": "left",
-  "johnnyrobish.com": "left",
-  "jonesreport.com": "right",
-  "kingworldnews.com": "right",
-  "lewrockwell.com": "right",
-  "liberalamerica.org": "left",
-  "liberaldarkness.com": "right",
-  "itaglive.com": "right",
-  "samuel-warde.com": "left",
-  "libertyblitzkrieg.com": "right",
-  "libertymovementradio.com": "right",
-  "libertynews.com": "right",
-  "": "right",
-  "libertyunyielding.com": "right",
-  "libertyvideos.com": "left",
-  "libertywritersnews.com": "left",
-  "lifezette.com": "right",
-  "liftable.com": "left",
-  "lushforlife.com": "left",
-  "mpidailymagazine.com": "right",
-  "madworldnews.com": "left",
-  "makeamericagreattoday.com": "right",
-  "mediamatters.org": "left",
-  "militianews.com": "right",
-  "mirror.co.uk": "left",
-  "moonofalabama.org": "right",
-  "morningledger.com": "right",
-  "motherjones.com": "left",
-  "front.moveon.org": "left",
-  "mrconservative.com": "left",
-  "myzonetoday.com": "left",
-  "nationonenews.com": "right",
-  "nationofchange.org": "left",
-  "nationalinsiderpolitics.com": "right",
-  "nationalreport.net": "right",
-  "newcenturytimes.com": "neither",
-  "news4ktla.com": "left",
-  "newsbusters.org": "right",
-  "newscorpse.com": "left",
-  "newsmutiny.com": "right",
-  "newstarget.com": "right",
-  "newsthump.com": "right",
-  "newswire-24.com": "right",
-  "newswithviews.com": "left",
-  "newsbiscuit.com": "left",
-  "newsbreakers.org": "left",
-  "politicops.com": "right",
-  "nodisinfo.com": "left",
-  "notallowedto.com": "left",
-  "nowtheendbegins.com": "right",
-  "now8news.com": "right",
-  "occupydemocrats.com": "neither",
-  "onlineconservativepress.com": "right",
-  "pakalertpress.com": "right",
-  "patdollard.com": "right",
-  "patriotupdate.com": "right",
-  "politicalblindspot.com": "right",
-  "politicalreviewer.com": "right",
-  "politicalupdater.com": "neither",
-  "politicalvelcraft.org": "right",
-  "politicususa.com": "neither",
-  "pravdareport.com": "left",
-  "presstv.ir": "right",
-  "prisonplanet.com": "right",
-  "private-eye.co.uk": "right",
-  "prntly.com": "right",
-  "proudcons.com": "right",
-  "qpolitical.com": "right",
-  "rawstory.com": "neither",
-  "readconservatives.news": "right",
-  "reagancoalition.com": "right",
-  "realnewsrightnow.com": "left",
-  "realtimepolitics.com": "neither",
-  "redflagnews.com": "right",
-  "redstatewatcher.com": "right",
-  "rense.com": "right",
-  "revolutions2040.com": "right",
-  "rt.com": "left",
-  "rightalerts.com": "right",
-  "rightwingnews.com": "left",
-  "rilenews.com": "left",
-  "rockcitytimes.com": "right",
-  "rumormillnews.com": "right",
-  "ruptly.tv": "right",
-  "russia-direct.org": "right",
-  "shtfplan.com": "left",
-  "satirewire.com": "left",
-  "scrappleface.com": "left",
-  "secretsofthefed.com": "right",
-  "sheepkillers.com": "left",
-  "shoebat.com": "left",
-  "sott.net": "right",
-  "skeptiko.com": "left",
-  "sputniknews.com": "right",
-  "stneotscitizen.com": "left",
-  "stormcloudsgathering.com": "left",
-  "stuppid.com": "left",
-  "subjectpolitics.com": "right",
-  "supremepatriot.com": "left",
-  "surrealscoop.com": "left",
-  "theamericanindependent.wordpress.com": "left",
-  "thebeaverton.com": "left",
-  "thebostontribune.com": "left",
-  "thecommonsenseshow.com": "right",
-  "thecontroversialfiles.net": "right",
-  "corbettreport.com": "left",
-  "thedailybeast.com": "neither",
-  "dailycaller.com": "left",
-  "dailydiscord.com": "left",
-  "thedailymash.co.uk": "left",
-  "thedailysheeple.com": "right",
-  "dailysquib.co.uk": "left",
-  "dailystormer.com": "right",
-  "thedailywtf.com": "left",
-  "dandygoat.com": "left",
-  "theduran.com": "left",
-  "eutimes.net": "left",
-  "theeventchronicle.com": "left",
-  "thefederalistpapers.org": "left",
-  "theforbiddenknowledge.com": "left",
-  "4threvolutionarywar.wordpress.com": "right",
-  "thefreepatriot.org": "left",
-  "thefreethoughtproject.com": "left",
-  "thegatewaypundit.com": "right",
-  "greanvillepost.com": "right",
-  "theineptowl.com": "left",
-  "chronicle.su": "left",
-  "kkk.com": "right",
-  "thelapine.ca": "left",
-  "thelastgreatstand.com": "right",
-  "thelibertybeacon.com": "left",
-  "themadisonmisnomer.com": "left",
-  "themindunleashed.org": "left",
-  "themuslimissue.wordpress.com": "left",
-  "thenewinquiry.com": "left",
-  "thenewsnerd.com": "right",
-  "theonion.com": "left",
-  "westernjournalism.com/thepoint/": "left",
-  "thepoke.co.uk": "left",
-  "politicalcult.com": "left",
-  "thepoliticalinsider.com": "left",
-  "theracketreport.com": "left",
-  "therealstrategy.com": "left",
-  "therightists.com": "left",
-  "therundownlive.com": "right",
-  "sensationalisttimes.com": "left",
-  "theshovel.com.au": "left",
-  "theskunk.org": "left",
-  "thespoof.com": "left",
-  "thetimesoftheworld.com": "left",
-  "thetruthdivision.com": "left",
-  "thetruthseeker.co.uk": "left",
-  "theuspatriot.com": "left",
-  "theunrealtimes.com": "left",
-  "thevalleyreport.com": "left",
-  "vigilantcitizen.com": "right",
-  "freebeacon.com": "right",
-  "thewatchtowers.com": "left",
-  "threepercenternation.com": "left",
-  "toprightnews.com": "right",
-  "TopInfoPost.com": "left",
-  "topekasnews.com": "left",
-  "trueactivist.com": "neither",
-  "truepundit.com": "right",
-  "truthbroadcastnetwork.com": "right",
-  "truthfeed.com": "left",
-  "truthandaction.org": "right",
-  "truthfrequencyradio.com": "left",
-  "truthkings.com": "left",
-  "twitchy.com": "left",
-  "ushealthyadvisor.com": "left",
-  "uschronicle.com": "left",
-  "uspoliticslive.com": "left",
-  "usuncut.com": "left",
-  "usahitman.com": "right",
-  "usanewsinsider.com": "left",
-  "usanewsflash.com": "right",
-  "usasupreme.com": "left",
-  "unclesamsmisguidedchildren.com": "right",
-  "unconfirmedsources.com": "left",
-  "undergroundworldnews.com": "right",
-  "veteranstoday.com": "right",
-  "viralliberty.com": "left",
-  "wnd.com": "right",
-  "washingtonexaminer.com": "right",
-  "waterfordwhispersnews.com": "left",
-  "wearechange.org": "right",
-  "webdaily.com": "left",
-  "weeklyworldnews.com": "left",
-  "whatdoesitmean.com": "right",
-  "whatreallyhappened.com": "left",
-  "whitepower.com": "right",
-  "whowhatwhy.org": "left",
-  "winningdemocrats.com": "left",
-  "witscience.org": "left",
-  "wonkie.com": "left",
-  "worldnewsdailyreport.com": "left",
-  "worldtruth.tv": "left",
-  "yesimright.com": "left",
-  "yournewswire.com": "left",
-  "zerohedge.com": "left",
-  "zootfeed.com": "left"
+  "100percentfedup.com": [
+    "right",
+    ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
+  ],
+  "21stcenturywire.com": [
+    "right",
+    ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
+  ],
+  "365usanews .com": [
+    "right",
+    ["conspiratorial", "political", "right bias"]
+  ],
+  "70news.wordpress.com": [
+    "right",
+    ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
+  ],
+  "www.abcnews.com.co": [
+    "right",
+    ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
+  ],
+  "http://www.abeldanger.net": [
+    "right",
+    ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
+  ],
+  "www.abovetopsecret.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.activistpost.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "political",
+      "pseudoscience",
+      "right bias",
+      "war"
+    ]
+  ],
+  "addictinginfo.org": [
+    "left",
+    ["left bias", "political"]
+  ],
+  "www.advocate.com": [
+    "left",
+    ["left bias", "political", "special interest"]
+  ],
+  "http://allnewspipeline.com": [
+    "right",
+    ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
+  ],
+  "www.alternet.org": [
+    "left",
+    ["left bias", "political"]
+  ],
+  "aidc.org.za/amandla-media/": [
+    "left",
+    ["left bias", "political", "special interest"]
+  ],
+  "americablog.com": [
+    "left",
+    ["left bias", "political"]
+  ],
+  "www.americasfreedomfighters.com": [
+    "right",
+    ["conspiratorial", "political", "right bias"]
+  ],
+  "americanfreepress.net": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ]
+  ],
+  "ahtribune.com": [
+    "left",
+    ["left bias", "political"]
+  ],
+  "americanlookout .com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "AmericanNews.com": [
+    "right",
+    ["conspiratorial", "inciteful", "pseudoscience", "right bias"]
+  ],
+  "americanoverlook.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.americanpatriotdaily.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.amren.com": [
+    "right",
+    ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
+  ],
+  "americanreviewer.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "truthpoliticsnews.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.angrypatriotmovement.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.anonews.co": [
+    "right",
+    ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
+  ],
+  "anotherdayintheempire.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ]
+  ],
+  "theantimedia.org": [
+    "neither",
+    ["conspiratorial", "editorial", "political"]
+  ],
+  "www.antiwar.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "assassinationscience.com": [
+    "right",
+    ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
+  ],
+  "awdnews.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ]
+  ],
+  "awarenessact.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "awazetribune.com": ["neither", ["political"]
+  ],
+  "bb4sp.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.barenakedislam.com": [
+    "right",
+    ["conspiratorial", "inciteful", "political", "right bias", "war"]
+  ],
+  "www.ebar.com": [
+    "left",
+    ["left bias", "political", "special interest"]
+  ],
+  "beforeitsnews.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
+  ],
+  "www.bentspud.com": ["neither", ["satire"]
+  ],
+  "www.bighairynews.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "bignuggetnews.com": [
+    "right",
+    ["conspiratorial", "inciteful", "political", "right bias", "war"]
+  ],
+  "bipartisanreport.com": [
+    "left",
+    ["conspiratorial", "left bias", "political", "pseudoscience"]
+  ],
+  "www.bizpacreview.com": [
+    "right",
+    ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
+  ],
+  "www.blackgenocide.org/home.html": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ]
+  ],
+  "blacklistednews.com": [
+    "right",
+    ["conspiratorial", "inciteful", "political", "right bias", "war"]
+  ],
+  "us.blastingnews.com": [
+    "right",
+    ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
+  ],
+  "bluenationreview.com": [
+    "left",
+    ["conspiratorial", "left bias", "political"]
+  ],
+  "borowitzreport.com": ["neither", ["satire"]
+  ],
+  "www.breitbart.com": [
+    "right",
+    ["political", "right bias"]
+  ],
+  "www.callthecops.net": [
+    "right",
+    ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
+  ],
+  "canadafreepress.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "canadiandimension.com": [
+    "left",
+    ["left bias", "political", "special interest"]
+  ],
+  "cap-news.com": [
+    "right",
+    ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
+  ],
+  "www.americanprogress.org": [
+    "left",
+    ["left bias", "political"]
+  ],
+  "www.centerforsecuritypolicy.org": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ]
+  ],
+  "channel-7-news.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "ChristWire.org": ["neither", []
+  ],
+  "christiantimesnewspaper.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "CivicTribune.com": [
+    "right",
+    ["political", "right bias"]
+  ],
+  "clashdaily.com": [
+    "right",
+    ["conspiratorial", "political", "right bias"]
+  ],
+  "clickhole.com": ["right", ["right bias"]
+  ],
+  "www.coasttocoastam.com": [
+    "right",
+    ["conspiratorial", "pseudoscience", "right bias"]
+  ],
+  "www.collective-evolution.com": [
+    "right",
+    ["conspiratorial", "editorial", "pseudoscience", "right bias"]
+  ],
+  "collectivelyconscious.net": [
+    "neither",
+    ["conspiratorial", "editorial", "pseudoscience"]
+  ],
+  "www.commondreams.org": [
+    "left",
+    ["left bias", "political"]
+  ],
+  "consciouslifenews.com": [
+    "left",
+    ["conspiratorial", "editorial", "left bias", "pseudoscience"]
+  ],
+  "conservativebyte.com": [
+    "right",
+    ["conspiratorial", "political", "right bias"]
+  ],
+  "conservativedailypost.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "pseudoscience",
+      "right bias",
+      "war"
+    ]
+  ],
+  "conservativefiringline.com": [
+    "right",
+    ["conspiratorial", "political", "right bias"]
+  ],
+  "conservativefrontline.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.conservativeinfidel.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "conservativeoutfitters.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "right bias"]
+  ],
+  "conservativepapers.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "conservativerefocus.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "conservativestate.com": [
+    "right",
+    ["conspiratorial", "political", "right bias"]
+  ],
+  "conservativetribune.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "right bias"]
+  ],
+  "www.conspiracyplanet.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "pseudoscience",
+      "right bias",
+      "war"
+    ]
+  ],
+  "rickwells.us": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "countdowntozerotime.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "pseudoscience", "right bias"]
+  ],
+  "countercurrentnews.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "counterpsyops.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ]
+  ],
+  "www.counterpunch.org": [
+    "left",
+    ["inciteful", "left bias", "political"]
+  ],
+  "cowgernation.com": [
+    "right",
+    ["conspiratorial", "political", "right bias"]
+  ],
+  "cracked.com": ["neither", ["satire"]
+  ],
+  "creambmp.com": [
+    "right",
+    ["editorial", "political", "right bias", "special interest"]
+  ],
+  "cronicadeportiva.com/index.php/category/politic/": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "crooksandliars.com": [
+    "left",
+    ["conspiratorial", "inciteful", "left bias", "political"]
+  ],
+  "dailybuzzlive.com": ["neither", []
+  ],
+  "DailyCurrant.com": ["neither", []
+  ],
+  "dailyheadlines.net": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "pseudoscience",
+      "right bias",
+      "war"
+    ]
+  ],
+  "www.dailykos.com": [
+    "left",
+    ["editorial", "left bias", "political"]
+  ],
+  "DCClothesline.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "DCGazette.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "right bias"]
+  ],
+  "dcwhispers.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.dailynewsbin.com": [
+    "left",
+    ["editorial", "left bias", "political"]
+  ],
+  "dailyoccupation.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.dallasvoice.com": [
+    "left",
+    ["editorial", "left bias", "political", "special interest"]
+  ],
+  "www.darkpolitricks.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.darkmoon.me": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "davidduke.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "special interest"
+    ]
+  ],
+  "www.debunkingskeptics.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
+  ],
+  "defenddemocracy.press": [
+    "left",
+    ["left bias", "political"]
+  ],
+  "www.democracynow.org": [
+    "left",
+    ["editorial", "left bias", "political", "special interest"]
+  ],
+  "www.democraticunderground.com": [
+    "left",
+    ["editorial", "left bias", "political", "special interest"]
+  ],
+  "dennismichaellynch.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "departed.co": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "derfmagazine.com": ["neither", ["satire"]
+  ],
+  "www.disclose.tv": [
+    "right",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
+  ],
+  "disclosuremedia.net": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ]
+  ],
+  "www.dissentmagazine.org": [
+    "left",
+    ["editorial", "left bias", "political", "special interest"]
+  ],
+  "downtrend.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "drudgereport.com": ["neither", []
+  ],
+  "duffelblog.com": [
+    "right",
+    ["editorial", "political", "right bias", "special interest"]
+  ],
+  "duhprogressive.com": ["neither", []
+  ],
+  "eaglerising.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "right bias"]
+  ],
+  "ewao.com": [
+    "neither",
+    ["conspiratorial", "pseudoscience"]
+  ],
+  "economyincrisis.org": [
+    "left",
+    ["conspiratorial", "editorial", "left bias", "political"]
+  ],
+  "embols.com": [
+    "right",
+    ["conspiratorial", "political", "pseudoscience", "right bias"]
+  ],
+  "EmpireNews.com": [
+    "right",
+    ["editorial", "political", "right bias"]
+  ],
+  "endoftheamericandream.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "endingthefed.com": [
+    "right",
+    ["conspiratorial", "political", "pseudoscience", "right bias"]
+  ],
+  "endtime.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "enduringvision.com": [
+    "right",
+    ["pseudoscience", "right bias", "satire"]
+  ],
+  "larouchepub.com": [
+    "right",
+    ["conspiratorial", "political", "right bias"]
+  ],
+  "oilgeopolitics.net": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "fmobserver.com": ["neither", ["satire"]
+  ],
+  "3,471,472": [
+    "right",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
+  ],
+  "fakingnews.com": ["neither", ["satire"]
+  ],
+  "familysecuritymatters.org": [
+    "right",
+    ["conspiratorial", "political", "right bias"]
+  ],
+  "federalistpress.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "fellowshipoftheminds.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ]
+  ],
+  "www.forwardprogressives.com": [
+    "left",
+    ["conspiratorial", "editorial", "left bias", "political"]
+  ],
+  "freakoutnation.com": [
+    "left",
+    ["conspiratorial", "editorial", "inciteful", "left bias", "political"]
+  ],
+  "freewoodpost.com": ["neither", ["satire"]
+  ],
+  "freedomdaily.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "freedomoutpost.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.fridaymash.com": ["neither", ["satire"]
+  ],
+  "www.fromthetrenchesworldreport.com": [
+    "right",
+    ["conspiratorial", "inciteful", "political", "pseudoscience", "right bias"]
+  ],
+  "gopthedailydose.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "gangstergovernment.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "pseudoscience",
+      "right bias",
+      "war"
+    ]
+  ],
+  "pamelageller.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ]
+  ],
+  "www.geoengineeringwatch.org": [
+    "right",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
+  ],
+  "www.globalresearch.ca": [
+    "right",
+    ["conspiratorial", "editorial", "pseudoscience", "right bias"]
+  ],
+  "glossynews.com": ["neither", ["satire"]
+  ],
+  "gomerblog.com": [
+    "right",
+    ["editorial", "left bias", "right bias", "satire"]
+  ],
+  "goneleft.com": [
+    "left",
+    ["conspiratorial", "editorial", "left bias", "political"]
+  ],
+  "govtslaves.info": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "pseudoscience", "right bias"]
+  ],
+  "gulagbound.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "pseudoscience",
+      "right bias",
+      "war"
+    ]
+  ],
+  "www.hangthebankers.com": [
+    "right",
+    ["conspiratorial", "editorial", "right bias"]
+  ],
+  "healthimpactnews.com": [
+    "right",
+    ["conspiratorial", "political", "pseudoscience", "right bias"]
+  ],
+  "henrymakow.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "www.caintv.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "humansarefree.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "right bias"]
+  ],
+  "humortimes.com": ["neither", ["satire"]
+  ],
+  "huzlers.com": [
+    "right",
+    ["right bias", "satire"]
+  ],
+  "ihavethetruth.com": [
+    "right",
+    ["conspiratorial", "inciteful", "political", "right bias"]
+  ],
+  "www.ifyouonlynews.com": [
+    "left",
+    ["conspiratorial", "editorial", "left bias", "political"]
+  ],
+  "www.illuminati-news.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "pseudoscience",
+      "right bias",
+      "war"
+    ]
+  ],
+  "intrendtoday.com": [
+    "right",
+    ["conspiratorial", "political", "right bias"]
+  ],
+  "www.infiniteunknown.net": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "pseudoscience",
+      "right bias",
+      "war"
+    ]
+  ],
+  "informationclearinghouse.info": [
+    "left",
+    ["conspiratorial", "left bias", "political"]
+  ],
+  "Infostormer.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.infowars.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "pseudoscience",
+      "right bias",
+      "war"
+    ]
+  ],
+  "www.intellihub.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "pseudoscience",
+      "right bias"
+    ]
+  ],
+  "intrepidreport.com": [
+    "right",
+    ["editorial", "political", "right bias"]
+  ],
+  "investmentwatchblog.com": [
+    "right",
+    ["editorial", "political", "right bias"]
+  ],
+  "ironictimes.com": ["neither", ["satire"]
+  ],
+  "islamicanews.com": ["neither", ["satire"]
+  ],
+  "www.israelislamandendtimes.com": [
+    "right",
+    ["conspiratorial", "inciteful", "political", "right bias"]
+  ],
+  "jackpineradicals.com": [
+    "left",
+    ["left bias", "political"]
+  ],
+  "www.jacobinmag.com": [
+    "left",
+    ["left bias", "political"]
+  ],
+  "janmorganmedia.com": [
+    "right",
+    ["conspiratorial", "political", "right bias"]
+  ],
+  "www.jewsnews.co.il": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "jezebel.com": [
+    "left",
+    ["editorial", "left bias", "political", "special interest"]
+  ],
+  "www.johnnyrobish.com": ["neither", ["satire"]
+  ],
+  "jonesreport.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "pseudoscience",
+      "right bias"
+    ]
+  ],
+  "kingworldnews.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "lewrockwell.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "www.liberalamerica.org": [
+    "left",
+    ["editorial", "left bias", "political", "special interest"]
+  ],
+  "liberaldarkness.com": [
+    "right",
+    ["conspiratorial", "political", "right bias"]
+  ],
+  "itaglive.com": [
+    "right",
+    ["editorial", "political", "right bias"]
+  ],
+  "samuel-warde.com": [
+    "left",
+    ["editorial", "left bias", "political", "special interest"]
+  ],
+  "libertyblitzkrieg.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "libertymovementradio.com": [
+    "right",
+    ["political", "right bias"]
+  ],
+  "libertynews.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
+  ],
+  "": [
+    "right",
+    ["editorial", "political", "right bias"]
+  ],
+  "libertyunyielding.com": [
+    "right",
+    ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
+  ],
+  "libertyvideos.com": ["neither", []
+  ],
+  "www.libertywritersnews.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.lifezette.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "www.liftable.com": [
+    "neither",
+    ["editorial", "pseudoscience", "special interest"]
+  ],
+  "lushforlife.com": ["neither", ["satire"]
+  ],
+  "mpidailymagazine.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "madworldnews.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "makeamericagreattoday.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "mediamatters.org": [
+    "left",
+    ["editorial", "left bias", "political", "special interest"]
+  ],
+  "www.militianews.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "www.mirror.co.uk": [
+    "left",
+    ["editorial", "left bias", "political"]
+  ],
+  "moonofalabama.org": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "www.morningledger.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
+  ],
+  "www.motherjones.com": [
+    "left",
+    ["editorial", "left bias", "political"]
+  ],
+  "front.moveon.org": [
+    "left",
+    ["editorial", "left bias", "political"]
+  ],
+  "mrconservative.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "myzonetoday.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "nationonenews.com": [
+    "right",
+    ["conspiratorial", "inciteful", "political", "right bias"]
+  ],
+  "www.nationofchange.org": [
+    "left",
+    ["editorial", "left bias", "political"]
+  ],
+  "www.nationalinsiderpolitics.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "nationalreport.net": [
+    "right",
+    ["editorial", "political", "right bias", "satire"]
+  ],
+  "newcenturytimes.com": [
+    "left",
+    ["left bias", "political"]
+  ],
+  "news4ktla.com": [
+    "neither",
+    ["editorial", "pseudoscience", "satire"]
+  ],
+  "www.newsbusters.org": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "political",
+      "pseudoscience",
+      "right bias",
+      "special interest"
+    ]
+  ],
+  "newscorpse.com": [
+    "left",
+    ["editorial", "left bias", "political"]
+  ],
+  "newsmutiny.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "newstarget.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "newsthump.com": [
+    "right",
+    ["editorial", "political", "right bias", "satire"]
+  ],
+  "newswire-24.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "newswithviews.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "newsbiscuit.com": ["neither", ["satire"]
+  ],
+  "newsbreakers.org": ["neither", ["satire"]
+  ],
+  "politicops.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "right bias"]
+  ],
+  "nodisinfo.com": [
+    "neither",
+    ["conspiratorial", "editorial", "inciteful", "political"]
+  ],
+  "notallowedto.com": [
+    "neither",
+    ["conspiratorial", "inciteful", "political", "pseudoscience"]
+  ],
+  "www.nowtheendbegins.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
+  ],
+  "now8news.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "occupydemocrats.com": [
+    "left",
+    ["left bias", "political"]
+  ],
+  "onlineconservativepress.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
+  ],
+  "www.pakalertpress.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "pseudoscience",
+      "right bias",
+      "war"
+    ]
+  ],
+  "patdollard.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "patriotupdate.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "politicalblindspot.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "satire"
+    ]
+  ],
+  "politicalreviewer.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "politicalupdater.com": [
+    "left",
+    ["left bias", "political"]
+  ],
+  "politicalvelcraft.org": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "www.politicususa.com": [
+    "left",
+    ["left bias", "political"]
+  ],
+  "www.pravdareport.com": [
+    "left",
+    ["conspiratorial", "left bias", "political"]
+  ],
+  "presstv.ir": [
+    "right",
+    ["conspiratorial", "political", "right bias"]
+  ],
+  "www.prisonplanet.com": [
+    "right",
+    ["conspiratorial", "editorial", "pseudoscience", "right bias"]
+  ],
+  "private-eye.co.uk": [
+    "right",
+    ["editorial", "political", "right bias", "satire"]
+  ],
+  "prntly.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "right bias"]
+  ],
+  "www.proudcons.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "right bias"]
+  ],
+  "qpolitical.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
+  ],
+  "www.rawstory.com": [
+    "left",
+    ["left bias", "political"]
+  ],
+  "readconservatives.news": [
+    "right",
+    ["conspiratorial", "editorial", "political", "right bias"]
+  ],
+  "reagancoalition.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "right bias"]
+  ],
+  "realnewsrightnow.com": ["neither", ["editorial"]
+  ],
+  "realtimepolitics.com": [
+    "left",
+    ["left bias", "political"]
+  ],
+  "www.redflagnews.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "right bias"]
+  ],
+  "redstatewatcher.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "right bias"]
+  ],
+  "www.rense.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "pseudoscience",
+      "right bias",
+      "war"
+    ]
+  ],
+  "www.revolutions2040.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "right bias"]
+  ],
+  "www.rt.com": [
+    "left",
+    ["conspiratorial", "left bias", "political"]
+  ],
+  "rightalerts.com": [
+    "right",
+    ["conspiratorial", "political", "right bias"]
+  ],
+  "rightwingnews.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "rilenews.com": ["neither", []
+  ],
+  "rockcitytimes.com": [
+    "right",
+    ["political", "right bias", "satire"]
+  ],
+  "rumormillnews.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "ruptly.tv": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "russia-direct.org": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "www.shtfplan.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "satirewire.com": ["neither", ["satire"]
+  ],
+  "scrappleface.com": ["neither", ["satire"]
+  ],
+  "www.secretsofthefed.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "right bias"]
+  ],
+  "www.sheepkillers.com": [
+    "neither",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "pseudoscience",
+      "special interest"
+    ]
+  ],
+  "shoebat.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "sott.net": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "pseudoscience",
+      "right bias"
+    ]
+  ],
+  "skeptiko.com": [
+    "neither",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "pseudoscience",
+      "special interest"
+    ]
+  ],
+  "sputniknews.com": [
+    "right",
+    ["conspiratorial", "inciteful", "political", "right bias"]
+  ],
+  "stneotscitizen.com": ["neither", ["satire"]
+  ],
+  "stormcloudsgathering.com": [
+    "neither",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "special interest"]
+  ],
+  "stuppid.com": ["neither", ["satire"]
+  ],
+  "www.subjectpolitics.com": [
+    "right",
+    ["conspiratorial", "political", "right bias"]
+  ],
+  "supremepatriot.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.surrealscoop.com": ["neither", ["satire"]
+  ],
+  "theamericanindependent.wordpress.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.thebeaverton.com": ["neither", ["satire"]
+  ],
+  "thebostontribune.com": [
+    "neither",
+    ["conspiratorial", "editorial", "political"]
+  ],
+  "www.thecommonsenseshow.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "pseudoscience",
+      "right bias"
+    ]
+  ],
+  "www.thecontroversialfiles.net": [
+    "right",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
+  ],
+  "corbettreport.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.thedailybeast.com": [
+    "left",
+    ["left bias", "political"]
+  ],
+  "dailycaller.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "dailydiscord.com": ["neither", ["satire"]
+  ],
+  "www.thedailymash.co.uk": ["neither", ["satire"]
+  ],
+  "www.thedailysheeple.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "pseudoscience",
+      "right bias"
+    ]
+  ],
+  "www.dailysquib.co.uk": ["neither", ["satire"]
+  ],
+  "www.dailystormer.com": [
+    "right",
+    ["conspiratorial", "inciteful", "political", "right bias"]
+  ],
+  "thedailywtf.com": ["neither", ["satire"]
+  ],
+  "dandygoat.com": ["neither", ["satire"]
+  ],
+  "theduran.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.eutimes.net": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.theeventchronicle.com": [
+    "neither",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "special interest"]
+  ],
+  "thefederalistpapers.org": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.theforbiddenknowledge.com": [
+    "neither",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "special interest"]
+  ],
+  "4threvolutionarywar.wordpress.com": [
+    "right",
+    ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
+  ],
+  "thefreepatriot.org": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "thefreethoughtproject.com": [
+    "left",
+    ["conspiratorial", "editorial", "inciteful", "left bias", "political"]
+  ],
+  "www.thegatewaypundit.com": [
+    "right",
+    ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
+  ],
+  "greanvillepost.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "pseudoscience",
+      "right bias",
+      "war"
+    ]
+  ],
+  "theineptowl.com": ["neither", ["satire"]
+  ],
+  "chronicle.su": ["neither", []
+  ],
+  "kkk.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ]
+  ],
+  "thelapine.ca": ["neither", ["satire"]
+  ],
+  "thelastgreatstand.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
+  ],
+  "www.thelibertybeacon.com": [
+    "neither",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "special interest"]
+  ],
+  "themadisonmisnomer.com": ["neither", ["satire"]
+  ],
+  "themindunleashed.org": [
+    "neither",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "special interest"]
+  ],
+  "themuslimissue.wordpress.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "thenewinquiry.com": [
+    "neither",
+    ["conspiratorial", "political", "pseudoscience"]
+  ],
+  "thenewsnerd.com": [
+    "right",
+    ["editorial", "right bias", "satire"]
+  ],
+  "www.theonion.com": [
+    "neither",
+    ["editorial", "satire"]
+  ],
+  "www.westernjournalism.com/thepoint/": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "thepoke.co.uk": ["neither", ["satire"]
+  ],
+  "politicalcult.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.thepoliticalinsider.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "theracketreport.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "therealstrategy.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "therightists.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "therundownlive.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
+  ],
+  "www.sensationalisttimes.com": ["neither", ["satire"]
+  ],
+  "www.theshovel.com.au": [
+    "neither",
+    ["political", "pseudoscience", "satire"]
+  ],
+  "theskunk.org": ["neither", ["satire"]
+  ],
+  "thespoof.com": ["neither", []
+  ],
+  "thetimesoftheworld.com": ["neither", ["satire"]
+  ],
+  "thetruthdivision.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.thetruthseeker.co.uk": [
+    "neither",
+    ["conspiratorial", "editorial", "inciteful", "political", "pseudoscience"]
+  ],
+  "theuspatriot.com": ["neither", []
+  ],
+  "theunrealtimes.com": ["neither", ["satire"]
+  ],
+  "thevalleyreport.com": ["neither", ["satire"]
+  ],
+  "vigilantcitizen.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "freebeacon.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ]
+  ],
+  "thewatchtowers.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "threepercenternation.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "toprightnews.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "TopInfoPost.com": [
+    "neither",
+    ["conspiratorial", "editorial", "inciteful", "political", "war"]
+  ],
+  "topekasnews.com": ["neither", ["satire"]
+  ],
+  "www.trueactivist.com": [
+    "left",
+    ["left bias", "political"]
+  ],
+  "truepundit.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
+  ],
+  "truthbroadcastnetwork.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "right bias"]
+  ],
+  "truthfeed.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.truthandaction.org": [
+    "right",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
+  ],
+  "truthfrequencyradio.com": ["neither", []
+  ],
+  "truthkings.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "twitchy.com": [
+    "neither",
+    ["conspiratorial", "political", "pseudoscience"]
+  ],
+  "ushealthyadvisor.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "uschronicle.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.uspoliticslive.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "usuncut.com": [
+    "left",
+    ["conspiratorial", "inciteful", "left bias", "political"]
+  ],
+  "usahitman.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "pseudoscience",
+      "right bias"
+    ]
+  ],
+  "www.usanewsinsider.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "usanewsflash.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
+  ],
+  "www.usasupreme.com": [
+    "neither",
+    ["conspiratorial", "political", "pseudoscience"]
+  ],
+  "unclesamsmisguidedchildren.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
+  ],
+  "unconfirmedsources.com": ["neither", []
+  ],
+  "undergroundworldnews.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "www.veteranstoday.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "pseudoscience",
+      "right bias",
+      "war"
+    ]
+  ],
+  "viralliberty.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "wnd.com": [
+    "right",
+    ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
+  ],
+  "www.washingtonexaminer.com": [
+    "right",
+    ["conspiratorial", "political", "right bias"]
+  ],
+  "waterfordwhispersnews.com": ["neither", ["satire"]
+  ],
+  "wearechange.org": [
+    "right",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
+  ],
+  "www.webdaily.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "weeklyworldnews.com": ["neither", []
+  ],
+  "www.whatdoesitmean.com": [
+    "right",
+    ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
+  ],
+  "whatreallyhappened.com": [
+    "neither",
+    ["conspiratorial", "political", "pseudoscience"]
+  ],
+  "whitepower.com": [
+    "right",
+    [
+      "conspiratorial",
+      "editorial",
+      "inciteful",
+      "political",
+      "right bias",
+      "war"
+    ]
+  ],
+  "whowhatwhy.org": ["neither", []
+  ],
+  "winningdemocrats.com": [
+    "left",
+    ["conspiratorial", "inciteful", "left bias", "political"]
+  ],
+  "witscience.org": ["neither", []
+  ],
+  "wonkie.com": ["neither", ["satire"]
+  ],
+  "worldnewsdailyreport.com": ["neither", []
+  ],
+  "worldtruth.tv": [
+    "neither",
+    ["conspiratorial", "editorial", "political", "pseudoscience"]
+  ],
+  "www.yesimright.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "yournewswire.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ],
+  "www.zerohedge.com": [
+    "neither",
+    ["conspiratorial", "political", "pseudoscience"]
+  ],
+  "www.zootfeed.com": [
+    "neither",
+    ["conspiratorial", "political"]
+  ]
 }
 
-function lookUpBias (domain) {
+function lookUpBias(domain) {
   const formattedDomain = domain.replace(/^(?:([A-Za-z]+):)?(\/{0,3})|(?::(\d+))?(?:\/([^?#]*))?(?:\?([^#]*))?(?:#(.*))?$/g, '');
   return taggedLeftOrRight[formattedDomain];
 }
