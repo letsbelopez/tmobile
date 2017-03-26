@@ -3,6 +3,8 @@
  */
 
 var chart;
+var left = 0;
+var right = 0;
 
 $(function () {
   const biasLookup = {
@@ -2131,7 +2133,7 @@ $(function () {
     "statesmanjournal.com" : "Local news, sports, opinion, events, obituaries, public notices and community information. Prin…More",
     "onlineathens.com" : "Daily newspaper serving Athens and Clarke County. Includes local news, sports, business, and he…More"
   }
-  
+
   function traverseArray(arr) {
       let urls = [];
       let leftScore = 0;
