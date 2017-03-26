@@ -9,8 +9,9 @@ function progressBar(percent, $element) {
 
 $(function() {
     $(document).ready(function(){
-            var _content = `
-<h2 class="title">Prgoress Bar</h2>
+            var contentTemplate = `
+<div id='progress-content'>
+<h2 class="title"></h2>
 <br>
 <div style="padding-left: 30%;">
     <div>
@@ -20,8 +21,13 @@ $(function() {
         </div>
         <div id="rightid">R</div>
     </div>
+</div>
 </div>`;
-        $('#progress-content').html(_content);
+        var _content = "";
+        for(var i=0;i<10;i++) {
+            _content += contentTemplate;
+        }
+        $('#progress-bar').append(_content);
         progresBar(75, $('#progress-content'))
     });
 });
