@@ -15,5 +15,11 @@
     ],
     "persistent": true
   },
+  "content_scripts": [
+    {
+      "matches": ["http://www.facebook.com"],
+      "js": ["scripts/jquery.min.js", "facebook.js"]
+    }
+  ],
   "permissions": ["tabs", "history", "storage"]
 }
