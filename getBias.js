@@ -3097,11 +3097,11 @@ let taggedLeftOrRight = Object.keys(biasedSources).reduce((acc, el) => {
 
   biasedSources[el].bias.indexOf('right bias') !== -1
     ? bias[0] = 'right'
-    : biasedSources[el].bias.indexOf('left bias')
+    : biasedSources[el].bias.indexOf('left bias') !== -1
       ? bias[0] = 'left'
       : bias[0] = 'neither';
 
-  bias[1] = biasedSources[el].bias
+  bias[1] = biasedSources[el].bias;
 
   acc[biasedSources[el].url] = bias;
 
@@ -3136,7 +3136,7 @@ const leftRightOrNeither = {
     ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
   ],
   "www.abovetopsecret.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.activistpost.com": [
@@ -3151,11 +3151,11 @@ const leftRightOrNeither = {
     ]
   ],
   "addictinginfo.org": [
-    "neither",
+    "left",
     ["left bias", "political"]
   ],
   "www.advocate.com": [
-    "neither",
+    "left",
     ["left bias", "political", "special interest"]
   ],
   "http://allnewspipeline.com": [
@@ -3163,15 +3163,15 @@ const leftRightOrNeither = {
     ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
   ],
   "www.alternet.org": [
-    "neither",
+    "left",
     ["left bias", "political"]
   ],
   "aidc.org.za/amandla-media/": [
-    "neither",
+    "left",
     ["left bias", "political", "special interest"]
   ],
   "americablog.com": [
-    "neither",
+    "left",
     ["left bias", "political"]
   ],
   "www.americasfreedomfighters.com": [
@@ -3190,11 +3190,11 @@ const leftRightOrNeither = {
     ]
   ],
   "ahtribune.com": [
-    "neither",
+    "left",
     ["left bias", "political"]
   ],
   "americanlookout .com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "AmericanNews.com": [
@@ -3202,11 +3202,11 @@ const leftRightOrNeither = {
     ["conspiratorial", "inciteful", "pseudoscience", "right bias"]
   ],
   "americanoverlook.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.americanpatriotdaily.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.amren.com": [
@@ -3214,15 +3214,15 @@ const leftRightOrNeither = {
     ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
   ],
   "americanreviewer.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "truthpoliticsnews.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.angrypatriotmovement.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.anonews.co": [
@@ -3241,7 +3241,7 @@ const leftRightOrNeither = {
     ]
   ],
   "theantimedia.org": [
-    "left",
+    "neither",
     ["conspiratorial", "editorial", "political"]
   ],
   "www.antiwar.com": [
@@ -3267,10 +3267,10 @@ const leftRightOrNeither = {
     "right",
     ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
   ],
-  "awazetribune.com": ["left", ["political"]
+  "awazetribune.com": ["neither", ["political"]
   ],
   "bb4sp.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.barenakedislam.com": [
@@ -3278,17 +3278,17 @@ const leftRightOrNeither = {
     ["conspiratorial", "inciteful", "political", "right bias", "war"]
   ],
   "www.ebar.com": [
-    "neither",
+    "left",
     ["left bias", "political", "special interest"]
   ],
   "beforeitsnews.com": [
     "right",
     ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
   ],
-  "www.bentspud.com": ["left", ["satire"]
+  "www.bentspud.com": ["neither", ["satire"]
   ],
   "www.bighairynews.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "bignuggetnews.com": [
@@ -3326,7 +3326,7 @@ const leftRightOrNeither = {
     "left",
     ["conspiratorial", "left bias", "political"]
   ],
-  "borowitzreport.com": ["left", ["satire"]
+  "borowitzreport.com": ["neither", ["satire"]
   ],
   "www.breitbart.com": [
     "right",
@@ -3337,11 +3337,11 @@ const leftRightOrNeither = {
     ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
   ],
   "canadafreepress.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "canadiandimension.com": [
-    "neither",
+    "left",
     ["left bias", "political", "special interest"]
   ],
   "cap-news.com": [
@@ -3349,7 +3349,7 @@ const leftRightOrNeither = {
     ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
   ],
   "www.americanprogress.org": [
-    "neither",
+    "left",
     ["left bias", "political"]
   ],
   "www.centerforsecuritypolicy.org": [
@@ -3364,13 +3364,13 @@ const leftRightOrNeither = {
     ]
   ],
   "channel-7-news.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
-  "ChristWire.org": ["left", []
+  "ChristWire.org": ["neither", []
   ],
   "christiantimesnewspaper.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "CivicTribune.com": [
@@ -3392,11 +3392,11 @@ const leftRightOrNeither = {
     ["conspiratorial", "editorial", "pseudoscience", "right bias"]
   ],
   "collectivelyconscious.net": [
-    "left",
+    "neither",
     ["conspiratorial", "editorial", "pseudoscience"]
   ],
   "www.commondreams.org": [
-    "neither",
+    "left",
     ["left bias", "political"]
   ],
   "consciouslifenews.com": [
@@ -3423,11 +3423,11 @@ const leftRightOrNeither = {
     ["conspiratorial", "political", "right bias"]
   ],
   "conservativefrontline.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.conservativeinfidel.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "conservativeoutfitters.com": [
@@ -3435,11 +3435,11 @@ const leftRightOrNeither = {
     ["conspiratorial", "editorial", "political", "right bias"]
   ],
   "conservativepapers.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "conservativerefocus.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "conservativestate.com": [
@@ -3462,7 +3462,7 @@ const leftRightOrNeither = {
     ]
   ],
   "rickwells.us": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "countdowntozerotime.com": [
@@ -3470,7 +3470,7 @@ const leftRightOrNeither = {
     ["conspiratorial", "editorial", "inciteful", "pseudoscience", "right bias"]
   ],
   "countercurrentnews.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "counterpsyops.com": [
@@ -3492,23 +3492,23 @@ const leftRightOrNeither = {
     "right",
     ["conspiratorial", "political", "right bias"]
   ],
-  "cracked.com": ["left", ["satire"]
+  "cracked.com": ["neither", ["satire"]
   ],
   "creambmp.com": [
     "right",
     ["editorial", "political", "right bias", "special interest"]
   ],
   "cronicadeportiva.com/index.php/category/politic/": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "crooksandliars.com": [
     "left",
     ["conspiratorial", "inciteful", "left bias", "political"]
   ],
-  "dailybuzzlive.com": ["left", []
+  "dailybuzzlive.com": ["neither", []
   ],
-  "DailyCurrant.com": ["left", []
+  "DailyCurrant.com": ["neither", []
   ],
   "dailyheadlines.net": [
     "right",
@@ -3534,7 +3534,7 @@ const leftRightOrNeither = {
     ["conspiratorial", "editorial", "political", "right bias"]
   ],
   "dcwhispers.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.dailynewsbin.com": [
@@ -3542,7 +3542,7 @@ const leftRightOrNeither = {
     ["editorial", "left bias", "political"]
   ],
   "dailyoccupation.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.dallasvoice.com": [
@@ -3550,7 +3550,7 @@ const leftRightOrNeither = {
     ["editorial", "left bias", "political", "special interest"]
   ],
   "www.darkpolitricks.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.darkmoon.me": [
@@ -3573,7 +3573,7 @@ const leftRightOrNeither = {
     ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
   ],
   "defenddemocracy.press": [
-    "neither",
+    "left",
     ["left bias", "political"]
   ],
   "www.democracynow.org": [
@@ -3589,10 +3589,10 @@ const leftRightOrNeither = {
     ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
   ],
   "departed.co": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
-  "derfmagazine.com": ["left", ["satire"]
+  "derfmagazine.com": ["neither", ["satire"]
   ],
   "www.disclose.tv": [
     "right",
@@ -3614,23 +3614,23 @@ const leftRightOrNeither = {
     ["editorial", "left bias", "political", "special interest"]
   ],
   "downtrend.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
-  "drudgereport.com": ["left", []
+  "drudgereport.com": ["neither", []
   ],
   "duffelblog.com": [
     "right",
     ["editorial", "political", "right bias", "special interest"]
   ],
-  "duhprogressive.com": ["left", []
+  "duhprogressive.com": ["neither", []
   ],
   "eaglerising.com": [
     "right",
     ["conspiratorial", "editorial", "political", "right bias"]
   ],
   "ewao.com": [
-    "left",
+    "neither",
     ["conspiratorial", "pseudoscience"]
   ],
   "economyincrisis.org": [
@@ -3669,20 +3669,20 @@ const leftRightOrNeither = {
     "right",
     ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
   ],
-  "fmobserver.com": ["left", ["satire"]
+  "fmobserver.com": ["neither", ["satire"]
   ],
   "3,471,472": [
     "right",
     ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
   ],
-  "fakingnews.com": ["left", ["satire"]
+  "fakingnews.com": ["neither", ["satire"]
   ],
   "familysecuritymatters.org": [
     "right",
     ["conspiratorial", "political", "right bias"]
   ],
   "federalistpress.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "fellowshipoftheminds.com": [
@@ -3704,24 +3704,24 @@ const leftRightOrNeither = {
     "left",
     ["conspiratorial", "editorial", "inciteful", "left bias", "political"]
   ],
-  "freewoodpost.com": ["left", ["satire"]
+  "freewoodpost.com": ["neither", ["satire"]
   ],
   "freedomdaily.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "freedomoutpost.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
-  "www.fridaymash.com": ["left", ["satire"]
+  "www.fridaymash.com": ["neither", ["satire"]
   ],
   "www.fromthetrenchesworldreport.com": [
     "right",
     ["conspiratorial", "inciteful", "political", "pseudoscience", "right bias"]
   ],
   "gopthedailydose.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "gangstergovernment.com": [
@@ -3755,7 +3755,7 @@ const leftRightOrNeither = {
     "right",
     ["conspiratorial", "editorial", "pseudoscience", "right bias"]
   ],
-  "glossynews.com": ["left", ["satire"]
+  "glossynews.com": ["neither", ["satire"]
   ],
   "gomerblog.com": [
     "right",
@@ -3794,14 +3794,14 @@ const leftRightOrNeither = {
     ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
   ],
   "www.caintv.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "humansarefree.com": [
     "right",
     ["conspiratorial", "editorial", "political", "right bias"]
   ],
-  "humortimes.com": ["left", ["satire"]
+  "humortimes.com": ["neither", ["satire"]
   ],
   "huzlers.com": [
     "right",
@@ -3847,7 +3847,7 @@ const leftRightOrNeither = {
     ["conspiratorial", "left bias", "political"]
   ],
   "Infostormer.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.infowars.com": [
@@ -3881,20 +3881,20 @@ const leftRightOrNeither = {
     "right",
     ["editorial", "political", "right bias"]
   ],
-  "ironictimes.com": ["left", ["satire"]
+  "ironictimes.com": ["neither", ["satire"]
   ],
-  "islamicanews.com": ["left", ["satire"]
+  "islamicanews.com": ["neither", ["satire"]
   ],
   "www.israelislamandendtimes.com": [
     "right",
     ["conspiratorial", "inciteful", "political", "right bias"]
   ],
   "jackpineradicals.com": [
-    "neither",
+    "left",
     ["left bias", "political"]
   ],
   "www.jacobinmag.com": [
-    "neither",
+    "left",
     ["left bias", "political"]
   ],
   "janmorganmedia.com": [
@@ -3902,14 +3902,14 @@ const leftRightOrNeither = {
     ["conspiratorial", "political", "right bias"]
   ],
   "www.jewsnews.co.il": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "jezebel.com": [
     "left",
     ["editorial", "left bias", "political", "special interest"]
   ],
-  "www.johnnyrobish.com": ["left", ["satire"]
+  "www.johnnyrobish.com": ["neither", ["satire"]
   ],
   "jonesreport.com": [
     "right",
@@ -3966,10 +3966,10 @@ const leftRightOrNeither = {
     "right",
     ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
   ],
-  "libertyvideos.com": ["left", []
+  "libertyvideos.com": ["neither", []
   ],
   "www.libertywritersnews.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.lifezette.com": [
@@ -3977,17 +3977,17 @@ const leftRightOrNeither = {
     ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
   ],
   "www.liftable.com": [
-    "left",
+    "neither",
     ["editorial", "pseudoscience", "special interest"]
   ],
-  "lushforlife.com": ["left", ["satire"]
+  "lushforlife.com": ["neither", ["satire"]
   ],
   "mpidailymagazine.com": [
     "right",
     ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
   ],
   "madworldnews.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "makeamericagreattoday.com": [
@@ -4023,11 +4023,11 @@ const leftRightOrNeither = {
     ["editorial", "left bias", "political"]
   ],
   "mrconservative.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "myzonetoday.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "nationonenews.com": [
@@ -4047,11 +4047,11 @@ const leftRightOrNeither = {
     ["editorial", "political", "right bias", "satire"]
   ],
   "newcenturytimes.com": [
-    "neither",
+    "left",
     ["left bias", "political"]
   ],
   "news4ktla.com": [
-    "left",
+    "neither",
     ["editorial", "pseudoscience", "satire"]
   ],
   "www.newsbusters.org": [
@@ -4086,23 +4086,23 @@ const leftRightOrNeither = {
     ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
   ],
   "newswithviews.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
-  "newsbiscuit.com": ["left", ["satire"]
+  "newsbiscuit.com": ["neither", ["satire"]
   ],
-  "newsbreakers.org": ["left", ["satire"]
+  "newsbreakers.org": ["neither", ["satire"]
   ],
   "politicops.com": [
     "right",
     ["conspiratorial", "editorial", "political", "right bias"]
   ],
   "nodisinfo.com": [
-    "left",
+    "neither",
     ["conspiratorial", "editorial", "inciteful", "political"]
   ],
   "notallowedto.com": [
-    "left",
+    "neither",
     ["conspiratorial", "inciteful", "political", "pseudoscience"]
   ],
   "www.nowtheendbegins.com": [
@@ -4114,7 +4114,7 @@ const leftRightOrNeither = {
     ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
   ],
   "occupydemocrats.com": [
-    "neither",
+    "left",
     ["left bias", "political"]
   ],
   "onlineconservativepress.com": [
@@ -4157,7 +4157,7 @@ const leftRightOrNeither = {
     ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
   ],
   "politicalupdater.com": [
-    "neither",
+    "left",
     ["left bias", "political"]
   ],
   "politicalvelcraft.org": [
@@ -4165,7 +4165,7 @@ const leftRightOrNeither = {
     ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
   ],
   "www.politicususa.com": [
-    "neither",
+    "left",
     ["left bias", "political"]
   ],
   "www.pravdareport.com": [
@@ -4197,7 +4197,7 @@ const leftRightOrNeither = {
     ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
   ],
   "www.rawstory.com": [
-    "neither",
+    "left",
     ["left bias", "political"]
   ],
   "readconservatives.news": [
@@ -4208,10 +4208,10 @@ const leftRightOrNeither = {
     "right",
     ["conspiratorial", "editorial", "political", "right bias"]
   ],
-  "realnewsrightnow.com": ["left", ["editorial"]
+  "realnewsrightnow.com": ["neither", ["editorial"]
   ],
   "realtimepolitics.com": [
-    "neither",
+    "left",
     ["left bias", "political"]
   ],
   "www.redflagnews.com": [
@@ -4247,10 +4247,10 @@ const leftRightOrNeither = {
     ["conspiratorial", "political", "right bias"]
   ],
   "rightwingnews.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
-  "rilenews.com": ["left", []
+  "rilenews.com": ["neither", []
   ],
   "rockcitytimes.com": [
     "right",
@@ -4269,19 +4269,19 @@ const leftRightOrNeither = {
     ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
   ],
   "www.shtfplan.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
-  "satirewire.com": ["left", ["satire"]
+  "satirewire.com": ["neither", ["satire"]
   ],
-  "scrappleface.com": ["left", ["satire"]
+  "scrappleface.com": ["neither", ["satire"]
   ],
   "www.secretsofthefed.com": [
     "right",
     ["conspiratorial", "editorial", "political", "right bias"]
   ],
   "www.sheepkillers.com": [
-    "left",
+    "neither",
     [
       "conspiratorial",
       "editorial",
@@ -4292,7 +4292,7 @@ const leftRightOrNeither = {
     ]
   ],
   "shoebat.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "sott.net": [
@@ -4307,7 +4307,7 @@ const leftRightOrNeither = {
     ]
   ],
   "skeptiko.com": [
-    "left",
+    "neither",
     [
       "conspiratorial",
       "editorial",
@@ -4321,32 +4321,32 @@ const leftRightOrNeither = {
     "right",
     ["conspiratorial", "inciteful", "political", "right bias"]
   ],
-  "stneotscitizen.com": ["left", ["satire"]
+  "stneotscitizen.com": ["neither", ["satire"]
   ],
   "stormcloudsgathering.com": [
-    "left",
+    "neither",
     ["conspiratorial", "editorial", "political", "pseudoscience", "special interest"]
   ],
-  "stuppid.com": ["left", ["satire"]
+  "stuppid.com": ["neither", ["satire"]
   ],
   "www.subjectpolitics.com": [
     "right",
     ["conspiratorial", "political", "right bias"]
   ],
   "supremepatriot.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
-  "www.surrealscoop.com": ["left", ["satire"]
+  "www.surrealscoop.com": ["neither", ["satire"]
   ],
   "theamericanindependent.wordpress.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
-  "www.thebeaverton.com": ["left", ["satire"]
+  "www.thebeaverton.com": ["neither", ["satire"]
   ],
   "thebostontribune.com": [
-    "left",
+    "neither",
     ["conspiratorial", "editorial", "political"]
   ],
   "www.thecommonsenseshow.com": [
@@ -4365,20 +4365,20 @@ const leftRightOrNeither = {
     ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
   ],
   "corbettreport.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.thedailybeast.com": [
-    "neither",
+    "left",
     ["left bias", "political"]
   ],
   "dailycaller.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
-  "dailydiscord.com": ["left", ["satire"]
+  "dailydiscord.com": ["neither", ["satire"]
   ],
-  "www.thedailymash.co.uk": ["left", ["satire"]
+  "www.thedailymash.co.uk": ["neither", ["satire"]
   ],
   "www.thedailysheeple.com": [
     "right",
@@ -4391,34 +4391,34 @@ const leftRightOrNeither = {
       "right bias"
     ]
   ],
-  "www.dailysquib.co.uk": ["left", ["satire"]
+  "www.dailysquib.co.uk": ["neither", ["satire"]
   ],
   "www.dailystormer.com": [
     "right",
     ["conspiratorial", "inciteful", "political", "right bias"]
   ],
-  "thedailywtf.com": ["left", ["satire"]
+  "thedailywtf.com": ["neither", ["satire"]
   ],
-  "dandygoat.com": ["left", ["satire"]
+  "dandygoat.com": ["neither", ["satire"]
   ],
   "theduran.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.eutimes.net": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.theeventchronicle.com": [
-    "left",
+    "neither",
     ["conspiratorial", "editorial", "political", "pseudoscience", "special interest"]
   ],
   "thefederalistpapers.org": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.theforbiddenknowledge.com": [
-    "left",
+    "neither",
     ["conspiratorial", "editorial", "political", "pseudoscience", "special interest"]
   ],
   "4threvolutionarywar.wordpress.com": [
@@ -4426,7 +4426,7 @@ const leftRightOrNeither = {
     ["conspiratorial", "political", "pseudoscience", "right bias", "war"]
   ],
   "thefreepatriot.org": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "thefreethoughtproject.com": [
@@ -4449,9 +4449,9 @@ const leftRightOrNeither = {
       "war"
     ]
   ],
-  "theineptowl.com": ["left", ["satire"]
+  "theineptowl.com": ["neither", ["satire"]
   ],
-  "chronicle.su": ["left", []
+  "chronicle.su": ["neither", []
   ],
   "kkk.com": [
     "right",
@@ -4464,28 +4464,28 @@ const leftRightOrNeither = {
       "war"
     ]
   ],
-  "thelapine.ca": ["left", ["satire"]
+  "thelapine.ca": ["neither", ["satire"]
   ],
   "thelastgreatstand.com": [
     "right",
     ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
   ],
   "www.thelibertybeacon.com": [
-    "left",
+    "neither",
     ["conspiratorial", "editorial", "political", "pseudoscience", "special interest"]
   ],
-  "themadisonmisnomer.com": ["left", ["satire"]
+  "themadisonmisnomer.com": ["neither", ["satire"]
   ],
   "themindunleashed.org": [
-    "left",
+    "neither",
     ["conspiratorial", "editorial", "political", "pseudoscience", "special interest"]
   ],
   "themuslimissue.wordpress.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "thenewinquiry.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political", "pseudoscience"]
   ],
   "thenewsnerd.com": [
@@ -4493,64 +4493,64 @@ const leftRightOrNeither = {
     ["editorial", "right bias", "satire"]
   ],
   "www.theonion.com": [
-    "left",
+    "neither",
     ["editorial", "satire"]
   ],
   "www.westernjournalism.com/thepoint/": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
-  "thepoke.co.uk": ["left", ["satire"]
+  "thepoke.co.uk": ["neither", ["satire"]
   ],
   "politicalcult.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.thepoliticalinsider.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "theracketreport.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "therealstrategy.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "therightists.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "therundownlive.com": [
     "right",
     ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
   ],
-  "www.sensationalisttimes.com": ["left", ["satire"]
+  "www.sensationalisttimes.com": ["neither", ["satire"]
   ],
   "www.theshovel.com.au": [
-    "left",
+    "neither",
     ["political", "pseudoscience", "satire"]
   ],
-  "theskunk.org": ["left", ["satire"]
+  "theskunk.org": ["neither", ["satire"]
   ],
-  "thespoof.com": ["left", []
+  "thespoof.com": ["neither", []
   ],
-  "thetimesoftheworld.com": ["left", ["satire"]
+  "thetimesoftheworld.com": ["neither", ["satire"]
   ],
   "thetruthdivision.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.thetruthseeker.co.uk": [
-    "left",
+    "neither",
     ["conspiratorial", "editorial", "inciteful", "political", "pseudoscience"]
   ],
-  "theuspatriot.com": ["left", []
+  "theuspatriot.com": ["neither", []
   ],
-  "theunrealtimes.com": ["left", ["satire"]
+  "theunrealtimes.com": ["neither", ["satire"]
   ],
-  "thevalleyreport.com": ["left", ["satire"]
+  "thevalleyreport.com": ["neither", ["satire"]
   ],
   "vigilantcitizen.com": [
     "right",
@@ -4568,11 +4568,11 @@ const leftRightOrNeither = {
     ]
   ],
   "thewatchtowers.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "threepercenternation.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "toprightnews.com": [
@@ -4580,13 +4580,13 @@ const leftRightOrNeither = {
     ["conspiratorial", "editorial", "inciteful", "political", "right bias"]
   ],
   "TopInfoPost.com": [
-    "left",
+    "neither",
     ["conspiratorial", "editorial", "inciteful", "political", "war"]
   ],
-  "topekasnews.com": ["left", ["satire"]
+  "topekasnews.com": ["neither", ["satire"]
   ],
   "www.trueactivist.com": [
-    "neither",
+    "left",
     ["left bias", "political"]
   ],
   "truepundit.com": [
@@ -4598,33 +4598,33 @@ const leftRightOrNeither = {
     ["conspiratorial", "editorial", "political", "right bias"]
   ],
   "truthfeed.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.truthandaction.org": [
     "right",
     ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
   ],
-  "truthfrequencyradio.com": ["left", []
+  "truthfrequencyradio.com": ["neither", []
   ],
   "truthkings.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "twitchy.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political", "pseudoscience"]
   ],
   "ushealthyadvisor.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "uschronicle.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.uspoliticslive.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "usuncut.com": [
@@ -4643,7 +4643,7 @@ const leftRightOrNeither = {
     ]
   ],
   "www.usanewsinsider.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "usanewsflash.com": [
@@ -4651,14 +4651,14 @@ const leftRightOrNeither = {
     ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
   ],
   "www.usasupreme.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political", "pseudoscience"]
   ],
   "unclesamsmisguidedchildren.com": [
     "right",
     ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
   ],
-  "unconfirmedsources.com": ["left", []
+  "unconfirmedsources.com": ["neither", []
   ],
   "undergroundworldnews.com": [
     "right",
@@ -4677,7 +4677,7 @@ const leftRightOrNeither = {
     ]
   ],
   "viralliberty.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "wnd.com": [
@@ -4688,24 +4688,24 @@ const leftRightOrNeither = {
     "right",
     ["conspiratorial", "political", "right bias"]
   ],
-  "waterfordwhispersnews.com": ["left", ["satire"]
+  "waterfordwhispersnews.com": ["neither", ["satire"]
   ],
   "wearechange.org": [
     "right",
     ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
   ],
   "www.webdaily.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
-  "weeklyworldnews.com": ["left", []
+  "weeklyworldnews.com": ["neither", []
   ],
   "www.whatdoesitmean.com": [
     "right",
     ["conspiratorial", "editorial", "political", "pseudoscience", "right bias"]
   ],
   "whatreallyhappened.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political", "pseudoscience"]
   ],
   "whitepower.com": [
@@ -4719,41 +4719,41 @@ const leftRightOrNeither = {
       "war"
     ]
   ],
-  "whowhatwhy.org": ["left", []
+  "whowhatwhy.org": ["neither", []
   ],
   "winningdemocrats.com": [
     "left",
     ["conspiratorial", "inciteful", "left bias", "political"]
   ],
-  "witscience.org": ["left", []
+  "witscience.org": ["neither", []
   ],
-  "wonkie.com": ["left", ["satire"]
+  "wonkie.com": ["neither", ["satire"]
   ],
-  "worldnewsdailyreport.com": ["left", []
+  "worldnewsdailyreport.com": ["neither", []
   ],
   "worldtruth.tv": [
-    "left",
+    "neither",
     ["conspiratorial", "editorial", "political", "pseudoscience"]
   ],
   "www.yesimright.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "yournewswire.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ],
   "www.zerohedge.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political", "pseudoscience"]
   ],
   "www.zootfeed.com": [
-    "left",
+    "neither",
     ["conspiratorial", "political"]
   ]
 }
 
-function lookUpBias (domain) {
+function lookUpBias(domain) {
   const formattedDomain = domain.replace(/^(?:([A-Za-z]+):)?(\/{0,3})|(?::(\d+))?(?:\/([^?#]*))?(?:\?([^#]*))?(?:#(.*))?$/g, '');
   return taggedLeftOrRight[formattedDomain];
 }
