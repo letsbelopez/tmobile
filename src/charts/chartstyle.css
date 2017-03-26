@@ -1,4 +1,19 @@
 #trustedVSfake,
-#leftVSright {
+#leftVSright,
+#progressBar2 {
     float: left;
+}
+
+#leftid,
+#progressBar,
+#rightid {
+    float: left;
+}
+
+#leftid {
+    padding-right: 20px;
+}
+
+#rightid {
+    padding-left: 20px;
 }

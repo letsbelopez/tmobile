@@ -6,6 +6,9 @@ $(function () {
         chart = new Highcharts.Chart({
 
             chart: {
+                polar: true,
+                type: 'line',
+                backgroundColor:'#E0F2F1',
                 renderTo: 'leftVSright',
                 plotBackgroundColor: null,
                 plotBorderWidth: null,

@@ -16,32 +16,32 @@
     <link rel="stylesheet" type="text/css" href="progressBar/progressbar.css">
 </head>
 
-<body>
+<body bgcolor="#E0F2F1">
 <div id="mainchart">
     <div id="trustedVSfake" style="width:50%; height:25%;"></div>
     <div id="leftVSright" style="width:50%; height:25%;"></div>
 </div>
 
-<div id="progressBar" class="tiny">
-    <div></div>
+<div>
+    <div align="center" style="padding-top: 450px">Testing Text</div>
+    <br>
+    <div style="padding-left: 30%;">
+        <div>
+            <div id="leftid">L</div>
+            <div id="progressBar" class="tiny">
+                <div></div>
+            </div>
+            <div id="rightid">R</div>
+        </div>
+    </div>
 </div>
+
 <script>
     progressBar(75, $('#progressBar'));
 </script>
-
-<div id="root"></div>
-<table>
-    <tr>
-        <th>name</th>
-        <th>left or right</th>
-        <th>trustworthy?</th>
-    </tr>
-    <div id="table-content"></div>
-</table>
 </body>
 <script>
     var content = "";
     $("#table-content").html(content);
 </script>
-
 </html>

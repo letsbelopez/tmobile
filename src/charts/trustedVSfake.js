@@ -6,6 +6,9 @@ $(function () {
         chart = new Highcharts.Chart({
 
             chart: {
+                polar: true,
+                type: 'line',
+                backgroundColor:'#E0F2F1',
                 renderTo: 'trustedVSfake',
                 plotBackgroundColor: null,
                 plotBorderWidth: null,
@@ -39,7 +42,7 @@ $(function () {
             },
             series: [{
                 type: 'pie',
-                name: 'Browser share',
+                name: '',
                 data: [
                     {
                         name: 'Trusted',
