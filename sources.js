@@ -1,4 +1,4 @@
-let putUrlsFirst = Object.keys(biasedSources).reduce((acc, el, i) => {
+const putUrlsFirst = Object.keys(biasedSources).reduce((acc, el, i) => {
   let {bias, blurb, subUrl} = biasedSources[el];
   let name = el;
 
