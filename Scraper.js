@@ -82,18 +82,16 @@ function buildListings(listings, promises, res) {
 
 router.get('/fakenews/:min/:max', authorize, (req, res, next) => {
   const { min, max } = req.params;
-
   let getMain = fakeNewsMain();
-  listings = {};
 
-    getMain.then($ => {
-      let listings = getIndivPages(min, max, $);
-      return [listings, scrapePages(listings)];
-    })
-    .then(total => {
-      let listings = total[0];
-      let promises = total[1];
+  getMain.then($ => {
+    let listings = getIndivPages(min, max, $);
+    return [listings, scrapePages(listings)];
+  })
+  .then(total => {
+    let listings = total[0];
+    let promises = total[1];
 
-      buildListings(listings, promises, res);
-    });
+    buildListings(listings, promises, res);
+  });
 });
