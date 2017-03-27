@@ -2176,123 +2176,123 @@ $(function() {
       left = leftScore;
       right = rightScore
     });
-
-    $(document).ready(function() {
-      chart2 = new Highcharts.Chart({
-
-        chart: {
-          polar: true,
-          type: 'line',
-          backgroundColor: '#E0F2F1',
-          renderTo: 'trustedVSfake',
-          plotBackgroundColor: null,
-          plotBorderWidth: null,
-          plotShadow: false
-        },
-
-        title: {
-          text: 'Fake Vs. Trusted'
-        },
-
-        tooltip: {
-          formatter: function() {
-            return '<b>' + this.point.name + '</b>: ' + this.percentage + ' %';
-          }
-        },
-
-        plotOptions: {
-          pie: {
-            colors: [
-              '#66BB6A', '#EF5350'
-            ],
-            allowPointSelect: true,
-            cursor: 'pointer',
-            dataLabels: {
-              enabled: true,
-              color: '#000000',
-              connectorColor: '#000000',
-              formatter: function() {
-                return '<b>' + this.point.name + '</b>: ' + this.percentage + ' %';
-              }
-            }
-          }
-        },
-        series: [
-          {
-            type: 'pie',
-            name: '',
-            data: [
-              [
-                'Valid', valid
-              ], {
-                name: 'fake',
-                y: fake,
-                sliced: false,
-                selected: true
-              }
-            ]
-          }
-        ]
-      });
-
-      chart = new Highcharts.Chart({
-
-        chart: {
-          polar: true,
-          type: 'line',
-          backgroundColor: '#E0F2F1',
-          renderTo: 'leftVSright',
-          plotBackgroundColor: null,
-          plotBorderWidth: null,
-          plotShadow: false
-        },
-
-        title: {
-          text: 'Left Vs. Right'
-        },
-
-        tooltip: {
-          formatter: function() {
-            return '<b>' + this.point.name + '</b>: ' + this.percentage + ' %';
-          }
-        },
-
-        plotOptions: {
-          pie: {
-            colors: [
-              '#EF5350', '#42A5F5'
-            ],
-            allowPointSelect: true,
-            cursor: 'pointer',
-            dataLabels: {
-              enabled: true,
-              color: '#000000',
-              connectorColor: '#000000',
-              formatter: function() {
-                return '<b>' + this.point.name + '</b>: ' + this.percentage + ' %';
-              }
-            }
-          }
-        },
-        series: [
-          {
-            type: 'pie',
-            name: '',
-            data: [
-              [
-                'Right', right
-              ], {
-                name: 'Left',
-                y: left,
-                sliced: false,
-                selected: true
-              }
-            ]
-          }
-        ]
-      });
-    });
   }
 
   traverseArray();
+
+  $(document).ready(function() {
+    chart2 = new Highcharts.Chart({
+
+      chart: {
+        polar: true,
+        type: 'line',
+        backgroundColor: '#E0F2F1',
+        renderTo: 'trustedVSfake',
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false
+      },
+
+      title: {
+        text: 'Fake Vs. Trusted'
+      },
+
+      tooltip: {
+        formatter: function() {
+          return '<b>' + this.point.name + '</b>: ' + this.percentage + ' %';
+        }
+      },
+
+      plotOptions: {
+        pie: {
+          colors: [
+            '#66BB6A', '#EF5350'
+          ],
+          allowPointSelect: true,
+          cursor: 'pointer',
+          dataLabels: {
+            enabled: true,
+            color: '#000000',
+            connectorColor: '#000000',
+            formatter: function() {
+              return '<b>' + this.point.name + '</b>: ' + this.percentage + ' %';
+            }
+          }
+        }
+      },
+      series: [
+        {
+          type: 'pie',
+          name: '',
+          data: [
+            [
+              'Valid', valid
+            ], {
+              name: 'fake',
+              y: fake,
+              sliced: false,
+              selected: true
+            }
+          ]
+        }
+      ]
+    });
+
+    chart = new Highcharts.Chart({
+
+      chart: {
+        polar: true,
+        type: 'line',
+        backgroundColor: '#E0F2F1',
+        renderTo: 'leftVSright',
+        plotBackgroundColor: null,
+        plotBorderWidth: null,
+        plotShadow: false
+      },
+
+      title: {
+        text: 'Left Vs. Right'
+      },
+
+      tooltip: {
+        formatter: function() {
+          return '<b>' + this.point.name + '</b>: ' + this.percentage + ' %';
+        }
+      },
+
+      plotOptions: {
+        pie: {
+          colors: [
+            '#EF5350', '#42A5F5'
+          ],
+          allowPointSelect: true,
+          cursor: 'pointer',
+          dataLabels: {
+            enabled: true,
+            color: '#000000',
+            connectorColor: '#000000',
+            formatter: function() {
+              return '<b>' + this.point.name + '</b>: ' + this.percentage + ' %';
+            }
+          }
+        }
+      },
+      series: [
+        {
+          type: 'pie',
+          name: '',
+          data: [
+            [
+              'Right', right
+            ], {
+              name: 'Left',
+              y: left,
+              sliced: false,
+              selected: true
+            }
+          ]
+        }
+      ]
+    });
+  });
 });
