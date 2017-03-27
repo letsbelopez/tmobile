@@ -9,11 +9,5 @@
   "icons":{
   	  "128": "icon128t.png"
   },
-  "background": {
-    "scripts": [
-      "scoring.js"
-    ],
-    "persistent": true
-  },
   "permissions": ["tabs", "history", "storage"]
 }
